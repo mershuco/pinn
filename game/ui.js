@@ -37,7 +37,7 @@ export class ArcadeUI{
  setSound(enabled){for(const id of ['sound-button','title-sound']){$(id).setAttribute('aria-pressed',String(enabled));$(id).setAttribute('aria-label',enabled?'효과음 끄기':'효과음 켜기');$(id).style.filter=enabled?'':'saturate(.65)';}}
  quantity(id){return this.game.battle?.supplies[id]??this.game.bag[id]??0;}
  render(game,selected,busy=false,target=null){this.game=game;this.selected=selected;this.target=target;this.busy=busy;$('arcade-shell').dataset.phase=game.phase;this.renderEquipment();this.renderBag();this.renderInspector();this.renderPortrait();$('npc-idle-note').hidden=['story','battle'].includes(game.phase);requestAnimationFrame(()=>this.fitArt());}
- hero(){const current=this.game.battle?.heroes.find(h=>h.uid===this.selected)||this.game.battle?.heroes.find(h=>h.hp>0)||this.game.battle?.heroes[0];if(current)return current;const id=this.game.scene?.cast.find(id=>HEROES[id])||'dokja-coat';return {...statsFor(id,this.game.scene?.order||153,this.game.loadout,this.game.upgrades),hp:null,mp:null};}
+ hero(){const current=this.game.battle?.heroes.find(h=>h.uid===this.selected)||this.game.battle?.heroes.find(h=>h.hp>0)||this.game.battle?.heroes[0];if(current)return current;const id=this.game.viewScene?.cast.find(id=>HEROES[id])||'dokja-coat';return {...statsFor(id,this.game.viewScene?.order||153,this.game.loadout,this.game.upgrades),hp:null,mp:null};}
  renderEquipment(){
   if(!this.game)return;const hero=this.hero(),id=this.appearance(hero.id),body=$('equip-avatar');if(body.dataset.entity!==id){body.dataset.entity=id;body.replaceChildren(this.figure(id,'equip-figure'));}
   $('hud-name').textContent=hero.name;$('hud-hp').textContent=hero.hp??hero.maxHp;$('hud-hp').title=(hero.hp??hero.maxHp)+' / '+hero.maxHp;$('hud-attack').textContent=hero.atk;$('hud-defense').textContent=hero.def;$('hud-mp').textContent=hero.mp??hero.maxMp;
@@ -64,7 +64,7 @@ export class ArcadeUI{
   else $('inspect-actions').append(n('small','','이야기의 진행에 따라 사용됩니다.'));
  }
  renderPortrait(speaker=null){
-  if(!this.game)return;const line=this.game.scene?.lines[this.game.story.line];speaker||=this.game.phase==='battle'?this.hero().name:line?.speaker||'비형';const cast=this.game.scene?.cast||[];const id=cast.find(id=>this.name(id).startsWith(speaker))||(this.game.phase==='battle'?this.hero().id:'bihyung');if(id===this.portraitId)return;this.portraitId=id;$('npc-art').replaceChildren(this.figure(id,'portrait-art'));$('npc-name').textContent=speaker==='기록'?'비형 · 이야기의 안내자':speaker;
+  if(!this.game)return;const line=this.game.viewScene?.lines[this.game.displayLine];speaker||=this.game.phase==='battle'?this.hero().name:line?.speaker||'비형';const cast=this.game.viewScene?.cast||[];const id=cast.find(id=>this.name(id).startsWith(speaker))||(this.game.phase==='battle'?this.hero().id:'bihyung');if(id===this.portraitId)return;this.portraitId=id;$('npc-art').replaceChildren(this.figure(id,'portrait-art'));$('npc-name').textContent=speaker==='기록'?'비형 · 이야기의 안내자':speaker;
  }
  destroy(){this.resize.disconnect();}
 }
