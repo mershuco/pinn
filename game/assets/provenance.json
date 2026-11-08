@@ -1,7 +1,36 @@
 {
- "generator":"image_gen",
- "technique":"original hand-inked cel-shaded game scenery, four equal panels per atlas",
- "worlds.png":{"source":"/workspace/generated_images/exec-d6e62799-0d1c-4934-ba54-ffb2df874ddd.png","cells":["subway","city","castle","demon"]},
- "worlds-extra.png":{"source":"/workspace/generated_images/exec-d2e2f34d-05d5-4407-9110-97263f9ef24b.png","cells":["forest","murim","underworld","train"]},
- "notes":"Generated PNG pixels copied unchanged. Visual game adaptations, not official webtoon panels."
+  "generator": "image_gen",
+  "technique": "original hand-inked cel-shaded game scenery, four equal panels per atlas",
+  "worlds.png": {
+    "source": "/workspace/generated_images/exec-d6e62799-0d1c-4934-ba54-ffb2df874ddd.png",
+    "cells": [
+      "subway",
+      "city",
+      "castle",
+      "demon"
+    ]
+  },
+  "worlds-extra.png": {
+    "source": "/workspace/generated_images/exec-d2e2f34d-05d5-4407-9110-97263f9ef24b.png",
+    "cells": [
+      "forest",
+      "murim",
+      "underworld",
+      "train"
+    ]
+  },
+  "notes": "Generated PNG pixels copied unchanged. Visual game adaptations, not official webtoon panels.",
+  "scenario-map.png": {
+    "source": "/workspace/generated_images/exec-3947b023-e1a4-401e-8659-73b2cd567033.png",
+    "generator": "image_gen",
+    "role": "original parchment map background for the Finn & Bones style interface",
+    "reference": "https://cartoongames.io/game/finn-bones",
+    "pixels": "copied unchanged"
+  },
+  "fonts/Jua-Regular.ttf": {
+    "source": "https://github.com/google/fonts/tree/main/ofl/jua",
+    "license": "SIL Open Font License 1.1",
+    "licenseFile": "fonts/OFL.txt",
+    "role": "rounded Korean game UI lettering"
+  }
 }
