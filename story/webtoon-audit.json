@@ -1,0 +1,5384 @@
+{
+  "schema": 1,
+  "checkedDate": "2026-11-07",
+  "workTitle": "전지적 독자 시점",
+  "basis": "공식 네이버 웹툰 공개 본문을 이용한 선택 사실 대조. 전 컷 수동 정독·소설 원문 전수 검수를 의미하지 않는다.",
+  "scope": {
+    "gameEnd": "마계의 봄 획득 및 마왕 선발전 정산",
+    "publicWebtoonLastEpisodeNo": 312,
+    "publicWebtoonLastDisplayedEpisode": 311,
+    "lastEpisodeTitle": "전지적 독자 시점 - 311. Ep.50 독자의 설화 (13) (시즌1 마지막화) : 네이버 웹툰",
+    "lastVerifiedEvent": "정희원·이지혜의 후속 합류와 우리엘 현현; 선발전 정산은 지연 중",
+    "publicBoundaryScene": "ST147",
+    "partiallyAdaptedScene": "ST148",
+    "notYetAdaptedScenes": [
+      "ST149",
+      "ST150",
+      "ST151",
+      "ST152",
+      "ST153"
+    ],
+    "novelPrimaryTextFullyVerified": false,
+    "excludes": [
+      "시즌 후기",
+      "외전",
+      "영화",
+      "마계의 봄 이후"
+    ]
+  },
+  "processingInventory": {
+    "publicEpisodePages": 312,
+    "publicBodyImages": 22562,
+    "ocrFilesProcessed": 22562,
+    "missingPanelTextFiles": 0,
+    "manualReview": "selected-facts-only; not every panel manually read"
+  },
+  "method": {
+    "index": "공개 회차의 제목·URL과 본문 접근 유무를 확인했다. 회차 색인은 정독의 증거가 아니다.",
+    "text": "본문 문자 인식은 위치 탐색 보조다. 오인식 가능성이 있어 고유명사·중요 경계는 원본 이미지로 재확인한다.",
+    "visual": "이 방법이 기재된 본문 이미지만 직접 시각 대조했다.",
+    "distribution": "원본 패널과 OCR 전문은 게임에 포함하지 않는다. 근거 위치와 새로 쓴 요약만 남긴다."
+  },
+  "episodes": [
+    {
+      "no": 1,
+      "displayedEpisode": 0,
+      "title": "전지적 독자 시점 - 000. 프롤로그 : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=1",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 33
+    },
+    {
+      "no": 2,
+      "displayedEpisode": 1,
+      "title": "전지적 독자 시점 - 001. Prologue 멸망한 세계에서 살아남는 세 가지 방법 : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=2",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 85
+    },
+    {
+      "no": 3,
+      "displayedEpisode": 2,
+      "title": "전지적 독자 시점 - 002. Ep.01 유료 서비스 시작 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=3",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 58
+    },
+    {
+      "no": 4,
+      "displayedEpisode": 3,
+      "title": "전지적 독자 시점 - 003. Ep.01 유료 서비스 시작 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=4",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 73
+    },
+    {
+      "no": 5,
+      "displayedEpisode": 4,
+      "title": "전지적 독자 시점 - 004. Ep.01 유료 서비스 시작 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=5",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 66
+    },
+    {
+      "no": 6,
+      "displayedEpisode": 5,
+      "title": "전지적 독자 시점 - 005. Ep.01 유료 서비스 시작 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=6",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 51
+    },
+    {
+      "no": 7,
+      "displayedEpisode": 6,
+      "title": "전지적 독자 시점 - 006. Ep.01 유료 서비스 시작 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=7",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 8,
+      "displayedEpisode": 7,
+      "title": "전지적 독자 시점 - 007. Ep.02 주인공 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=8",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 66
+    },
+    {
+      "no": 9,
+      "displayedEpisode": 8,
+      "title": "전지적 독자 시점 - 008. Ep.02 주인공 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=9",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 63
+    },
+    {
+      "no": 10,
+      "displayedEpisode": 9,
+      "title": "전지적 독자 시점 - 009. Ep.02 주인공 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=10",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 50
+    },
+    {
+      "no": 11,
+      "displayedEpisode": 10,
+      "title": "전지적 독자 시점 - 010. Ep.02 주인공 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=11",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 12,
+      "displayedEpisode": 11,
+      "title": "전지적 독자 시점 - 011. Ep.02 주인공 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=12",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 13,
+      "displayedEpisode": 12,
+      "title": "전지적 독자 시점 - 012. Ep.02 주인공 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=13",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 54
+    },
+    {
+      "no": 14,
+      "displayedEpisode": 13,
+      "title": "전지적 독자 시점 - 013. Ep.03 계약 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=14",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 51
+    },
+    {
+      "no": 15,
+      "displayedEpisode": 14,
+      "title": "전지적 독자 시점 - 014. Ep.03 계약 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=15",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 62
+    },
+    {
+      "no": 16,
+      "displayedEpisode": 15,
+      "title": "전지적 독자 시점 - 015. Ep.03 계약 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=16",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 17,
+      "displayedEpisode": 16,
+      "title": "전지적 독자 시점 - 016. Ep.04 위선도 선이다 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=17",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 18,
+      "displayedEpisode": 17,
+      "title": "전지적 독자 시점 - 017. Ep.04 위선도 선이다 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=18",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 19,
+      "displayedEpisode": 18,
+      "title": "전지적 독자 시점 - 018. Ep.04 위선도 선이다 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=19",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 81
+    },
+    {
+      "no": 20,
+      "displayedEpisode": 19,
+      "title": "전지적 독자 시점 - 019. Ep.05 어둠 파수꾼 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=20",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 74
+    },
+    {
+      "no": 21,
+      "displayedEpisode": 20,
+      "title": "전지적 독자 시점 - 020. Ep.05 어둠 파수꾼 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=21",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 71
+    },
+    {
+      "no": 22,
+      "displayedEpisode": 21,
+      "title": "전지적 독자 시점 - 021. Ep.05 어둠 파수꾼 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=22",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 23,
+      "displayedEpisode": 22,
+      "title": "전지적 독자 시점 - 022. Ep.06 심판의 시간 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=23",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 62
+    },
+    {
+      "no": 24,
+      "displayedEpisode": 23,
+      "title": "전지적 독자 시점 - 023. Ep.06 심판의 시간 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=24",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 67
+    },
+    {
+      "no": 25,
+      "displayedEpisode": 24,
+      "title": "전지적 독자 시점 - 024. Ep.06 심판의 시간 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=25",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 26,
+      "displayedEpisode": 25,
+      "title": "전지적 독자 시점 - 025. Ep.06 심판의 시간 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=26",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 65
+    },
+    {
+      "no": 27,
+      "displayedEpisode": 26,
+      "title": "전지적 독자 시점 - 026. Ep.06 심판의 시간 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=27",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 65
+    },
+    {
+      "no": 28,
+      "displayedEpisode": 27,
+      "title": "전지적 독자 시점 - 027. Ep.07 건물주 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=28",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 61
+    },
+    {
+      "no": 29,
+      "displayedEpisode": 28,
+      "title": "전지적 독자 시점 - 028. Ep.07 건물주 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=29",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 70
+    },
+    {
+      "no": 30,
+      "displayedEpisode": 29,
+      "title": "전지적 독자 시점 - 029. Ep.07 건물주 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=30",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 66
+    },
+    {
+      "no": 31,
+      "displayedEpisode": 30,
+      "title": "전지적 독자 시점 - 030. Ep.07 건물주 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=31",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 32,
+      "displayedEpisode": 31,
+      "title": "전지적 독자 시점 - 031. Ep.07 건물주 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=32",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 67
+    },
+    {
+      "no": 33,
+      "displayedEpisode": 32,
+      "title": "전지적 독자 시점 - 032. Ep.07 건물주 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=33",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 78
+    },
+    {
+      "no": 34,
+      "displayedEpisode": 33,
+      "title": "전지적 독자 시점 - 033. Ep.08 긴급 방어전 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=34",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 82
+    },
+    {
+      "no": 35,
+      "displayedEpisode": 34,
+      "title": "전지적 독자 시점 - 034. Ep.08 긴급 방어전 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=35",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 81
+    },
+    {
+      "no": 36,
+      "displayedEpisode": 35,
+      "title": "전지적 독자 시점 - 035. Ep.08 긴급 방어전 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=36",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 68
+    },
+    {
+      "no": 37,
+      "displayedEpisode": 36,
+      "title": "전지적 독자 시점 - 036. Ep.08 긴급 방어전 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=37",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 75
+    },
+    {
+      "no": 38,
+      "displayedEpisode": 37,
+      "title": "전지적 독자 시점 - 037. Ep.09 전지적 개복치 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=38",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 71
+    },
+    {
+      "no": 39,
+      "displayedEpisode": 38,
+      "title": "전지적 독자 시점 - 038. Ep.09 전지적 개복치 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=39",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 76
+    },
+    {
+      "no": 40,
+      "displayedEpisode": 39,
+      "title": "전지적 독자 시점 - 039. Ep.09 전지적 개복치 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=40",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 41,
+      "displayedEpisode": 40,
+      "title": "전지적 독자 시점 - 040. Ep.09 전지적 개복치 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=41",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 65
+    },
+    {
+      "no": 42,
+      "displayedEpisode": 41,
+      "title": "전지적 독자 시점 - 041. Ep.09 전지적 개복치 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=42",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 73
+    },
+    {
+      "no": 43,
+      "displayedEpisode": 42,
+      "title": "전지적 독자 시점 - 042. Ep.09 전지적 개복치 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=43",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 87
+    },
+    {
+      "no": 44,
+      "displayedEpisode": 43,
+      "title": "전지적 독자 시점 - 043. Ep.09 전지적 개복치 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=44",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 77
+    },
+    {
+      "no": 45,
+      "displayedEpisode": 44,
+      "title": "전지적 독자 시점 - 044. Ep.10 미래 전쟁 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=45",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 80
+    },
+    {
+      "no": 46,
+      "displayedEpisode": 45,
+      "title": "전지적 독자 시점 - 045. Ep.10 미래 전쟁 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=46",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 74
+    },
+    {
+      "no": 47,
+      "displayedEpisode": 46,
+      "title": "전지적 독자 시점 - 046. Ep.10 미래 전쟁 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=47",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 70
+    },
+    {
+      "no": 48,
+      "displayedEpisode": 47,
+      "title": "전지적 독자 시점 - 047. Ep.10 미래 전쟁 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=48",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 83
+    },
+    {
+      "no": 49,
+      "displayedEpisode": 48,
+      "title": "전지적 독자 시점 - 048. Ep.10 미래 전쟁 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=49",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 78
+    },
+    {
+      "no": 50,
+      "displayedEpisode": 49,
+      "title": "전지적 독자 시점 - 049. Ep.11 선지자들의 밤 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=50",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 71
+    },
+    {
+      "no": 51,
+      "displayedEpisode": 50,
+      "title": "전지적 독자 시점 - 050. Ep.11 선지자들의 밤 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=51",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 52,
+      "displayedEpisode": 51,
+      "title": "전지적 독자 시점 - 051. Ep.11 선지자들의 밤 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=52",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 76
+    },
+    {
+      "no": 53,
+      "displayedEpisode": 52,
+      "title": "전지적 독자 시점 - 052. Ep.11 선지자들의 밤 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=53",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 76
+    },
+    {
+      "no": 54,
+      "displayedEpisode": 53,
+      "title": "전지적 독자 시점 - 053. Ep.12 1인칭 주인공 시점 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=54",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 86
+    },
+    {
+      "no": 55,
+      "displayedEpisode": 54,
+      "title": "전지적 독자 시점 - 054. Ep.12 1인칭 주인공 시점 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=55",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 87
+    },
+    {
+      "no": 56,
+      "displayedEpisode": 55,
+      "title": "전지적 독자 시점 - 055. Ep.12 1인칭 주인공 시점 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=56",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 81
+    },
+    {
+      "no": 57,
+      "displayedEpisode": 56,
+      "title": "전지적 독자 시점 - 056. Ep.12 1인칭 주인공 시점 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=57",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 75
+    },
+    {
+      "no": 58,
+      "displayedEpisode": 57,
+      "title": "전지적 독자 시점 - 057. Ep.13 왕들의 전쟁 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=58",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 69
+    },
+    {
+      "no": 59,
+      "displayedEpisode": 58,
+      "title": "전지적 독자 시점 - 058. Ep.13 왕들의 전쟁 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=59",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 81
+    },
+    {
+      "no": 60,
+      "displayedEpisode": 59,
+      "title": "전지적 독자 시점 - 059. Ep.13 왕들의 전쟁 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=60",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 75
+    },
+    {
+      "no": 61,
+      "displayedEpisode": 60,
+      "title": "전지적 독자 시점 - 060. Ep.13 왕들의 전쟁 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=61",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 81
+    },
+    {
+      "no": 62,
+      "displayedEpisode": 61,
+      "title": "전지적 독자 시점 - 061. Ep.14 왕좌의 주인 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=62",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 78
+    },
+    {
+      "no": 63,
+      "displayedEpisode": 62,
+      "title": "전지적 독자 시점 - 062. Ep.14 왕좌의 주인 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=63",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 92
+    },
+    {
+      "no": 64,
+      "displayedEpisode": 63,
+      "title": "전지적 독자 시점 - 063. Ep.14 왕좌의 주인 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=64",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 87
+    },
+    {
+      "no": 65,
+      "displayedEpisode": 64,
+      "title": "전지적 독자 시점 - 064. Ep.14 왕좌의 주인 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=65",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 92
+    },
+    {
+      "no": 66,
+      "displayedEpisode": 65,
+      "title": "전지적 독자 시점 - 065. Ep.15 왕이 없는 세계 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=66",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 88
+    },
+    {
+      "no": 67,
+      "displayedEpisode": 66,
+      "title": "전지적 독자 시점 - 066. Ep.15 왕이 없는 세계 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=67",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 65
+    },
+    {
+      "no": 68,
+      "displayedEpisode": 67,
+      "title": "전지적 독자 시점 - 067. Ep.15 왕이 없는 세계 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=68",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 97
+    },
+    {
+      "no": 69,
+      "displayedEpisode": 68,
+      "title": "전지적 독자 시점 - 068. Ep.15 왕이 없는 세계 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=69",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 70
+    },
+    {
+      "no": 70,
+      "displayedEpisode": 69,
+      "title": "전지적 독자 시점 - 069. Ep.15 왕이 없는 세계 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=70",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 92
+    },
+    {
+      "no": 71,
+      "displayedEpisode": 70,
+      "title": "전지적 독자 시점 - 070. Ep.15 왕이 없는 세계 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=71",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 46
+    },
+    {
+      "no": 72,
+      "displayedEpisode": 71,
+      "title": "전지적 독자 시점 - 071. Ep.15 왕이 없는 세계 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=72",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 68
+    },
+    {
+      "no": 73,
+      "displayedEpisode": 72,
+      "title": "전지적 독자 시점 - 072. Ep.15 왕이 없는 세계 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=73",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 86
+    },
+    {
+      "no": 74,
+      "displayedEpisode": 73,
+      "title": "전지적 독자 시점 - 073. Ep.16 다섯 번째 시나리오 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=74",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 75,
+      "displayedEpisode": 74,
+      "title": "전지적 독자 시점 - 074. Ep.16 다섯 번째 시나리오 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=75",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 76,
+      "displayedEpisode": 75,
+      "title": "전지적 독자 시점 - 075. Ep.16 다섯 번째 시나리오 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=76",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 84
+    },
+    {
+      "no": 77,
+      "displayedEpisode": 76,
+      "title": "전지적 독자 시점 - 076. Ep.16 다섯 번째 시나리오 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=77",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 78,
+      "displayedEpisode": 77,
+      "title": "전지적 독자 시점 - 077. Ep. 17 SSS급 재능 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=78",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 77
+    },
+    {
+      "no": 79,
+      "displayedEpisode": 78,
+      "title": "전지적 독자 시점 - 078. Ep. 17 SSS급 재능 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=79",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 88
+    },
+    {
+      "no": 80,
+      "displayedEpisode": 79,
+      "title": "전지적 독자 시점 - 079. Ep. 17 SSS급 재능 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=80",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 81
+    },
+    {
+      "no": 81,
+      "displayedEpisode": 80,
+      "title": "전지적 독자 시점 - 080. Ep. 17 SSS급 재능 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=81",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 87
+    },
+    {
+      "no": 82,
+      "displayedEpisode": 81,
+      "title": "전지적 독자 시점 - 081. Ep. 17 SSS급 재능 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=82",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 81
+    },
+    {
+      "no": 83,
+      "displayedEpisode": 82,
+      "title": "전지적 독자 시점 - 082. Ep. 17 SSS급 재능 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=83",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 84
+    },
+    {
+      "no": 84,
+      "displayedEpisode": 83,
+      "title": "전지적 독자 시점 - 083. Ep. 18 독자의 싸움 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=84",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 85,
+      "displayedEpisode": 84,
+      "title": "전지적 독자 시점 - 084. Ep. 18 독자의 싸움 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=85",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 84
+    },
+    {
+      "no": 86,
+      "displayedEpisode": 85,
+      "title": "전지적 독자 시점 - 085. Ep. 18 독자의 싸움 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=86",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 84
+    },
+    {
+      "no": 87,
+      "displayedEpisode": 86,
+      "title": "전지적 독자 시점 - 086. Ep. 18 독자의 싸움 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=87",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 81
+    },
+    {
+      "no": 88,
+      "displayedEpisode": 87,
+      "title": "전지적 독자 시점 - 087. Ep. 19 특이점 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=88",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 91
+    },
+    {
+      "no": 89,
+      "displayedEpisode": 88,
+      "title": "전지적 독자 시점 - 088. Ep. 19 특이점 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=89",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 77
+    },
+    {
+      "no": 90,
+      "displayedEpisode": 89,
+      "title": "전지적 독자 시점 - 089. Ep. 19 특이점 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=90",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 91,
+      "displayedEpisode": 90,
+      "title": "전지적 독자 시점 - 090. Ep. 19 특이점 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=91",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 52
+    },
+    {
+      "no": 92,
+      "displayedEpisode": 91,
+      "title": "전지적 독자 시점 - 091. Ep. 19 특이점 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=92",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 93,
+      "displayedEpisode": 92,
+      "title": "전지적 독자 시점 - 092. Ep. 19 특이점 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=93",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 90
+    },
+    {
+      "no": 94,
+      "displayedEpisode": 93,
+      "title": "전지적 독자 시점 - 093. Ep. 20 범람의 재앙 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=94",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 95,
+      "displayedEpisode": 94,
+      "title": "전지적 독자 시점 - 094. Ep. 20 범람의 재앙 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=95",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 78
+    },
+    {
+      "no": 96,
+      "displayedEpisode": 95,
+      "title": "전지적 독자 시점 - 095. Ep. 20 범람의 재앙 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=96",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 69
+    },
+    {
+      "no": 97,
+      "displayedEpisode": 96,
+      "title": "전지적 독자 시점 - 096. Ep. 20 범람의 재앙 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=97",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 73
+    },
+    {
+      "no": 98,
+      "displayedEpisode": 97,
+      "title": "전지적 독자 시점 - 097. Ep. 20 범람의 재앙 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=98",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 67
+    },
+    {
+      "no": 99,
+      "displayedEpisode": 98,
+      "title": "전지적 독자 시점 - 098. Ep. 20 범람의 재앙 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=99",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 77
+    },
+    {
+      "no": 100,
+      "displayedEpisode": 99,
+      "title": "전지적 독자 시점 - 099. Ep. 21 바꿀 수 없는 것 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=100",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 68
+    },
+    {
+      "no": 101,
+      "displayedEpisode": 100,
+      "title": "전지적 독자 시점 - 100. Ep. 21 바꿀 수 없는 것 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=101",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 69
+    },
+    {
+      "no": 102,
+      "displayedEpisode": 101,
+      "title": "전지적 독자 시점 - 101. Ep. 21 바꿀 수 없는 것 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=102",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 102
+    },
+    {
+      "no": 103,
+      "displayedEpisode": 102,
+      "title": "전지적 독자 시점 - 102. Ep. 21 바꿀 수 없는 것 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=103",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 54
+    },
+    {
+      "no": 104,
+      "displayedEpisode": 103,
+      "title": "전지적 독자 시점 - 103. Ep. 21 바꿀 수 없는 것 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=104",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 57
+    },
+    {
+      "no": 105,
+      "displayedEpisode": 104,
+      "title": "전지적 독자 시점 - 104. Ep. 21 바꿀 수 없는 것 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=105",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 63
+    },
+    {
+      "no": 106,
+      "displayedEpisode": 105,
+      "title": "전지적 독자 시점 - 105. Ep. 21 바꿀 수 없는 것 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=106",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 54
+    },
+    {
+      "no": 107,
+      "displayedEpisode": 106,
+      "title": "전지적 독자 시점 - 106. Ep. 21 바꿀 수 없는 것 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=107",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 48
+    },
+    {
+      "no": 108,
+      "displayedEpisode": 107,
+      "title": "전지적 독자 시점 - 107. Ep. 21 바꿀 수 없는 것 (9) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=108",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 47
+    },
+    {
+      "no": 109,
+      "displayedEpisode": 108,
+      "title": "전지적 독자 시점 - 108. Ep. 22 세 가지 약속 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=109",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 52
+    },
+    {
+      "no": 110,
+      "displayedEpisode": 109,
+      "title": "전지적 독자 시점 - 109. Ep. 22 세 가지 약속 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=110",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 47
+    },
+    {
+      "no": 111,
+      "displayedEpisode": 110,
+      "title": "전지적 독자 시점 - 110. Ep. 22 세 가지 약속 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=111",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 46
+    },
+    {
+      "no": 112,
+      "displayedEpisode": 111,
+      "title": "전지적 독자 시점 - 111. Ep. 22 세 가지 약속 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=112",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 59
+    },
+    {
+      "no": 113,
+      "displayedEpisode": 112,
+      "title": "전지적 독자 시점 - 112. Ep. 22 세 가지 약속 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=113",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 55
+    },
+    {
+      "no": 114,
+      "displayedEpisode": 113,
+      "title": "전지적 독자 시점 - 113. Ep. 22 세 가지 약속 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=114",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 51
+    },
+    {
+      "no": 115,
+      "displayedEpisode": 114,
+      "title": "전지적 독자 시점 - 114. Ep. 22 세 가지 약속 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=115",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 45
+    },
+    {
+      "no": 116,
+      "displayedEpisode": 115,
+      "title": "전지적 독자 시점 - 115. Ep. 22 세 가지 약속 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=116",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 66
+    },
+    {
+      "no": 117,
+      "displayedEpisode": 116,
+      "title": "전지적 독자 시점 - 116. Ep. 22 세 가지 약속 (9) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=117",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 74
+    },
+    {
+      "no": 118,
+      "displayedEpisode": 117,
+      "title": "전지적 독자 시점 - 117. Ep. 23 버려진 세계 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=118",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 48
+    },
+    {
+      "no": 119,
+      "displayedEpisode": 118,
+      "title": "전지적 독자 시점 - 118. Ep. 23 버려진 세계 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=119",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 62
+    },
+    {
+      "no": 120,
+      "displayedEpisode": 119,
+      "title": "전지적 독자 시점 - 119. Ep. 23 버려진 세계 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=120",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 49
+    },
+    {
+      "no": 121,
+      "displayedEpisode": 120,
+      "title": "전지적 독자 시점 - 120. Ep. 23 버려진 세계 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=121",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 53
+    },
+    {
+      "no": 122,
+      "displayedEpisode": 121,
+      "title": "전지적 독자 시점 - 121. Ep. 23 버려진 세계 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=122",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 57
+    },
+    {
+      "no": 123,
+      "displayedEpisode": 122,
+      "title": "전지적 독자 시점 - 122. Ep. 23 버려진 세계 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=123",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 62
+    },
+    {
+      "no": 124,
+      "displayedEpisode": 123,
+      "title": "전지적 독자 시점 - 123. Ep. 23 버려진 세계 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=124",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 59
+    },
+    {
+      "no": 125,
+      "displayedEpisode": 124,
+      "title": "전지적 독자 시점 - 124. Ep. 23 버려진 세계 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=125",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 62
+    },
+    {
+      "no": 126,
+      "displayedEpisode": 125,
+      "title": "전지적 독자 시점 - 125. Ep. 23 버려진 세계 (9) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=126",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 59
+    },
+    {
+      "no": 127,
+      "displayedEpisode": 126,
+      "title": "전지적 독자 시점 - 126. Ep. 24 바꿀 수 있는 것 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=127",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 62
+    },
+    {
+      "no": 128,
+      "displayedEpisode": 127,
+      "title": "전지적 독자 시점 - 127. Ep. 24 바꿀 수 있는 것 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=128",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 69
+    },
+    {
+      "no": 129,
+      "displayedEpisode": 128,
+      "title": "전지적 독자 시점 - 128. Ep. 24 바꿀 수 있는 것 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=129",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 130,
+      "displayedEpisode": 129,
+      "title": "전지적 독자 시점 - 129. Ep. 24 바꿀 수 있는 것 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=130",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 81
+    },
+    {
+      "no": 131,
+      "displayedEpisode": 130,
+      "title": "전지적 독자 시점 - 130. Ep. 24 바꿀 수 있는 것 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=131",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 132,
+      "displayedEpisode": 131,
+      "title": "전지적 독자 시점 - 131. Ep. 24 바꿀 수 있는 것 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=132",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 73
+    },
+    {
+      "no": 133,
+      "displayedEpisode": 132,
+      "title": "전지적 독자 시점 - 132. Ep. 24 바꿀 수 있는 것 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=133",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 134,
+      "displayedEpisode": 133,
+      "title": "전지적 독자 시점 - 133. Ep. 24 바꿀 수 있는 것 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=134",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 63
+    },
+    {
+      "no": 135,
+      "displayedEpisode": 134,
+      "title": "전지적 독자 시점 - 134. Ep. 24 바꿀 수 있는 것 (9) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=135",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 136,
+      "displayedEpisode": 135,
+      "title": "전지적 독자 시점 - 135. Ep. 25 신과 마주 보는 자들 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=136",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 76
+    },
+    {
+      "no": 137,
+      "displayedEpisode": 136,
+      "title": "전지적 독자 시점 - 136. Ep. 25 신과 마주 보는 자들 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=137",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 138,
+      "displayedEpisode": 137,
+      "title": "전지적 독자 시점 - 137. Ep. 25 신과 마주 보는 자들 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=138",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 52
+    },
+    {
+      "no": 139,
+      "displayedEpisode": 138,
+      "title": "전지적 독자 시점 - 138. Ep. 25 신과 마주 보는 자들 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=139",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 65
+    },
+    {
+      "no": 140,
+      "displayedEpisode": 139,
+      "title": "전지적 독자 시점 - 139. Ep. 25 신과 마주 보는 자들 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=140",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 55
+    },
+    {
+      "no": 141,
+      "displayedEpisode": 140,
+      "title": "전지적 독자 시점 - 140. Ep. 25 신과 마주 보는 자들 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=141",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 142,
+      "displayedEpisode": 141,
+      "title": "전지적 독자 시점 - 141. Ep. 25 신과 마주 보는 자들 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=142",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 63
+    },
+    {
+      "no": 143,
+      "displayedEpisode": 142,
+      "title": "전지적 독자 시점 - 142. Ep. 25 신과 마주 보는 자들 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=143",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 65
+    },
+    {
+      "no": 144,
+      "displayedEpisode": 143,
+      "title": "전지적 독자 시점 - 143. Ep. 25 신과 마주 보는 자들 (9) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=144",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 52
+    },
+    {
+      "no": 145,
+      "displayedEpisode": 144,
+      "title": "전지적 독자 시점 - 144. Ep. 26 시나리오 파괴자 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=145",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 54
+    },
+    {
+      "no": 146,
+      "displayedEpisode": 145,
+      "title": "전지적 독자 시점 - 145. Ep. 26 시나리오 파괴자 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=146",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 66
+    },
+    {
+      "no": 147,
+      "displayedEpisode": 146,
+      "title": "전지적 독자 시점 - 146. Ep. 26 시나리오 파괴자 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=147",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 74
+    },
+    {
+      "no": 148,
+      "displayedEpisode": 147,
+      "title": "전지적 독자 시점 - 147. Ep. 26 시나리오 파괴자 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=148",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 56
+    },
+    {
+      "no": 149,
+      "displayedEpisode": 148,
+      "title": "전지적 독자 시점 - 148. Ep. 26 시나리오 파괴자 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=149",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 67
+    },
+    {
+      "no": 150,
+      "displayedEpisode": 149,
+      "title": "전지적 독자 시점 - 149. Ep. 26 시나리오 파괴자 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=150",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 71
+    },
+    {
+      "no": 151,
+      "displayedEpisode": 150,
+      "title": "전지적 독자 시점 - 150. Ep. 26 시나리오 파괴자 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=151",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 65
+    },
+    {
+      "no": 152,
+      "displayedEpisode": 151,
+      "title": "전지적 독자 시점 - 151. Ep. 26 시나리오 파괴자 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=152",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 153,
+      "displayedEpisode": 152,
+      "title": "전지적 독자 시점 - 152. Ep. 26 시나리오 파괴자 (9) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=153",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 67
+    },
+    {
+      "no": 154,
+      "displayedEpisode": 153,
+      "title": "전지적 독자 시점 - 153. Ep. 27 읽을 수 없는 것 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=154",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 155,
+      "displayedEpisode": 154,
+      "title": "전지적 독자 시점 - 154. Ep. 27 읽을 수 없는 것 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=155",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 77
+    },
+    {
+      "no": 156,
+      "displayedEpisode": 155,
+      "title": "전지적 독자 시점 - 155. Ep. 27 읽을 수 없는 것 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=156",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 157,
+      "displayedEpisode": 156,
+      "title": "전지적 독자 시점 - 156. Ep. 27 읽을 수 없는 것 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=157",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 80
+    },
+    {
+      "no": 158,
+      "displayedEpisode": 157,
+      "title": "전지적 독자 시점 - 157. Ep. 28 최강의 희생양 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=158",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 77
+    },
+    {
+      "no": 159,
+      "displayedEpisode": 158,
+      "title": "전지적 독자 시점 - 158. Ep. 28 최강의 희생양 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=159",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 59
+    },
+    {
+      "no": 160,
+      "displayedEpisode": 159,
+      "title": "전지적 독자 시점 - 159. Ep. 28 최강의 희생양 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=160",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 66
+    },
+    {
+      "no": 161,
+      "displayedEpisode": 160,
+      "title": "전지적 독자 시점 - 160. Ep. 28 최강의 희생양 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=161",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 61
+    },
+    {
+      "no": 162,
+      "displayedEpisode": 161,
+      "title": "전지적 독자 시점 - 161. Ep. 28 최강의 희생양 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=162",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 163,
+      "displayedEpisode": 162,
+      "title": "전지적 독자 시점 - 162. Ep. 28 최강의 희생양 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=163",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 91
+    },
+    {
+      "no": 164,
+      "displayedEpisode": 163,
+      "title": "전지적 독자 시점 - 163. Ep. 28 최강의 희생양 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=164",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 73
+    },
+    {
+      "no": 165,
+      "displayedEpisode": 164,
+      "title": "전지적 독자 시점 - 164. Ep. 28 최강의 희생양 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=165",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 77
+    },
+    {
+      "no": 166,
+      "displayedEpisode": 165,
+      "title": "전지적 독자 시점 - 165. Ep. 29 별자리의 연회 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=166",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 77
+    },
+    {
+      "no": 167,
+      "displayedEpisode": 166,
+      "title": "전지적 독자 시점 - 166. Ep. 29 별자리의 연회 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=167",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 70
+    },
+    {
+      "no": 168,
+      "displayedEpisode": 167,
+      "title": "전지적 독자 시점 - 167. Ep. 29 별자리의 연회 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=168",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 62
+    },
+    {
+      "no": 169,
+      "displayedEpisode": 168,
+      "title": "전지적 독자 시점 - 168. Ep. 29 별자리의 연회 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=169",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 170,
+      "displayedEpisode": 169,
+      "title": "전지적 독자 시점 - 169. Ep. 29 별자리의 연회 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=170",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 78
+    },
+    {
+      "no": 171,
+      "displayedEpisode": 170,
+      "title": "전지적 독자 시점 - 170. Ep. 29 별자리의 연회 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=171",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 63
+    },
+    {
+      "no": 172,
+      "displayedEpisode": 171,
+      "title": "전지적 독자 시점 - 171. Ep. 29 별자리의 연회 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=172",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 76
+    },
+    {
+      "no": 173,
+      "displayedEpisode": 172,
+      "title": "전지적 독자 시점 - 172. Ep. 30 암흑성 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=173",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 83
+    },
+    {
+      "no": 174,
+      "displayedEpisode": 173,
+      "title": "전지적 독자 시점 - 173. Ep. 30 암흑성 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=174",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 86
+    },
+    {
+      "no": 175,
+      "displayedEpisode": 174,
+      "title": "전지적 독자 시점 - 174. Ep. 30 암흑성 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=175",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 81
+    },
+    {
+      "no": 176,
+      "displayedEpisode": 175,
+      "title": "전지적 독자 시점 - 175. Ep. 30 암흑성 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=176",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 83
+    },
+    {
+      "no": 177,
+      "displayedEpisode": 176,
+      "title": "전지적 독자 시점 - 176. Ep. 30 암흑성 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=177",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 86
+    },
+    {
+      "no": 178,
+      "displayedEpisode": 177,
+      "title": "전지적 독자 시점 - 177. Ep. 30 암흑성 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=178",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 97
+    },
+    {
+      "no": 179,
+      "displayedEpisode": 178,
+      "title": "전지적 독자 시점 - 178. Ep. 31 시나리오의 무덤 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=179",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 86
+    },
+    {
+      "no": 180,
+      "displayedEpisode": 179,
+      "title": "전지적 독자 시점 - 179. Ep. 31 시나리오의 무덤 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=180",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 101
+    },
+    {
+      "no": 181,
+      "displayedEpisode": 180,
+      "title": "전지적 독자 시점 - 180. Ep. 31 시나리오의 무덤 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=181",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 78
+    },
+    {
+      "no": 182,
+      "displayedEpisode": 181,
+      "title": "전지적 독자 시점 - 181. Ep. 31 시나리오의 무덤 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=182",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 68
+    },
+    {
+      "no": 183,
+      "displayedEpisode": 182,
+      "title": "전지적 독자 시점 - 182. Ep. 31 시나리오의 무덤 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=183",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 90
+    },
+    {
+      "no": 184,
+      "displayedEpisode": 183,
+      "title": "전지적 독자 시점 - 183. Ep. 32 김독자의 사랑 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=184",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 71
+    },
+    {
+      "no": 185,
+      "displayedEpisode": 184,
+      "title": "전지적 독자 시점 - 184. Ep. 32 김독자의 사랑 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=185",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 73
+    },
+    {
+      "no": 186,
+      "displayedEpisode": 185,
+      "title": "전지적 독자 시점 - 185. Ep. 32 김독자의 사랑 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=186",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 70
+    },
+    {
+      "no": 187,
+      "displayedEpisode": 186,
+      "title": "전지적 독자 시점 - 186. Ep. 32 김독자의 사랑 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=187",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 59
+    },
+    {
+      "no": 188,
+      "displayedEpisode": 187,
+      "title": "전지적 독자 시점 - 187. Ep. 32 김독자의 사랑 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=188",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 85
+    },
+    {
+      "no": 189,
+      "displayedEpisode": 188,
+      "title": "전지적 독자 시점 - 188. Ep. 32 김독자의 사랑 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=189",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 69
+    },
+    {
+      "no": 190,
+      "displayedEpisode": 189,
+      "title": "전지적 독자 시점 - 189. Ep. 32 김독자의 사랑 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=190",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 74
+    },
+    {
+      "no": 191,
+      "displayedEpisode": 190,
+      "title": "전지적 독자 시점 - 190. Ep. 32 김독자의 사랑 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=191",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 78
+    },
+    {
+      "no": 192,
+      "displayedEpisode": 191,
+      "title": "전지적 독자 시점 - 191. Ep. 32 김독자의 사랑 (9) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=192",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 86
+    },
+    {
+      "no": 193,
+      "displayedEpisode": 192,
+      "title": "전지적 독자 시점 - 192. Ep. 32 김독자의 사랑 (10) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=193",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 70
+    },
+    {
+      "no": 194,
+      "displayedEpisode": 193,
+      "title": "전지적 독자 시점 - 193. Ep. 32 김독자의 사랑 (11) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=194",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 73
+    },
+    {
+      "no": 195,
+      "displayedEpisode": 194,
+      "title": "전지적 독자 시점 - 194. Ep. 33 다시 읽기 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=195",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 105
+    },
+    {
+      "no": 196,
+      "displayedEpisode": 195,
+      "title": "전지적 독자 시점 - 195. Ep. 33 다시 읽기 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=196",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 68
+    },
+    {
+      "no": 197,
+      "displayedEpisode": 196,
+      "title": "전지적 독자 시점 - 196. Ep. 33 다시 읽기 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=197",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 67
+    },
+    {
+      "no": 198,
+      "displayedEpisode": 197,
+      "title": "전지적 독자 시점 - 197. Ep. 33 다시 읽기 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=198",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 62
+    },
+    {
+      "no": 199,
+      "displayedEpisode": 198,
+      "title": "전지적 독자 시점 - 198. Ep. 33 다시 읽기 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=199",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 80
+    },
+    {
+      "no": 200,
+      "displayedEpisode": 199,
+      "title": "전지적 독자 시점 - 199. Ep. 33 다시 읽기 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=200",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 69
+    },
+    {
+      "no": 201,
+      "displayedEpisode": 200,
+      "title": "전지적 독자 시점 - 200. Ep. 33 다시 읽기 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=201",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 77
+    },
+    {
+      "no": 202,
+      "displayedEpisode": 201,
+      "title": "전지적 독자 시점 - 201. Ep. 33 다시 읽기 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=202",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 83
+    },
+    {
+      "no": 203,
+      "displayedEpisode": 202,
+      "title": "전지적 독자 시점 - 202. Ep. 33 다시 읽기 (9) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=203",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 78
+    },
+    {
+      "no": 204,
+      "displayedEpisode": 203,
+      "title": "전지적 독자 시점 - 203. Ep. 33 다시 읽기 (10) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=204",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 205,
+      "displayedEpisode": 204,
+      "title": "전지적 독자 시점 - 204. Ep. 34 먹을 수 없는 것 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=205",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 76
+    },
+    {
+      "no": 206,
+      "displayedEpisode": 205,
+      "title": "전지적 독자 시점 - 205. Ep. 34 먹을 수 없는 것 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=206",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 66
+    },
+    {
+      "no": 207,
+      "displayedEpisode": 206,
+      "title": "전지적 독자 시점 - 206. Ep. 34 먹을 수 없는 것 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=207",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 56
+    },
+    {
+      "no": 208,
+      "displayedEpisode": 207,
+      "title": "전지적 독자 시점 - 207. Ep. 34 먹을 수 없는 것 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=208",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 76
+    },
+    {
+      "no": 209,
+      "displayedEpisode": 208,
+      "title": "전지적 독자 시점 - 208. Ep. 34 먹을 수 없는 것 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=209",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 107
+    },
+    {
+      "no": 210,
+      "displayedEpisode": 209,
+      "title": "전지적 독자 시점 - 209. Ep. 34 먹을 수 없는 것 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=210",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 67
+    },
+    {
+      "no": 211,
+      "displayedEpisode": 210,
+      "title": "전지적 독자 시점 - 210. Ep. 35 73번째 마왕 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=211",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 62
+    },
+    {
+      "no": 212,
+      "displayedEpisode": 211,
+      "title": "전지적 독자 시점 - 211. Ep. 35 73번째 마왕 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=212",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 65
+    },
+    {
+      "no": 213,
+      "displayedEpisode": 212,
+      "title": "전지적 독자 시점 - 212. Ep. 35 73번째 마왕 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=213",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 214,
+      "displayedEpisode": 213,
+      "title": "전지적 독자 시점 - 213. Ep. 35 73번째 마왕 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=214",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 60
+    },
+    {
+      "no": 215,
+      "displayedEpisode": 214,
+      "title": "전지적 독자 시점 - 214. Ep. 35 73번째 마왕 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=215",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 67
+    },
+    {
+      "no": 216,
+      "displayedEpisode": 215,
+      "title": "전지적 독자 시점 - 215. Ep. 35 73번째 마왕 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=216",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 69
+    },
+    {
+      "no": 217,
+      "displayedEpisode": 216,
+      "title": "전지적 독자 시점 - 216. Ep. 35 73번째 마왕 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=217",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 49
+    },
+    {
+      "no": 218,
+      "displayedEpisode": 217,
+      "title": "전지적 독자 시점 - 217. Ep. 35 73번째 마왕 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=218",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 219,
+      "displayedEpisode": 218,
+      "title": "전지적 독자 시점 - 218. Ep. 35 73번째 마왕 (9) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=219",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 62
+    },
+    {
+      "no": 220,
+      "displayedEpisode": 219,
+      "title": "전지적 독자 시점 - 219. Ep. 35 73번째 마왕 (10) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=220",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 57
+    },
+    {
+      "no": 221,
+      "displayedEpisode": 220,
+      "title": "전지적 독자 시점 - 220. Ep. 35 73번째 마왕 (11) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=221",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 95
+    },
+    {
+      "no": 222,
+      "displayedEpisode": 221,
+      "title": "전지적 독자 시점 - 221. Ep. 36 이야기의 지평선 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=222",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 60
+    },
+    {
+      "no": 223,
+      "displayedEpisode": 222,
+      "title": "전지적 독자 시점 - 222. Ep. 36 이야기의 지평선 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=223",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 63
+    },
+    {
+      "no": 224,
+      "displayedEpisode": 223,
+      "title": "전지적 독자 시점 - 223. Ep. 36 이야기의 지평선 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=224",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 86
+    },
+    {
+      "no": 225,
+      "displayedEpisode": 224,
+      "title": "전지적 독자 시점 - 224. Ep. 36 이야기의 지평선 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=225",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 82
+    },
+    {
+      "no": 226,
+      "displayedEpisode": 225,
+      "title": "전지적 독자 시점 - 225. Ep. 37 마계의 풍경 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=226",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 65
+    },
+    {
+      "no": 227,
+      "displayedEpisode": 226,
+      "title": "전지적 독자 시점 - 226. Ep. 37 마계의 풍경 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=227",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 82
+    },
+    {
+      "no": 228,
+      "displayedEpisode": 227,
+      "title": "전지적 독자 시점 - 227. Ep. 37 마계의 풍경 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=228",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 66
+    },
+    {
+      "no": 229,
+      "displayedEpisode": 228,
+      "title": "전지적 독자 시점 - 228. Ep. 37 마계의 풍경 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=229",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 230,
+      "displayedEpisode": 229,
+      "title": "전지적 독자 시점 - 229. Ep. 37 마계의 풍경 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=230",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 71
+    },
+    {
+      "no": 231,
+      "displayedEpisode": 230,
+      "title": "전지적 독자 시점 - 230. Ep. 38 가짜 혁명가 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=231",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 75
+    },
+    {
+      "no": 232,
+      "displayedEpisode": 231,
+      "title": "전지적 독자 시점 - 231. Ep. 38 가짜 혁명가 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=232",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 87
+    },
+    {
+      "no": 233,
+      "displayedEpisode": 232,
+      "title": "전지적 독자 시점 - 232. Ep. 38 가짜 혁명가 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=233",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 234,
+      "displayedEpisode": 233,
+      "title": "전지적 독자 시점 - 233. Ep. 38 가짜 혁명가 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=234",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 63
+    },
+    {
+      "no": 235,
+      "displayedEpisode": 234,
+      "title": "전지적 독자 시점 - 234. Ep. 38 가짜 혁명가 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=235",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 69
+    },
+    {
+      "no": 236,
+      "displayedEpisode": 235,
+      "title": "전지적 독자 시점 - 235. Ep. 39 정체불명의 벽 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=236",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 71
+    },
+    {
+      "no": 237,
+      "displayedEpisode": 236,
+      "title": "전지적 독자 시점 - 236. Ep. 39 정체불명의 벽 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=237",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 70
+    },
+    {
+      "no": 238,
+      "displayedEpisode": 237,
+      "title": "전지적 독자 시점 - 237. Ep. 39 정체불명의 벽 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=238",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 74
+    },
+    {
+      "no": 239,
+      "displayedEpisode": 238,
+      "title": "전지적 독자 시점 - 238. Ep. 39 정체불명의 벽 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=239",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 240,
+      "displayedEpisode": 239,
+      "title": "전지적 독자 시점 - 239. Ep. 39 정체불명의 벽 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=240",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 75
+    },
+    {
+      "no": 241,
+      "displayedEpisode": 240,
+      "title": "전지적 독자 시점 - 240. Ep. 39 정체불명의 벽 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=241",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 61
+    },
+    {
+      "no": 242,
+      "displayedEpisode": 241,
+      "title": "전지적 독자 시점 - 241. Ep. 39 정체불명의 벽 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=242",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 61
+    },
+    {
+      "no": 243,
+      "displayedEpisode": 242,
+      "title": "전지적 독자 시점 - 242. Ep. 40 부화(孵化) (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=243",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 71
+    },
+    {
+      "no": 244,
+      "displayedEpisode": 243,
+      "title": "전지적 독자 시점 - 243. Ep. 40 부화(孵化) (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=244",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 82
+    },
+    {
+      "no": 245,
+      "displayedEpisode": 244,
+      "title": "전지적 독자 시점 - 244. Ep. 40 부화(孵化) (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=245",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 246,
+      "displayedEpisode": 245,
+      "title": "전지적 독자 시점 - 245. Ep. 41 진짜 혁명가 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=246",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 247,
+      "displayedEpisode": 246,
+      "title": "전지적 독자 시점 - 246. Ep. 41 진짜 혁명가 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=247",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 73
+    },
+    {
+      "no": 248,
+      "displayedEpisode": 247,
+      "title": "전지적 독자 시점 - 247. Ep. 41 진짜 혁명가 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=248",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 85
+    },
+    {
+      "no": 249,
+      "displayedEpisode": 248,
+      "title": "전지적 독자 시점 - 248. Ep. 41 진짜 혁명가 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=249",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 250,
+      "displayedEpisode": 249,
+      "title": "전지적 독자 시점 - 249. Ep. 41 진짜 혁명가 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=250",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 81
+    },
+    {
+      "no": 251,
+      "displayedEpisode": 250,
+      "title": "전지적 독자 시점 - 250. Ep. 41 진짜 혁명가 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=251",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 61
+    },
+    {
+      "no": 252,
+      "displayedEpisode": 251,
+      "title": "전지적 독자 시점 - 251. Ep. 41 진짜 혁명가 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=252",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 71
+    },
+    {
+      "no": 253,
+      "displayedEpisode": 252,
+      "title": "전지적 독자 시점 - 252. Ep. 41 진짜 혁명가 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=253",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 68
+    },
+    {
+      "no": 254,
+      "displayedEpisode": 253,
+      "title": "전지적 독자 시점 - 253. Ep. 42 아스모데우스 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=254",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 255,
+      "displayedEpisode": 254,
+      "title": "전지적 독자 시점 - 254. Ep. 42 아스모데우스 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=255",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 61
+    },
+    {
+      "no": 256,
+      "displayedEpisode": 255,
+      "title": "전지적 독자 시점 - 255. Ep. 42 아스모데우스 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=256",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 65
+    },
+    {
+      "no": 257,
+      "displayedEpisode": 256,
+      "title": "전지적 독자 시점 - 256. Ep. 42 아스모데우스 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=257",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 68
+    },
+    {
+      "no": 258,
+      "displayedEpisode": 257,
+      "title": "전지적 독자 시점 - 257. Ep. 42 아스모데우스 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=258",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 75
+    },
+    {
+      "no": 259,
+      "displayedEpisode": 258,
+      "title": "전지적 독자 시점 - 258. Ep. 42 아스모데우스 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=259",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 71
+    },
+    {
+      "no": 260,
+      "displayedEpisode": 259,
+      "title": "전지적 독자 시점 - 259. Ep. 42 아스모데우스 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=260",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 58
+    },
+    {
+      "no": 261,
+      "displayedEpisode": 260,
+      "title": "전지적 독자 시점 - 260. Ep. 43 파천검성 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=261",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 86
+    },
+    {
+      "no": 262,
+      "displayedEpisode": 261,
+      "title": "전지적 독자 시점 - 261. Ep. 43 파천검성 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=262",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 83
+    },
+    {
+      "no": 263,
+      "displayedEpisode": 262,
+      "title": "전지적 독자 시점 - 262. Ep. 43 파천검성 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=263",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 264,
+      "displayedEpisode": 263,
+      "title": "전지적 독자 시점 - 263. Ep. 43 파천검성 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=264",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 65
+    },
+    {
+      "no": 265,
+      "displayedEpisode": 264,
+      "title": "전지적 독자 시점 - 264. Ep. 43 파천검성 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=265",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 59
+    },
+    {
+      "no": 266,
+      "displayedEpisode": 265,
+      "title": "전지적 독자 시점 - 265. Ep. 43 파천검성 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=266",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 267,
+      "displayedEpisode": 266,
+      "title": "전지적 독자 시점 - 266. Ep. 43 파천검성 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=267",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 62
+    },
+    {
+      "no": 268,
+      "displayedEpisode": 267,
+      "title": "전지적 독자 시점 - 267. Ep. 44 사기꾼 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=268",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 72
+    },
+    {
+      "no": 269,
+      "displayedEpisode": 268,
+      "title": "전지적 독자 시점 - 268. Ep. 44 사기꾼 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=269",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 99
+    },
+    {
+      "no": 270,
+      "displayedEpisode": 269,
+      "title": "전지적 독자 시점 - 269. Ep. 44 사기꾼 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=270",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 75
+    },
+    {
+      "no": 271,
+      "displayedEpisode": 270,
+      "title": "전지적 독자 시점 - 270. Ep. 45 미식협 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=271",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 78
+    },
+    {
+      "no": 272,
+      "displayedEpisode": 271,
+      "title": "전지적 독자 시점 - 271. Ep. 45 미식협 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=272",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 84
+    },
+    {
+      "no": 273,
+      "displayedEpisode": 272,
+      "title": "전지적 독자 시점 - 272. Ep. 45 미식협 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=273",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 274,
+      "displayedEpisode": 273,
+      "title": "전지적 독자 시점 - 273. Ep. 45 미식협 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=274",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 110
+    },
+    {
+      "no": 275,
+      "displayedEpisode": 274,
+      "title": "전지적 독자 시점 - 274. Ep. 45 미식협 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=275",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 88
+    },
+    {
+      "no": 276,
+      "displayedEpisode": 275,
+      "title": "전지적 독자 시점 - 275. Ep. 45 미식협 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=276",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 76
+    },
+    {
+      "no": 277,
+      "displayedEpisode": 276,
+      "title": "전지적 독자 시점 - 276. Ep. 46 새로운 설화 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=277",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 78
+    },
+    {
+      "no": 278,
+      "displayedEpisode": 277,
+      "title": "전지적 독자 시점 - 277. Ep. 46 새로운 설화 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=278",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 80
+    },
+    {
+      "no": 279,
+      "displayedEpisode": 278,
+      "title": "전지적 독자 시점 - 278. Ep. 46 새로운 설화 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=279",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 75
+    },
+    {
+      "no": 280,
+      "displayedEpisode": 279,
+      "title": "전지적 독자 시점 - 279. Ep. 46 새로운 설화 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=280",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 78
+    },
+    {
+      "no": 281,
+      "displayedEpisode": 280,
+      "title": "전지적 독자 시점 - 280. Ep. 46 새로운 설화 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=281",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 74
+    },
+    {
+      "no": 282,
+      "displayedEpisode": 281,
+      "title": "전지적 독자 시점 - 281. Ep. 47 마왕 선발전 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=282",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 75
+    },
+    {
+      "no": 283,
+      "displayedEpisode": 282,
+      "title": "전지적 독자 시점 - 282. Ep. 47 마왕 선발전 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=283",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 70
+    },
+    {
+      "no": 284,
+      "displayedEpisode": 283,
+      "title": "전지적 독자 시점 - 283. Ep. 47 마왕 선발전 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=284",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 83
+    },
+    {
+      "no": 285,
+      "displayedEpisode": 284,
+      "title": "전지적 독자 시점 - 284. Ep. 47 마왕 선발전 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=285",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 78
+    },
+    {
+      "no": 286,
+      "displayedEpisode": 285,
+      "title": "전지적 독자 시점 - 285. Ep. 47 마왕 선발전 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=286",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 96
+    },
+    {
+      "no": 287,
+      "displayedEpisode": 286,
+      "title": "전지적 독자 시점 - 286. Ep. 47 마왕 선발전 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=287",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 73
+    },
+    {
+      "no": 288,
+      "displayedEpisode": 287,
+      "title": "전지적 독자 시점 - 287. Ep. 48 등장인물 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=288",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 77
+    },
+    {
+      "no": 289,
+      "displayedEpisode": 288,
+      "title": "전지적 독자 시점 - 288. Ep. 48 등장인물 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=289",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 90
+    },
+    {
+      "no": 290,
+      "displayedEpisode": 289,
+      "title": "전지적 독자 시점 - 289. Ep. 48 등장인물 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=290",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 291,
+      "displayedEpisode": 290,
+      "title": "전지적 독자 시점 - 290. Ep. 48 등장인물 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=291",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 292,
+      "displayedEpisode": 291,
+      "title": "전지적 독자 시점 - 291. Ep.49 가장 잘하는 것 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=292",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 71
+    },
+    {
+      "no": 293,
+      "displayedEpisode": 292,
+      "title": "전지적 독자 시점 - 292. Ep.49 가장 잘하는 것 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=293",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 83
+    },
+    {
+      "no": 294,
+      "displayedEpisode": 293,
+      "title": "전지적 독자 시점 - 293. Ep.49 가장 잘하는 것 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=294",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 74
+    },
+    {
+      "no": 295,
+      "displayedEpisode": 294,
+      "title": "전지적 독자 시점 - 294. Ep.49 가장 잘하는 것 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=295",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 73
+    },
+    {
+      "no": 296,
+      "displayedEpisode": 295,
+      "title": "전지적 독자 시점 - 295. Ep.49 가장 잘하는 것 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=296",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 69
+    },
+    {
+      "no": 297,
+      "displayedEpisode": 296,
+      "title": "전지적 독자 시점 - 296. Ep.49 가장 잘하는 것 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=297",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 63
+    },
+    {
+      "no": 298,
+      "displayedEpisode": 297,
+      "title": "전지적 독자 시점 - 297. Ep.49 가장 잘하는 것 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=298",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 83
+    },
+    {
+      "no": 299,
+      "displayedEpisode": 298,
+      "title": "전지적 독자 시점 - 298. Ep.49 가장 잘하는 것 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=299",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 64
+    },
+    {
+      "no": 300,
+      "displayedEpisode": 299,
+      "title": "전지적 독자 시점 - 299. Ep.50 독자의 설화 (1) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=300",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 113
+    },
+    {
+      "no": 301,
+      "displayedEpisode": 300,
+      "title": "전지적 독자 시점 - 300. Ep.50 독자의 설화 (2) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=301",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 83
+    },
+    {
+      "no": 302,
+      "displayedEpisode": 301,
+      "title": "전지적 독자 시점 - 301. Ep.50 독자의 설화 (3) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=302",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 74
+    },
+    {
+      "no": 303,
+      "displayedEpisode": 302,
+      "title": "전지적 독자 시점 - 302. Ep.50 독자의 설화 (4) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=303",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 304,
+      "displayedEpisode": 303,
+      "title": "전지적 독자 시점 - 303. Ep.50 독자의 설화 (5) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=304",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 68
+    },
+    {
+      "no": 305,
+      "displayedEpisode": 304,
+      "title": "전지적 독자 시점 - 304. Ep.50 독자의 설화 (6) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=305",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 70
+    },
+    {
+      "no": 306,
+      "displayedEpisode": 305,
+      "title": "전지적 독자 시점 - 305. Ep.50 독자의 설화 (7) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=306",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 62
+    },
+    {
+      "no": 307,
+      "displayedEpisode": 306,
+      "title": "전지적 독자 시점 - 306. Ep.50 독자의 설화 (8) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=307",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 79
+    },
+    {
+      "no": 308,
+      "displayedEpisode": 307,
+      "title": "전지적 독자 시점 - 307. Ep.50 독자의 설화 (9) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=308",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 78
+    },
+    {
+      "no": 309,
+      "displayedEpisode": 308,
+      "title": "전지적 독자 시점 - 308. Ep.50 독자의 설화 (10) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=309",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 70
+    },
+    {
+      "no": 310,
+      "displayedEpisode": 309,
+      "title": "전지적 독자 시점 - 309. Ep.50 독자의 설화 (11) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=310",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 91
+    },
+    {
+      "no": 311,
+      "displayedEpisode": 310,
+      "title": "전지적 독자 시점 - 310. Ep.50 독자의 설화 (12) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=311",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 86
+    },
+    {
+      "no": 312,
+      "displayedEpisode": 311,
+      "title": "전지적 독자 시점 - 311. Ep.50 독자의 설화 (13) (시즌1 마지막화) : 네이버 웹툰",
+      "url": "https://comic.naver.com/webtoon/detail?titleId=747269&no=312",
+      "publicBodyAvailable": true,
+      "bodyImageCount": 95
+    }
+  ],
+  "chapterNavigation": [
+    {
+      "chapter": "C01",
+      "scenes": [
+        "ST001",
+        "ST002",
+        "ST003"
+      ],
+      "episodeNoRange": [
+        1,
+        8
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C02",
+      "scenes": [
+        "ST004",
+        "ST005",
+        "ST006"
+      ],
+      "episodeNoRange": [
+        9,
+        13
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C03",
+      "scenes": [
+        "ST007",
+        "ST008",
+        "ST009",
+        "ST010"
+      ],
+      "episodeNoRange": [
+        14,
+        16
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C04",
+      "scenes": [
+        "ST011",
+        "ST012",
+        "ST013"
+      ],
+      "episodeNoRange": [
+        17,
+        19
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C05",
+      "scenes": [
+        "ST014",
+        "ST015",
+        "ST016",
+        "ST017",
+        "ST018"
+      ],
+      "episodeNoRange": [
+        20,
+        27
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C06",
+      "scenes": [
+        "ST019",
+        "ST020",
+        "ST021",
+        "ST022",
+        "ST023"
+      ],
+      "episodeNoRange": [
+        28,
+        37
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C07",
+      "scenes": [
+        "ST024",
+        "ST025",
+        "ST026",
+        "ST027",
+        "ST028",
+        "ST029"
+      ],
+      "episodeNoRange": [
+        38,
+        44
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C08",
+      "scenes": [
+        "ST030",
+        "ST031",
+        "ST032",
+        "ST033"
+      ],
+      "episodeNoRange": [
+        45,
+        53
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C09",
+      "scenes": [
+        "ST034",
+        "ST035",
+        "ST036",
+        "ST037"
+      ],
+      "episodeNoRange": [
+        52,
+        57
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C10",
+      "scenes": [
+        "ST038",
+        "ST039",
+        "ST040",
+        "ST041",
+        "ST042",
+        "ST043",
+        "ST044"
+      ],
+      "episodeNoRange": [
+        58,
+        68
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C11",
+      "scenes": [
+        "ST045",
+        "ST046",
+        "ST047",
+        "ST048"
+      ],
+      "episodeNoRange": [
+        68,
+        74
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C12",
+      "scenes": [
+        "ST049",
+        "ST050",
+        "ST051",
+        "ST052",
+        "ST053",
+        "ST054"
+      ],
+      "episodeNoRange": [
+        74,
+        87
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C13",
+      "scenes": [
+        "ST055",
+        "ST056",
+        "ST057",
+        "ST058",
+        "ST059",
+        "ST060"
+      ],
+      "episodeNoRange": [
+        88,
+        108
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C14",
+      "scenes": [
+        "ST061",
+        "ST062",
+        "ST063"
+      ],
+      "episodeNoRange": [
+        109,
+        123
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C15",
+      "scenes": [
+        "ST064",
+        "ST065",
+        "ST066",
+        "ST067",
+        "ST068",
+        "ST069",
+        "ST070",
+        "ST071"
+      ],
+      "episodeNoRange": [
+        124,
+        144
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C16",
+      "scenes": [
+        "ST072",
+        "ST073",
+        "ST074",
+        "ST075",
+        "ST076"
+      ],
+      "episodeNoRange": [
+        145,
+        153
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C17",
+      "scenes": [
+        "ST077",
+        "ST078",
+        "ST079",
+        "ST080",
+        "ST081",
+        "ST082"
+      ],
+      "episodeNoRange": [
+        154,
+        165
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C18",
+      "scenes": [
+        "ST083",
+        "ST084",
+        "ST085",
+        "ST086",
+        "ST087",
+        "ST088",
+        "ST089",
+        "ST090"
+      ],
+      "episodeNoRange": [
+        166,
+        194
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C19",
+      "scenes": [
+        "ST091",
+        "ST092",
+        "ST093",
+        "ST094",
+        "ST095",
+        "ST096"
+      ],
+      "episodeNoRange": [
+        184,
+        211
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C20",
+      "scenes": [
+        "ST097",
+        "ST098",
+        "ST099",
+        "ST100",
+        "ST101"
+      ],
+      "episodeNoRange": [
+        211,
+        221
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C21",
+      "scenes": [
+        "ST102",
+        "ST103",
+        "ST104",
+        "ST105"
+      ],
+      "episodeNoRange": [
+        222,
+        230
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C22",
+      "scenes": [
+        "ST106",
+        "ST107",
+        "ST108",
+        "ST109",
+        "ST110",
+        "ST111",
+        "ST112",
+        "ST113",
+        "ST114",
+        "ST115",
+        "ST116"
+      ],
+      "episodeNoRange": [
+        231,
+        260
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C23",
+      "scenes": [
+        "ST117",
+        "ST118",
+        "ST119",
+        "ST120",
+        "ST121",
+        "ST122",
+        "ST123",
+        "ST124",
+        "ST125",
+        "ST126",
+        "ST127"
+      ],
+      "episodeNoRange": [
+        261,
+        283
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C24",
+      "scenes": [
+        "ST128",
+        "ST129",
+        "ST130",
+        "ST131",
+        "ST132",
+        "ST133",
+        "ST134"
+      ],
+      "episodeNoRange": [
+        284,
+        296
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C25",
+      "scenes": [
+        "ST135",
+        "ST136",
+        "ST137",
+        "ST138",
+        "ST139",
+        "ST140",
+        "ST141",
+        "ST142"
+      ],
+      "episodeNoRange": [
+        296,
+        306
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    },
+    {
+      "chapter": "C26",
+      "scenes": [
+        "ST143",
+        "ST144",
+        "ST145",
+        "ST146",
+        "ST147",
+        "ST148",
+        "ST149",
+        "ST150",
+        "ST151",
+        "ST152",
+        "ST153"
+      ],
+      "episodeNoRange": [
+        306,
+        312
+      ],
+      "purpose": "navigation-range-only; not a claim that every panel or scene was verified"
+    }
+  ],
+  "findings": [
+    {
+      "id": "W01",
+      "scenes": [
+        "ST001",
+        "ST002",
+        "ST003"
+      ],
+      "subject": "시작과 텍스트 파일",
+      "result": "작가의 유료화 예고·첨부 파일, 30분의 생명체 살해 조건과 즉결 처분을 보강했다.",
+      "references": [
+        {
+          "episodeNo": 2,
+          "displayedEpisode": 1,
+          "panels": [
+            23,
+            29,
+            34,
+            60,
+            63,
+            67
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 3,
+          "displayedEpisode": 2,
+          "panels": [
+            54
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 5,
+          "displayedEpisode": 4,
+          "panels": [
+            9,
+            10,
+            13,
+            18
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W02",
+      "scenes": [
+        "ST003"
+      ],
+      "subject": "김남운의 죽음과 독자의 태도",
+      "result": "코인을 체력에 투자해 공격을 버티고, 김남운은 조건 미달로 정산 때 죽는다. 김독자의 개입과 죄책감·제4의 벽의 거리감을 복원했다.",
+      "references": [
+        {
+          "episodeNo": 6,
+          "displayedEpisode": 5,
+          "panels": [
+            44
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 7,
+          "displayedEpisode": 6,
+          "panels": [
+            34,
+            51,
+            58,
+            61,
+            68
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 8,
+          "displayedEpisode": 7,
+          "panels": [
+            12,
+            14,
+            15,
+            16,
+            17,
+            19
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 8,
+          "displayedEpisode": 7,
+          "panels": [
+            13
+          ],
+          "method": "official-panel-visually-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W03",
+      "scenes": [
+        "ST005",
+        "ST006"
+      ],
+      "subject": "탈출과 주인공의 시험",
+      "result": "한명오의 직장 서열, 짝수 인원의 빛의 다리, 현자의 눈을 가리는 벽과 예언자라는 설명을 추가했다.",
+      "references": [
+        {
+          "episodeNo": 9,
+          "displayedEpisode": 8,
+          "panels": [
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 11,
+          "displayedEpisode": 10,
+          "panels": [
+            28,
+            41
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 12,
+          "displayedEpisode": 11,
+          "panels": [
+            55
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 13,
+          "displayedEpisode": 12,
+          "panels": [
+            9,
+            22,
+            28
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W04",
+      "scenes": [
+        "ST007",
+        "ST008",
+        "ST009"
+      ],
+      "subject": "스트림 계약 시점",
+      "result": "어룡 공략 전에는 조건부 제안이며 성공 뒤 서약한다. 보따리 구매와 점액의 사용을 보강했다.",
+      "references": [
+        {
+          "episodeNo": 15,
+          "displayedEpisode": 14,
+          "panels": [
+            45
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 16,
+          "displayedEpisode": 15,
+          "panels": [
+            34,
+            47,
+            48,
+            59,
+            66
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W05",
+      "scenes": [
+        "ST010"
+      ],
+      "subject": "부러진 신념의 거래",
+      "result": "직접 안나를 만나는 장면을 도깨비 경매의 물물 교환으로 바꾸었다.",
+      "references": [
+        {
+          "episodeNo": 16,
+          "displayedEpisode": 15,
+          "panels": [
+            41
+          ],
+          "method": "official-panel-visually-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W06",
+      "scenes": [
+        "ST014",
+        "ST015",
+        "ST016"
+      ],
+      "subject": "화로와 보물 창고",
+      "result": "마력 화로의 획득을 어둠 파수꾼 공략 뒤로 옮겼다. 상자 해석과 무기의 성장 사건을 연결했다.",
+      "references": [
+        {
+          "episodeNo": 23,
+          "displayedEpisode": 22,
+          "panels": [
+            26,
+            27,
+            39,
+            40,
+            53
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 24,
+          "displayedEpisode": 23,
+          "panels": [
+            28,
+            32
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W07",
+      "scenes": [
+        "ST017"
+      ],
+      "subject": "철두파의 지배가 무너지는 경위",
+      "result": "생존비 정산·정찰대 살해 폭로·군중의 저항을 보강하고 정희원 각성과 연결했다.",
+      "references": [
+        {
+          "episodeNo": 24,
+          "displayedEpisode": 23,
+          "panels": [
+            35,
+            36,
+            44,
+            45,
+            54,
+            60
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 25,
+          "displayedEpisode": 24,
+          "panels": [
+            12,
+            14,
+            16,
+            17,
+            22,
+            35,
+            37,
+            40
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W08",
+      "scenes": [
+        "ST018",
+        "ST019"
+      ],
+      "subject": "환영 감옥과 이지혜",
+      "result": "유물에서 얻은 파마, 동료의 트라우마, 스펙터 처리 후 이지혜의 안내를 복원했다.",
+      "references": [
+        {
+          "episodeNo": 27,
+          "displayedEpisode": 26,
+          "panels": [
+            13,
+            18,
+            21,
+            22,
+            24,
+            34,
+            40,
+            44,
+            54,
+            55,
+            61
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 28,
+          "displayedEpisode": 27,
+          "panels": [
+            19,
+            30,
+            33,
+            40
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W09",
+      "scenes": [
+        "ST022",
+        "ST023"
+      ],
+      "subject": "그린 존과 디펜스 마스터",
+      "result": "안전지대 파괴의 당사자를 김독자로 명시하고, 공필두의 배후성에게 자금을 대는 거래를 설명했다.",
+      "references": [
+        {
+          "episodeNo": 34,
+          "displayedEpisode": 33,
+          "panels": [
+            9,
+            81
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 37,
+          "displayedEpisode": 36,
+          "panels": [
+            14,
+            25,
+            26,
+            27,
+            31,
+            32,
+            34,
+            44,
+            49,
+            66
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W10",
+      "scenes": [
+        "ST026",
+        "ST027",
+        "ST028",
+        "ST029"
+      ],
+      "subject": "극장과 인물의 상처",
+      "result": "이지혜를 자극하는 독자의 거친 방식과 정신 지배된 유중혁·극장 주인의 구별을 대조했다.",
+      "references": [
+        {
+          "episodeNo": 41,
+          "displayedEpisode": 40,
+          "panels": [
+            23,
+            33
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 42,
+          "displayedEpisode": 41,
+          "panels": [
+            15,
+            18,
+            20
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 43,
+          "displayedEpisode": 42,
+          "panels": [
+            11,
+            56,
+            59
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 44,
+          "displayedEpisode": 43,
+          "panels": [
+            2,
+            29,
+            59
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W11",
+      "scenes": [
+        "ST032",
+        "ST033",
+        "ST034",
+        "ST042"
+      ],
+      "subject": "선지자와 첫 사도 공개",
+      "result": "하차 지식의 차이·도망자의 탈·충무로 동시 습격을 보강했다. 소재앙 이전에 한수영 본체를 등장시키던 부분을 제거했다.",
+      "references": [
+        {
+          "episodeNo": 49,
+          "displayedEpisode": 48,
+          "panels": [
+            67
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 50,
+          "displayedEpisode": 49,
+          "panels": [
+            23,
+            44
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 51,
+          "displayedEpisode": 50,
+          "panels": [
+            55
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 53,
+          "displayedEpisode": 52,
+          "panels": [
+            39,
+            40,
+            41,
+            44
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 64,
+          "displayedEpisode": 63,
+          "panels": [
+            5,
+            6,
+            54
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W12",
+      "scenes": [
+        "ST036",
+        "ST037"
+      ],
+      "subject": "죽음·이입·귀환·화룡 격파",
+      "result": "죽은 채 화룡전을 완료하던 상태를 고쳤다. 충무로의 유중혁에게 이입한 뒤 귀환하고 전투를 끝낸다.",
+      "references": [
+        {
+          "episodeNo": 54,
+          "displayedEpisode": 53,
+          "panels": [
+            4,
+            6,
+            7,
+            19,
+            47,
+            59,
+            65,
+            67,
+            69,
+            74,
+            75
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 55,
+          "displayedEpisode": 54,
+          "panels": [
+            10,
+            11,
+            16,
+            17,
+            25,
+            28,
+            39,
+            40
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 56,
+          "displayedEpisode": 55,
+          "panels": [
+            32,
+            36,
+            37,
+            38
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W13",
+      "scenes": [
+        "ST043",
+        "ST044"
+      ],
+      "subject": "왕좌를 파괴하는 이유",
+      "result": "이계의 신격과의 종속 관계, 도깨비의 제압 시나리오, 유중혁이 시간을 버는 공투를 보강했다.",
+      "references": [
+        {
+          "episodeNo": 66,
+          "displayedEpisode": 65,
+          "panels": [
+            41,
+            45,
+            46,
+            57,
+            62,
+            76
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 67,
+          "displayedEpisode": 66,
+          "panels": [
+            24,
+            25,
+            27,
+            41
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W14",
+      "scenes": [
+        "ST046",
+        "ST047",
+        "ST048"
+      ],
+      "subject": "한수영과의 협력",
+      "result": "코인 농장·송민우·하차 지식과 임시 협력의 연결을 대조했다.",
+      "references": [
+        {
+          "episodeNo": 69,
+          "displayedEpisode": 68,
+          "panels": [
+            59
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 70,
+          "displayedEpisode": 69,
+          "panels": [
+            66,
+            80,
+            89
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 71,
+          "displayedEpisode": 70,
+          "panels": [
+            11,
+            12,
+            14
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 72,
+          "displayedEpisode": 71,
+          "panels": [
+            5
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 73,
+          "displayedEpisode": 72,
+          "panels": [
+            22,
+            68,
+            80
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W15",
+      "scenes": [
+        "ST050",
+        "ST051",
+        "ST052",
+        "ST053",
+        "ST054"
+      ],
+      "subject": "바람의 길과 이설화",
+      "result": "수련 실패 상태에서 이설화를 먼저 구하고 질문의 재앙전에서 책갈피로 재현한다. 유중혁의 원격 연락·숙주 살해 지시와 동의보감 해독을 복원했다.",
+      "references": [
+        {
+          "episodeNo": 78,
+          "displayedEpisode": 77,
+          "panels": [
+            6,
+            7,
+            29,
+            33,
+            35,
+            36,
+            37,
+            38,
+            43,
+            44,
+            58,
+            59
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 80,
+          "displayedEpisode": 79,
+          "panels": [
+            44,
+            52,
+            65,
+            67,
+            69
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 81,
+          "displayedEpisode": 80,
+          "panels": [
+            5,
+            9,
+            17,
+            28,
+            58,
+            59
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 82,
+          "displayedEpisode": 81,
+          "panels": [
+            51,
+            70
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 84,
+          "displayedEpisode": 83,
+          "panels": [
+            13,
+            14,
+            18,
+            20,
+            21,
+            37,
+            41,
+            56
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 85,
+          "displayedEpisode": 84,
+          "panels": [
+            24,
+            34,
+            47,
+            48,
+            69
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W16",
+      "scenes": [
+        "ST055",
+        "ST056",
+        "ST057",
+        "ST058",
+        "ST059",
+        "ST060"
+      ],
+      "subject": "범람의 재앙과 구출 시도",
+      "result": "41회차 임무와 실패한 구원의 절망, 죽음 뒤 재앙에 대한 이입, 제한 시간 없는 시나리오에 대한 반항과 강제 악인화를 보강했다.",
+      "references": [
+        {
+          "episodeNo": 95,
+          "displayedEpisode": 94,
+          "panels": [
+            54,
+            57,
+            58,
+            64
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 99,
+          "displayedEpisode": 98,
+          "panels": [
+            33,
+            35,
+            38,
+            43,
+            49,
+            56,
+            65,
+            66
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 100,
+          "displayedEpisode": 99,
+          "panels": [
+            31,
+            47,
+            54,
+            56,
+            57
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 102,
+          "displayedEpisode": 101,
+          "panels": [
+            64,
+            65,
+            67,
+            70,
+            84,
+            97
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 103,
+          "displayedEpisode": 102,
+          "panels": [
+            52
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 104,
+          "displayedEpisode": 103,
+          "panels": [
+            17,
+            18,
+            29,
+            41
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 105,
+          "displayedEpisode": 104,
+          "panels": [
+            3,
+            49,
+            62
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 106,
+          "displayedEpisode": 105,
+          "panels": [
+            19,
+            29,
+            35
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W17",
+      "scenes": [
+        "ST061",
+        "ST062",
+        "ST063"
+      ],
+      "subject": "명계와 이야기로서의 영혼",
+      "result": "타르타로스의 김남운·거신병, 영혼을 이야기로 보는 여왕, 미래 설화의 가치로 성립하는 뱀 사냥 거래를 보강했다.",
+      "references": [
+        {
+          "episodeNo": 110,
+          "displayedEpisode": 109,
+          "panels": [
+            26,
+            27,
+            31,
+            32
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 113,
+          "displayedEpisode": 112,
+          "panels": [
+            29,
+            36,
+            39,
+            44,
+            48
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 114,
+          "displayedEpisode": 113,
+          "panels": [
+            14,
+            18,
+            33
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 115,
+          "displayedEpisode": 114,
+          "panels": [
+            28,
+            29,
+            31,
+            32
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 116,
+          "displayedEpisode": 115,
+          "panels": [
+            12,
+            14,
+            15,
+            34,
+            42
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 117,
+          "displayedEpisode": 116,
+          "panels": [
+            28,
+            29,
+            41,
+            43,
+            44,
+            45
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 118,
+          "displayedEpisode": 117,
+          "panels": [
+            47,
+            48
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W18",
+      "scenes": [
+        "ST064",
+        "ST065",
+        "ST066",
+        "ST067",
+        "ST069",
+        "ST070"
+      ],
+      "subject": "피스랜드의 진영과 재앙의 왕",
+      "result": "미치오·아스카 렌·이즈미 히로키의 관계, 소인 보호와 재앙 진영의 차이를 보강했다. 웹툰의 작은 구원자 명칭을 확인했다.",
+      "references": [
+        {
+          "episodeNo": 120,
+          "displayedEpisode": 119,
+          "panels": [
+            22,
+            26,
+            48
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 126,
+          "displayedEpisode": 125,
+          "panels": [
+            17,
+            42
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 129,
+          "displayedEpisode": 128,
+          "panels": [
+            44,
+            45,
+            51
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 132,
+          "displayedEpisode": 131,
+          "panels": [
+            20,
+            71
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 133,
+          "displayedEpisode": 132,
+          "panels": [
+            63
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 135,
+          "displayedEpisode": 134,
+          "panels": [
+            53,
+            54,
+            60,
+            63,
+            67,
+            73,
+            74
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 136,
+          "displayedEpisode": 135,
+          "panels": [
+            21,
+            22,
+            25,
+            31,
+            36,
+            46,
+            58,
+            60,
+            61,
+            64
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W19",
+      "scenes": [
+        "ST077",
+        "ST080"
+      ],
+      "subject": "최강의 희생양",
+      "result": "화신 절반 또는 최강자 한 사람의 죽음, 강화되는 괴수와 비공개 순위를 대조했다. 김독자의 죽음과 유상아 구출의 연결은 추가 본문 검토 대상이다.",
+      "references": [
+        {
+          "episodeNo": 161,
+          "displayedEpisode": 160,
+          "panels": [
+            15,
+            23,
+            38,
+            39,
+            47,
+            60
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W20",
+      "scenes": [
+        "ST095",
+        "ST096",
+        "ST097"
+      ],
+      "subject": "제4의 벽과 최종전 진입",
+      "result": "벽을 꺼서 정보를 노출하는 위험과 다시 끄지 말라는 벽의 반응, 암흑성 최종전 자격을 대조했다. 가족 회상의 세부는 별도 검토 대상이다.",
+      "references": [
+        {
+          "episodeNo": 200,
+          "displayedEpisode": 199,
+          "panels": [
+            4,
+            13,
+            15,
+            21,
+            30,
+            56
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 211,
+          "displayedEpisode": 210,
+          "panels": [
+            7,
+            8,
+            10,
+            11,
+            12,
+            24,
+            25,
+            48
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W21",
+      "scenes": [
+        "ST099",
+        "ST100",
+        "ST101"
+      ],
+      "subject": "사랑하는 존재와 최후의 검",
+      "result": "부활 권능과 신살검의 상성, 이름 없는 성좌의 성흔, 사랑하는 이야기 전체라는 운명의 회수와 추방 뒤 수식언 공표를 보강했다.",
+      "references": [
+        {
+          "episodeNo": 220,
+          "displayedEpisode": 219,
+          "panels": [
+            27
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 221,
+          "displayedEpisode": 220,
+          "panels": [
+            28,
+            29,
+            30,
+            33,
+            35,
+            39,
+            40,
+            42,
+            44,
+            49,
+            61,
+            73,
+            76,
+            90
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 221,
+          "displayedEpisode": 220,
+          "panels": [
+            41
+          ],
+          "method": "official-panel-visually-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W22",
+      "scenes": [
+        "ST102",
+        "ST103",
+        "ST104"
+      ],
+      "subject": "권외 생존의 준비",
+      "result": "설화 덩어리로 무너지는 몸과 미리 구입한 라마르크의 기린 특성이 설화 조각을 먹고 몸을 재구성하는 원리를 보강했다.",
+      "references": [
+        {
+          "episodeNo": 223,
+          "displayedEpisode": 222,
+          "panels": [
+            8,
+            13,
+            14,
+            28,
+            58,
+            60
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 225,
+          "displayedEpisode": 224,
+          "panels": [
+            25,
+            26,
+            29,
+            34
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 225,
+          "displayedEpisode": 224,
+          "panels": [
+            33
+          ],
+          "method": "official-panel-visually-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W23",
+      "scenes": [
+        "ST108",
+        "ST109",
+        "ST110"
+      ],
+      "subject": "혁명가 게임의 역할",
+      "result": "경호를 빌리는 책갈피, 중립인 스파이, 한명오와 협상하는 역할 구도를 대조했다.",
+      "references": [
+        {
+          "episodeNo": 235,
+          "displayedEpisode": 234,
+          "panels": [
+            4,
+            5,
+            7,
+            15,
+            16,
+            18,
+            19,
+            21,
+            47,
+            49
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W24",
+      "scenes": [
+        "ST113",
+        "ST114",
+        "ST115",
+        "ST116"
+      ],
+      "subject": "채널과 혁명의 결말",
+      "result": "독립 채널의 성격, 처형관 전멸과 공장 가동, 아일렌 살해 거부와 특수 해결을 대조했다.",
+      "references": [
+        {
+          "episodeNo": 245,
+          "displayedEpisode": 244,
+          "panels": [
+            26,
+            29,
+            31,
+            35,
+            37,
+            40,
+            43,
+            50,
+            51,
+            62,
+            63,
+            69,
+            72
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 249,
+          "displayedEpisode": 248,
+          "panels": [
+            14,
+            25,
+            30,
+            32
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 253,
+          "displayedEpisode": 252,
+          "panels": [
+            22,
+            25,
+            27,
+            31,
+            40
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W25",
+      "scenes": [
+        "ST120",
+        "ST121"
+      ],
+      "subject": "기억이 다른 스승과 제자",
+      "result": "지난 회차에 배운 유중혁과 현재의 파천검성이 초면이라는 점, 초월좌 모집과 무림 멸망을 보강했다.",
+      "references": [
+        {
+          "episodeNo": 267,
+          "displayedEpisode": 266,
+          "panels": [
+            29,
+            30,
+            31,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W26",
+      "scenes": [
+        "ST122",
+        "ST123",
+        "ST124",
+        "ST125"
+      ],
+      "subject": "미식협의 선택과 소원",
+      "result": "안나가 내놓은 팔찌 원정대와 이리스의 입장, 여성 화신체에서의 파천검도, 보상으로 요구한 예우를 대조했다.",
+      "references": [
+        {
+          "episodeNo": 274,
+          "displayedEpisode": 273,
+          "panels": [
+            5,
+            6,
+            11,
+            14,
+            17,
+            41,
+            63,
+            65,
+            73,
+            83,
+            84,
+            85,
+            86
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 276,
+          "displayedEpisode": 275,
+          "panels": [
+            12,
+            44,
+            46,
+            50,
+            51
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 277,
+          "displayedEpisode": 276,
+          "panels": [
+            12,
+            13,
+            54,
+            55,
+            57,
+            65,
+            70,
+            71,
+            74
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 277,
+          "displayedEpisode": 276,
+          "panels": [
+            59,
+            60,
+            63
+          ],
+          "method": "official-panel-visually-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W27",
+      "scenes": [
+        "ST123",
+        "ST127"
+      ],
+      "subject": "제작자의 차량",
+      "result": "이전 SSS급 보상 차량과 양산형 제작자에게 리스로 얻은 차량을 구별한다. 무료 선물로 바꾸지 않는다.",
+      "references": [
+        {
+          "episodeNo": 281,
+          "displayedEpisode": 280,
+          "panels": [
+            24,
+            25
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 281,
+          "displayedEpisode": 280,
+          "panels": [
+            25
+          ],
+          "method": "official-panel-visually-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W28",
+      "scenes": [
+        "ST127",
+        "ST128",
+        "ST129"
+      ],
+      "subject": "김독자 증명과 키리오스",
+      "result": "한 얼굴의 사칭자 사이에서 스승과의 관계로 증명한다. 장하영의 공격 흔적을 이용해 키리오스를 무림으로 이끄는 연결을 복원했다.",
+      "references": [
+        {
+          "episodeNo": 284,
+          "displayedEpisode": 283,
+          "panels": [
+            7,
+            17,
+            59,
+            68,
+            74
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 285,
+          "displayedEpisode": 284,
+          "panels": [
+            30,
+            31,
+            32,
+            36,
+            42,
+            50,
+            55,
+            56,
+            59,
+            69
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 286,
+          "displayedEpisode": 285,
+          "panels": [
+            1,
+            13,
+            25,
+            37,
+            50,
+            54,
+            55,
+            56,
+            59,
+            61,
+            64,
+            66,
+            78,
+            79,
+            87,
+            88,
+            91,
+            93,
+            95
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 286,
+          "displayedEpisode": 285,
+          "panels": [
+            80
+          ],
+          "method": "official-panel-visually-reviewed"
+        },
+        {
+          "episodeNo": 287,
+          "displayedEpisode": 286,
+          "panels": [
+            9,
+            19,
+            36,
+            49,
+            50
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W29",
+      "scenes": [
+        "ST129",
+        "ST130",
+        "ST131",
+        "ST132",
+        "ST133"
+      ],
+      "subject": "특성창·비유 구출·전초전",
+      "result": "자기 정보 확인 후 비유의 납치, 비형의 부상과 유중혁의 구출, 공민 해방과 핵 이동 및 설화 융합을 대조했다.",
+      "references": [
+        {
+          "episodeNo": 288,
+          "displayedEpisode": 287,
+          "panels": [
+            33,
+            55
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 289,
+          "displayedEpisode": 288,
+          "panels": [
+            25,
+            28,
+            58,
+            59,
+            62,
+            63,
+            66,
+            71,
+            79
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 290,
+          "displayedEpisode": 289,
+          "panels": [
+            8,
+            11,
+            13,
+            21,
+            26,
+            42,
+            44
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 291,
+          "displayedEpisode": 290,
+          "panels": [
+            3,
+            30,
+            31,
+            35,
+            37,
+            44,
+            45,
+            58,
+            61,
+            62,
+            67,
+            68,
+            69,
+            75,
+            76
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W30",
+      "scenes": [
+        "ST137",
+        "ST138",
+        "ST139"
+      ],
+      "subject": "유희의 지배자와 역할 전환",
+      "result": "첫 승리의 주역은 유중혁의 특성이다. 이후 경기에서는 포지션을 바꾸며 적의 대응에 맞선다.",
+      "references": [
+        {
+          "episodeNo": 298,
+          "displayedEpisode": 297,
+          "panels": [
+            29,
+            30,
+            48,
+            57,
+            64,
+            69,
+            70,
+            79
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W31",
+      "scenes": [
+        "ST144",
+        "ST145",
+        "ST146",
+        "ST147",
+        "ST148"
+      ],
+      "subject": "정산 지연과 회귀 거부·지원",
+      "result": "아스모데우스의 개입, 대환단과 회귀 취소, 장하영의 메시지·척준경·거대 설화 성장·우리엘 현현을 대조했다. 늦게 오는 정희원과 이미 떠난 키리오스의 조기 표시를 수정했다.",
+      "references": [
+        {
+          "episodeNo": 308,
+          "displayedEpisode": 307,
+          "panels": [
+            50,
+            58,
+            59,
+            77
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 309,
+          "displayedEpisode": 308,
+          "panels": [
+            25,
+            45,
+            51,
+            55,
+            69
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 310,
+          "displayedEpisode": 309,
+          "panels": [
+            6,
+            7,
+            28,
+            30,
+            55,
+            60,
+            61,
+            89
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 311,
+          "displayedEpisode": 310,
+          "panels": [
+            24,
+            26,
+            28,
+            34,
+            49
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 312,
+          "displayedEpisode": 311,
+          "panels": [
+            35,
+            37,
+            50,
+            51,
+            58,
+            60,
+            71,
+            92
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 312,
+          "displayedEpisode": 311,
+          "panels": [
+            91,
+            92
+          ],
+          "method": "official-panel-visually-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W32",
+      "scenes": [
+        "ST068",
+        "ST069",
+        "ST070",
+        "ST071"
+      ],
+      "subject": "피스랜드 전투와 보상 무구의 순서",
+      "result": "키리오스의 개입 제약, 토츠카노츠루기의 선행 확보, 전투 후 뱀술을 통한 초체검·여덟 목숨을 구별했다. 불살의 왕은 내주며 여덟 목숨에는 대기 시간이 있다. 후속 보상을 전투 전에 지급하던 상태를 수정했다.",
+      "references": [
+        {
+          "episodeNo": 139,
+          "displayedEpisode": 138,
+          "panels": [
+            6,
+            18,
+            33,
+            43,
+            49
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 142,
+          "displayedEpisode": 141,
+          "panels": [
+            36,
+            37,
+            38
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 143,
+          "displayedEpisode": 142,
+          "panels": [
+            9,
+            45
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 144,
+          "displayedEpisode": 143,
+          "panels": [
+            11,
+            12,
+            15,
+            39,
+            50
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 145,
+          "displayedEpisode": 144,
+          "panels": [
+            19,
+            38,
+            40,
+            42
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 146,
+          "displayedEpisode": 145,
+          "panels": [
+            4,
+            14,
+            17
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 147,
+          "displayedEpisode": 146,
+          "panels": [
+            26
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 166,
+          "displayedEpisode": 165,
+          "panels": [
+            7,
+            8,
+            9,
+            11
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W33",
+      "scenes": [
+        "ST072"
+      ],
+      "subject": "영혼 회수와 환생체의 선택",
+      "result": "여왕 부재 중 심판관에게서 받는 영혼, 신유승의 동의와 기억 손실 위험, 인간 육신의 부활과 다른 도깨비 환생 경로를 보강했다.",
+      "references": [
+        {
+          "episodeNo": 147,
+          "displayedEpisode": 146,
+          "panels": [
+            31,
+            38,
+            39,
+            41,
+            43,
+            45,
+            49,
+            52,
+            54,
+            55,
+            57,
+            58,
+            59,
+            60,
+            62,
+            63,
+            70
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W34",
+      "scenes": [
+        "ST075",
+        "ST076"
+      ],
+      "subject": "이현성의 자발적인 선택과 담금질",
+      "result": "멀리서 이입한 김독자가 제시한 포기·살해의 해법을 이현성이 거부한다. 강철의 주인 설득, 강철화 각성 뒤에도 견뎌야 하는 고열을 복원했다.",
+      "references": [
+        {
+          "episodeNo": 154,
+          "displayedEpisode": 153,
+          "panels": [
+            12,
+            13,
+            18,
+            32,
+            33,
+            50,
+            56
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 155,
+          "displayedEpisode": 154,
+          "panels": [
+            9,
+            10,
+            11,
+            22,
+            27,
+            40,
+            41,
+            44,
+            47,
+            49,
+            52,
+            63
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 156,
+          "displayedEpisode": 155,
+          "panels": [
+            5,
+            6,
+            13,
+            15,
+            18,
+            25,
+            34,
+            35,
+            36
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 157,
+          "displayedEpisode": 156,
+          "panels": [
+            11,
+            12,
+            19
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W35",
+      "scenes": [
+        "ST080",
+        "ST081",
+        "ST082",
+        "ST083",
+        "ST085"
+      ],
+      "subject": "귀환 대기·별자리 연회·성좌화",
+      "result": "희생양 종료 뒤 곧바로 부활시키던 상태를 수정했다. 육신 밖에서 연회에 참가하고 늦게 귀환하며, 이름 없는 성좌가 된 상태로 암흑성에 들어간다.",
+      "references": [
+        {
+          "episodeNo": 163,
+          "displayedEpisode": 162,
+          "panels": [
+            31,
+            48,
+            51,
+            53
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 164,
+          "displayedEpisode": 163,
+          "panels": [
+            16,
+            18,
+            21,
+            25,
+            54,
+            65
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 165,
+          "displayedEpisode": 164,
+          "panels": [
+            10,
+            35,
+            44,
+            47,
+            69
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 166,
+          "displayedEpisode": 165,
+          "panels": [
+            7,
+            8,
+            9,
+            11,
+            38,
+            39,
+            40,
+            43,
+            45,
+            49,
+            51
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 168,
+          "displayedEpisode": 167,
+          "panels": [
+            61
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 171,
+          "displayedEpisode": 170,
+          "panels": [
+            7,
+            12,
+            46,
+            54,
+            58,
+            61
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 172,
+          "displayedEpisode": 171,
+          "panels": [
+            14,
+            40,
+            41,
+            43,
+            49,
+            57,
+            71
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 173,
+          "displayedEpisode": 172,
+          "panels": [
+            52
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 174,
+          "displayedEpisode": 173,
+          "panels": [
+            52,
+            55,
+            56,
+            62,
+            63,
+            77,
+            79
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 178,
+          "displayedEpisode": 177,
+          "panels": [
+            60,
+            61,
+            67
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 179,
+          "displayedEpisode": 178,
+          "panels": [
+            20,
+            43,
+            44
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W36",
+      "scenes": [
+        "ST086",
+        "ST087",
+        "ST088",
+        "ST089",
+        "ST090",
+        "ST091"
+      ],
+      "subject": "낙원을 떠난 독자와 남은 동료들",
+      "result": "김독자는 원작 흐름에 맡기며 떠나지만 정희원은 감옥을 조사한다. 사람을 괴수와 양분으로 쓰는 공급지, 외부 뿌리 공략과 유중혁의 전투, 단순 예측과 다른 운명을 보강했다. 김독자를 현장 전투자로 잘못 표시한 부분을 제거했다.",
+      "references": [
+        {
+          "episodeNo": 184,
+          "displayedEpisode": 183,
+          "panels": [
+            2,
+            3,
+            6,
+            7,
+            28
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 185,
+          "displayedEpisode": 184,
+          "panels": [
+            5,
+            51,
+            54,
+            56,
+            58
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 186,
+          "displayedEpisode": 185,
+          "panels": [
+            23,
+            31,
+            55
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 187,
+          "displayedEpisode": 186,
+          "panels": [
+            9,
+            12,
+            13,
+            17,
+            18,
+            40
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 188,
+          "displayedEpisode": 187,
+          "panels": [
+            7,
+            28,
+            47,
+            53
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 190,
+          "displayedEpisode": 189,
+          "panels": [
+            25,
+            26,
+            36,
+            65,
+            66,
+            71
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 191,
+          "displayedEpisode": 190,
+          "panels": [
+            2,
+            21,
+            33
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 192,
+          "displayedEpisode": 191,
+          "panels": [
+            73
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W37",
+      "scenes": [
+        "ST142",
+        "ST143",
+        "ST144",
+        "ST145"
+      ],
+      "subject": "베르칸·김독자의 사망과 양쪽 문장 탈취",
+      "result": "공식 웹툰 본문에서 적 공작이 베르칸임을 시각 확인했다. 공작을 죽인 직후 김독자도 수르야에게 죽고 아군 문장이 탈취되어 판정이 지연된다. 단순 기절과 확정 승리로 처리하던 대본·상태를 수정했다.",
+      "references": [
+        {
+          "episodeNo": 303,
+          "displayedEpisode": 302,
+          "panels": [
+            60
+          ],
+          "method": "official-panel-visually-reviewed"
+        },
+        {
+          "episodeNo": 304,
+          "displayedEpisode": 303,
+          "panels": [
+            56
+          ],
+          "method": "official-panel-visually-reviewed"
+        },
+        {
+          "episodeNo": 304,
+          "displayedEpisode": 303,
+          "panels": [
+            59,
+            61
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 305,
+          "displayedEpisode": 304,
+          "panels": [
+            6,
+            9,
+            10,
+            35,
+            41
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 306,
+          "displayedEpisode": 305,
+          "panels": [
+            31
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W38",
+      "scenes": [
+        "ST061",
+        "ST115"
+      ],
+      "subject": "타르타로스에서 플루토까지",
+      "result": "명계에서 만난 김남운의 영혼이 거신병 플루토의 시스템으로 응답하는 연결을 보강했다.",
+      "references": [
+        {
+          "episodeNo": 113,
+          "displayedEpisode": 112,
+          "panels": [
+            48
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 114,
+          "displayedEpisode": 113,
+          "panels": [
+            14
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 252,
+          "displayedEpisode": 251,
+          "panels": [
+            24,
+            28,
+            40
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W39",
+      "scenes": [
+        "ST094",
+        "ST095",
+        "ST096"
+      ],
+      "subject": "꿈을 먹는 자와 가족의 다시 읽기",
+      "result": "재앙 유통책과 41회차 신유승의 연결, 삼켜진 이수경과 신격을 벽이 포식하는 사건, 모자의 기억과 기록을 다시 읽는 순서를 대조했다.",
+      "references": [
+        {
+          "episodeNo": 204,
+          "displayedEpisode": 203,
+          "panels": [
+            15,
+            16,
+            27,
+            29
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 205,
+          "displayedEpisode": 204,
+          "panels": [
+            19
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 207,
+          "displayedEpisode": 206,
+          "panels": [
+            15,
+            19,
+            21,
+            33
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 208,
+          "displayedEpisode": 207,
+          "panels": [
+            45,
+            48,
+            56,
+            68
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 209,
+          "displayedEpisode": 208,
+          "panels": [
+            24,
+            25,
+            32,
+            43,
+            46,
+            62,
+            103
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 210,
+          "displayedEpisode": 209,
+          "panels": [
+            2,
+            8,
+            29,
+            44,
+            52,
+            64
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W40",
+      "scenes": [
+        "ST118",
+        "ST121",
+        "ST122",
+        "ST127"
+      ],
+      "subject": "거대 설화의 지분과 무림의 거래",
+      "result": "아스모데우스에게 제시한 삼십 퍼센트와 실제 기여로 정해지는 지분을 구별했다. 거신족 일족을 만날 약속·도깨비의 대회 상품 거래·명계에서 온 미식협 초대와 돌아온 뒤의 차량 리스를 보강했다.",
+      "references": [
+        {
+          "episodeNo": 257,
+          "displayedEpisode": 256,
+          "panels": [
+            59
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 258,
+          "displayedEpisode": 257,
+          "panels": [
+            24,
+            26,
+            28,
+            30,
+            31,
+            35,
+            36,
+            38,
+            39,
+            41,
+            46,
+            60,
+            62
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 269,
+          "displayedEpisode": 268,
+          "panels": [
+            37,
+            38,
+            40,
+            41,
+            42,
+            46,
+            48,
+            49,
+            50,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            85,
+            88,
+            94
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 270,
+          "displayedEpisode": 269,
+          "panels": [
+            62
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 277,
+          "displayedEpisode": 276,
+          "panels": [
+            13
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 281,
+          "displayedEpisode": 280,
+          "panels": [
+            25
+          ],
+          "method": "official-panel-visually-reviewed"
+        }
+      ]
+    },
+    {
+      "id": "W41",
+      "scenes": [
+        "ST135",
+        "ST136",
+        "ST137",
+        "ST138",
+        "ST139",
+        "ST140",
+        "ST141"
+      ],
+      "subject": "최초 일곱 포지션과 원군의 경계",
+      "result": "사명대사 탱커, 김독자·파천신군 근접, 장하영·오수 원거리, 한명오 서포터, 유중혁 올라운더 편성을 공식 장면과 대조했다. 뒤의 역할 변경과 지구 동료의 원군을 별도로 다룬다.",
+      "references": [
+        {
+          "episodeNo": 294,
+          "displayedEpisode": 293,
+          "panels": [
+            46,
+            47,
+            48,
+            49
+          ],
+          "method": "official-panel-visually-reviewed"
+        },
+        {
+          "episodeNo": 298,
+          "displayedEpisode": 297,
+          "panels": [
+            29,
+            30,
+            48,
+            64,
+            69,
+            70,
+            79
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 299,
+          "displayedEpisode": 298,
+          "panels": [
+            25,
+            27,
+            44
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 300,
+          "displayedEpisode": 299,
+          "panels": [
+            17
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 301,
+          "displayedEpisode": 300,
+          "panels": [
+            58,
+            60,
+            62,
+            64
+          ],
+          "method": "official-panel-text-reviewed"
+        },
+        {
+          "episodeNo": 302,
+          "displayedEpisode": 301,
+          "panels": [
+            5,
+            12,
+            65
+          ],
+          "method": "official-panel-text-reviewed"
+        }
+      ]
+    }
+  ],
+  "remainingReview": [
+    "각색 대사의 문장별 원작 충실도 전수 검수",
+    "선택 사실 이외의 컷·장면 누락 검사",
+    "일부 조역의 전용 SD 외형과 등장 형태",
+    "웹툰 미각색 결말 ST149–ST153의 소설 원문 대조"
+  ]
+}

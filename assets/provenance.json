@@ -1,0 +1,309 @@
+{
+  "notes": [
+    "Original reference panels remain outside the distributable asset directory.",
+    "Generated redraws are not pixel-identical reproductions.",
+    "Reference-inspected records do not imply every novel or promotional illustration is a webtoon panel."
+  ],
+  "references": {
+    "/workspace/scratch/orv-visual-references/pildu.webp": {
+      "image": "https://i.namu.wiki/i/g11e6wIBrL7_FhHf94YR1OX8BasDzjSwpwJ0Bf76czWFtD1ZX49x2AU4mHOIC09HNwymMODP5mE-Fy8T_QPNXH1RffecZl57ZYhApmmIEzUJG8fmI0Xd-YTKkixW4P8jb3rQ5q0Lv-0XhXUh8YAouw.webp",
+      "page": "",
+      "caption": "133화공필두",
+      "medium": "visual-reference; source medium must be checked separately"
+    },
+    "/workspace/scratch/orv-visual-references/hayoung.webp": {
+      "image": "https://i.namu.wiki/i/kXFRtmEqhsBZRHL-Vz9kn5lgfWdZMqiaNLPyAuQVyA3Fvd3uVyoX4DVW4WHDUJ6JADH0Fyl70vt8XU54l3N4yvVM_uprvgZI0KaTT8HJCTp7myyKJoRbbVtRmajdIPBECnzEbrfLQO_oxGnslK1Pcg.webp",
+      "page": "",
+      "caption": "246화 장하영",
+      "medium": "visual-reference; source medium must be checked separately"
+    },
+    "/workspace/scratch/orv-visual-references/bihyung.webp": {
+      "image": "https://i.namu.wiki/i/NOvbcJMHEZLcHmU4AlSnra2Mf3hK4pFEVgi6qJEGtMsWQ4p5eK1kmwsIiqjIlpVY10A0SVMZ-3dfAL7TqNlY7X_rFYVlLLTA49qiTuZEI6U38ozZ1Al9wfGmK2dODZq5S1i7sb3iJOFHdKDPTBplug.webp",
+      "page": "",
+      "caption": "75화비형",
+      "medium": "visual-reference; source medium must be checked separately"
+    },
+    "/workspace/scratch/orv-visual-references/biyoo.webp": {
+      "image": "https://i.namu.wiki/i/t2QpshttNS8Oloi5sh6EoM1MIRL782qkWkKMjw1z9fvL-FlaqAt_4XLCR3Myzpfy7EtkyPREbosoA5WXwYqfy3iH9VNJlGy7EYSsAukPR2RYA1arSYSAQkPmo1oWbU-_GLXS_uS8ED8aTtpbfOyJiQ.webp",
+      "page": "",
+      "caption": "비유 테두리삭제",
+      "medium": "visual-reference; source medium must be checked separately"
+    },
+    "/workspace/scratch/orv-visual-references/kyrgios.webp": {
+      "image": "https://i.namu.wiki/i/cPWPfs0kFmh9xbG5uqmCM_3Ke_oE-tT-nBOh9f_rbiZseAhhF1JDZUUrwSyIaRaM9aqNKD0Rg0tCEDkGqBr28RGlg-aettNNWBii2ReAJYbInoaNwOqUjYdS5HSP95tZSz4lbdmR-aJcOOasEeYMpQ.webp",
+      "page": "",
+      "caption": "전독시 인물 키리오스 로드그라...",
+      "medium": "visual-reference; source medium must be checked separately"
+    },
+    "/workspace/scratch/orv-visual-references/sookyung.webp": {
+      "image": "https://i.namu.wiki/i/UDCdDOy3qtCnBnVEPXRX6Oor_LRYrUofz5FHrYtnzNpre4-EFMFHvlTPomWZ--yYdp5bltQDTI9P2kCPHKC1BATmo42aUFcWi53L-Fy0tBE7eJmIsWH6uuju6Y3qWUNei1M9c0SDZzEWbqfVplp2Ug.webp",
+      "page": "",
+      "caption": "전독시 인물 이수경",
+      "medium": "visual-reference; source medium must be checked separately"
+    },
+    "/workspace/scratch/orv-visual-references/myungoh.webp": {
+      "image": "https://i.namu.wiki/i/a0lT615Ry-qm5uN5yGWv4KMzr-4a-OTAJtgPF9fWjft4poHZI9AdFaAVbh1k3t-6gq2C071TeoVYCv8yjvDr6lzisd02NrK2WBi5QJma5M7nJxB6Ilbit7kcIEF0UwTfUZZSXyn9a2WoHH3SlcAz0Q.webp",
+      "page": "",
+      "caption": "한명오 공단편",
+      "medium": "visual-reference; source medium must be checked separately"
+    },
+    "/workspace/scratch/orv-visual-references/nirvana.webp": {
+      "image": "https://i.namu.wiki/i/RVLB3ySyYm8sXfIOlFmHhpthFuBj8jz-SSxS79mgKfkLIpjpDNBdcpUBrl7sVWa2GV6YvOQyZgb4voiwaFCv05rQBYqD2XMC__vcZpOk8lA7BwojN4Q8g41bKthT1luWB1sL4wrqs3rRgJF0PABsNw.webp",
+      "page": "",
+      "caption": "니르바나 프로필",
+      "medium": "visual-reference; source medium must be checked separately"
+    },
+    "/workspace/scratch/orv-visual-references/surya.webp": {
+      "image": "https://i.namu.wiki/i/Oss7aTwp8c9F8R8miNY9Ay-8ABrfyG3YsfH0BOH0o0NpvZXjnV2enlHj8FEMI5IsbGKd2A31UHo0-4uBky1nU_GRROUNrdV1OeoiYBfyCk3G5fu_Doxiw6azNF9PYGoSHC8c5wVr2es8LAP8mZ93BQ.webp",
+      "page": "",
+      "caption": "수르야 프로필",
+      "medium": "visual-reference; source medium must be checked separately"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/namwoon-0.webp": {
+      "image": "https://i.namu.wiki/i/ffYnsBiEwF6xskt1G39rrpnyBIw8ffet10VZndYMqVKjERqcu7H0crUNE8z11r3x-WqCnq39G-YgVzoKeu9_MfN83CMgBAgEESXloJI5O15oPVLSb9yg5msXbMeMLFHbcjuelJ_tw8OYAXnw8GBtIw.webp",
+      "page": "https://namu.wiki/w/%EA%B9%80%EB%82%A8%EC%9A%B4",
+      "caption": "전독시 인물 김남운",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/inho-0.webp": {
+      "image": "https://i.namu.wiki/i/vBxpbbfXYDl_futOw91n_92DUHJKfe6oKUUCFtTtM6CZscK3g3C2kSbKHldslllE6zyrBZ0wkSuBwqk3AhF9-QM45SD9-Jt-L_SHvpv-liyn85iTct8G6xbNryx4j0WCsnkKgCZ2894d3FSZEiciyg.webp",
+      "page": "https://namu.wiki/w/%EC%B2%9C%EC%9D%B8%ED%98%B8",
+      "caption": "전독시 인물 천인호",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/seolhwa-1.webp": {
+      "image": "https://i.namu.wiki/i/72qq9Z4AZr_TmGzSrH1xRxFhnFXGWVTx6ftFV-uBLwSHpagvkD2tNeQ9xo0yfvb-7GsEstknvDSBa6f2wMPrMdFAN6ZPwG2EsS3sVFF9GRngWQj9kSANIM859MG1-2F-Vn2_wcd5T5tiftKsgGCvyQ.webp",
+      "page": "https://namu.wiki/w/%EC%9D%B4%EC%84%A4%ED%99%94",
+      "caption": "전독시 인물 이설화",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/mia-0.webp": {
+      "image": "https://i.namu.wiki/i/PTD8tJk8-p3ghp73itczqNdZslw8khFdyVX93joi27QYN4L4DwASxwhSRodi5v3lwxjjSNTLByNtMzdkc_TvklPGy269QX833GbdrNQozREB8vR2JS7FbffGO6sKubrahGCpVn6GV5gfbveiLCjLGA.webp",
+      "page": "https://namu.wiki/w/%EC%9C%A0%EB%AF%B8%EC%95%84",
+      "caption": "유미아 178화",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/anna-1.webp": {
+      "image": "https://i.namu.wiki/i/U81zk2dHvR2cQ92tIp0BVggu0cGeRN9LkKmNzMlB8ptTqOY9VaNiEfiX5RjI8yKjeVIJE-SGnCrk-iFG4Z7kwNRg6MuL7zmkXzBWqwsF_8XgmpyVNhsXqN_5lGb8AbHMG5SO7xiQSv160Pk7Fg5lDg.webp",
+      "page": "https://namu.wiki/w/%EC%95%88%EB%82%98%20%ED%81%AC%EB%A1%9C%ED%94%84%ED%8A%B8",
+      "caption": "안나크로프트 미식협",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/jiwon-0.webp": {
+      "image": "https://i.namu.wiki/i/V77CQ7AKdx5aoQjUr3eEQX0imwkywyrkQH4UAVEP5h2tD6L1GACjScnXh0injmR0FvTCdnRqcOxtHCyc_OGrhIQTZlAhBoZmU2tchIwUpoSpTLJBzpjrHhKqd7CvYSeUi3CFhKHW-DJYahXbLeojHg.webp",
+      "page": "https://namu.wiki/w/%EB%AF%BC%EC%A7%80%EC%9B%90",
+      "caption": "전독시 민지원",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/sword-saint-1.webp": {
+      "image": "https://i.namu.wiki/i/wrrgqb3iXcdamqmB8jhNdZ56MNRFptDNaLo732LPetIYzRLJkntR8HwJhRZWBsAqB9sk6RgeMzvir8LrmZKvtYro8pkOmiQh_8G8nDYjwQHQuiIIVpc9AilGOUMNYtifveY3njqbw1aAFO8quX02VQ.webp",
+      "page": "https://namu.wiki/w/%ED%8C%8C%EC%B2%9C%EA%B2%80%EC%84%B1",
+      "caption": "IMG 전독시 파천검성",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/maker-0.webp": {
+      "image": "https://i.namu.wiki/i/-_OvPMorAigaqAt9qCFM_PlVJNW1429l8cZQGNS0yGi5DBwd6beudg3zkkBtgPa6C1fYOWzWm3y49ZV3d0ZB0tcPZdRyHlYRlscHUeKc74rMscP0v0ynHgN2WcMC3Z2WNkUif-UvLnxHqG3qBmJuvA.webp",
+      "page": "https://namu.wiki/w/%EC%96%91%EC%82%B0%ED%98%95%20%EC%A0%9C%EC%9E%91%EC%9E%90",
+      "caption": "양산형 제작자",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/uriel-1.webp": {
+      "image": "https://i.namu.wiki/i/FN6JZnj52Zs9j8QSxTJOkdfBELAiJsbVz5tbmKpvLkDR2Pa-a4HejQN5U-8tbHkQPY0oZy4WRyyujld7j88TganY3DsH2fy0ZrrZo-trreqqHwWYigTaKzzz2QUXO8YXNPpNO_QGv3lxIbx0p3fUxg.webp",
+      "page": "https://namu.wiki/w/%EC%9A%B0%EB%A6%AC%EC%97%98%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "caption": "우리엘 강림",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/persephone-0.webp": {
+      "image": "https://i.namu.wiki/i/B93iaQ1EhPwS0JWRPNFsiOm4fDsCWmrgZunWKwbh2KKgj7-MPR19SOZa08oBXNCIGeZMvotNULONC7t9hHJgooTeLt7q1qRbzn43_9bHLd7KCk3fbmXhRGkO37ngAJOTKo_7qOdYKvhvV38e4njeng.webp",
+      "page": "https://namu.wiki/w/%ED%8E%98%EB%A5%B4%EC%84%B8%ED%8F%AC%EB%84%A4%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "caption": "전독시 인물 가장 어두운 봄의...",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/yeonggi-1.webp": {
+      "image": "https://i.namu.wiki/i/6OEvzL_IHsB-KoeuFBDeGpzz678LT_pS6arC2MOx0jKmoSkLyYkVBBPOicRSULAXY8nVWrgGEN_2aAFbIcr2XkXxUZZLmP-ln96TV1GzLFdXvACthynzBTltsNvwEmK8ut70MFmHR9leRzzsHqrDgQ.webp",
+      "page": "https://namu.wiki/w/%EC%98%81%EA%B8%B0%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "caption": "전독시 인물 영기",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/hades-1.webp": {
+      "image": "https://i.namu.wiki/i/OLltrAECFeFC07dgJArfstVrIuEOR1jsOkCKJLQkEL-FmFREWBzrJL7cNu7_yz616rhrlWnENZ_NQ_XI9AziHc730_4ZanJvFolyxe55fNoH9xIuVUHLOS9SEbErCmE714ZFEemMuUbZQTkEEdNFrQ.webp",
+      "page": "https://namu.wiki/w/%ED%95%98%EB%8D%B0%EC%8A%A4%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "caption": "전독시 인물 부유한 밤의 아버...",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/sun-wukong-1.webp": {
+      "image": "https://i.namu.wiki/i/h7pxus3odvSFws0KMMxLEIeb_UJKVKFBkOo3nAUgBAvqa8wYiD0y7PYvv7v767wMkVQOyG6lT3PRUTmXlWI9NKbKKX_RflxY4i4SEeTXjeBoBeSopnW5JGEch1PlwiHbab2TgCPjsarmeCsdy3IwaA.webp",
+      "page": "https://namu.wiki/w/%EC%A0%9C%EC%B2%9C%EB%8C%80%EC%84%B1%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "caption": "제천대성 전독시",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/jun-gyeong-0.webp": {
+      "image": "https://i.namu.wiki/i/ZSPMaueZ85K3k1i8MrhaApkQZjQW1Meeiuuwd1oZXY5MJPtj-7ayGcnSnKtIhZJvj70D_ZewzWGO0Do-x1w6WXb8HgFjaQVlPj_VNvHJiu1XwzjbOGTZPaWSRNzj_W-2iaRTEPmezXIm5aJuGb5H9A.webp",
+      "page": "https://namu.wiki/w/%EC%B2%99%EC%A4%80%EA%B2%BD%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "caption": "고려제일검",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-0.webp": {
+      "image": "https://i.namu.wiki/i/PopHlp-d-J0VWI_jRTJqbYnTJiN-kKmqB12-qLvjkmQfYawcdp5tZVXHzBqdValZc3Wysr14Y_ZTMzzQJXoRcy6VyYEmNPbLm7423hZIhe3sZqYHahCCCEwWOwhMvmJXr03xftTfyoO358bgfGAJ1A.webp",
+      "page": "",
+      "caption": "전독시 인물 이성국",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-1.webp": {
+      "image": "https://i.namu.wiki/i/op_l1fEaAvPVb2NrF7vTtVC1MHOkngd4J2Yx9I9z-r_ob98d4SmArqEv5jWUdT64xotqixVaDtliFK64BRJsBGmVCaPLjsYNmTlIMopc_truEEvJUZcc0XQinzvqM6k2HndZnMadwBJh51HaK3d3HA.webp",
+      "page": "",
+      "caption": "전독시 인물 정민섭",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-2.webp": {
+      "image": "https://i.namu.wiki/i/oAJ1nhFfyctnF_2OCP9sd8NQZKUwwNM-WQHYRtct-73IK-l2P3DuQHX5mAd4fv75izoD0FJlG8HJSadX03DHkMf_3k4iw8F9odE8FOFnx3iaDPP0ylBUc_Ei9Rx5QNdDhLoHVV6XAgBbBkDdXYmc3Q.webp",
+      "page": "",
+      "caption": "전독시 인물 윤성호",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-3.webp": {
+      "image": "https://i.namu.wiki/i/2wS0Om_kJo4kxtDiFpA-9CsDKIVhEW55yw1QJmAhVz3WwzR9Vn-vbepXPLBZCfeRHomdPkUnpi592OHuVagWDGX-Wq4AMLpFsNkdlguNp8TI5YNQLXvtgg-cgCBnGGPP70KSeTzwH_n_6w8teXIvvQ.webp",
+      "page": "",
+      "caption": "웹독시 아스모1",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-4.webp": {
+      "image": "https://i.namu.wiki/i/-0E7okEgK8v1p_HhQbdDe4pbNtnGinnBGz8HFPbBG94e0on5SFkj27ASUn4w3132nTVSUzgYzxIusNvdzhSHIAVmf5TST8i3tsyjrlKo6a-_89TX2Xq4Q8AWCymISS0qeZEIyiO-4ku1NrB5nNgPJw.webp",
+      "page": "",
+      "caption": "전독시 인물 방철수",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-5.webp": {
+      "image": "https://i.namu.wiki/i/x02WEEiaaZmEQsuxaZDBXCNi8FPj63WJsUjRVzUqFJxnUWxtTYNCrISUcrQf89NMAGmzfQYmRzdGoaIR2Li7cOfYEin3miYivfE5TXy6pqNG7_-opUKi_EBXmgHkjjtUcvQxPk02DBkziIkNKPp1IA.webp",
+      "page": "",
+      "caption": "전독시 인물 강일훈",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-6.webp": {
+      "image": "https://i.namu.wiki/i/6PdumHkKoPn1wXvTVgZgtZTcqPlARo57cIe0kOueYt7fTSiYFOLfAhy-uMiMgBiqHvmKKsIJFfyb-loN6nmaJ8g-iMw9heYhXZmM3uaApbEe-CriSBRZ-2vOTHeCUOPdX2FPL_9xC7eBjNUXyM6pjw.webp",
+      "page": "",
+      "caption": "전독시 인물 한동훈",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-7.webp": {
+      "image": "https://i.namu.wiki/i/Px-mpuCSNyaIznZ9-KR5AmWTJSn6IuV5zUk9kSDsPIdlo6vuKuXmGvZ13jCXnp6bysh_jdUm_5J0keYyd-FBqhiDKDXXYVPbn_x2ByXoV9LIcQUW-pt4UGYxanMSxi8LFsqimhIwylBBdsnFCHQ4sg.webp",
+      "page": "",
+      "caption": "전독시 인물 추왕인",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-8.webp": {
+      "image": "https://i.namu.wiki/i/2flK985sz84lIYH7LiDmFsLATL4pU4k7ZIIDX6_J6FA-kg-GicguPMeW6bPLiGsqkrwlEN3yVkFbX7VbJhs3jAVt2v7oBxmzdqZHUyzzIIwESTxU15O0rhVYX6leRgA26dx8sNxlRxGu-hjNP61Ckw.webp",
+      "page": "",
+      "caption": "전독시 인물 황승민",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-9.webp": {
+      "image": "https://i.namu.wiki/i/pHt_FrT5grzltThT5q2oIkIvPI8OfBbR7_dX4n3Gcui-ZxuZ4TOnNJO_BqJgxgdvp11j4LyCXJP16AZM2Pr4dPjX3bd7Z3Px26VjC8xreMhSmdwo0vq3fNC1AsnHYWl7Ye0tVzJpkkc05tIjFL2upA.webp",
+      "page": "",
+      "caption": "전독시 인물 차상경",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-10.webp": {
+      "image": "https://i.namu.wiki/i/txzyyd0W9fgxhjxaLI4_m2WlzIOJhVs3muhQArHzVcO3juv_h1hjO_kgFFz9f2pW7ntw-dEtS7QTcgkp4zpRIDcEmQsamtcJWmaXITKFSMfklCBGz_tDubBiD0oontuE5S0cfv_teNQprgYLQlffCg.webp",
+      "page": "",
+      "caption": "전독시 인물 구태성",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-11.webp": {
+      "image": "https://i.namu.wiki/i/beLQ0fwR37JFtsV4dvkI9jRxe8faBzbiv--nshppCavwdonlDIqwmOjzMTfB1wHy0l7K4btNSOZG7gisooj2KNRD0YeSbFZvcY1He8wUdvtKMKuDJcg3E12CrJQD4d8b2TL8cG2cJqO_IfnaFjapKA.webp",
+      "page": "",
+      "caption": "전독시 인물 정용후",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-12.webp": {
+      "image": "https://i.namu.wiki/i/3P9xPfkkp9pGtsPVqDXfvGjETiw9togC41cBubxnhtNS_AIztZ2LsulIKF7s1bElXIfr9BqIsVH2jrZ7nF5CbF73ROvNQn14OqA4X-hJrA7OI9J015XDw6fcY8xBH1vjf1IEz80Qr5Lf_4B4t8bwvw.webp",
+      "page": "",
+      "caption": "전독시 인물 전일도",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-13.webp": {
+      "image": "https://i.namu.wiki/i/A6enRmVQplnXr0vn1o99qPaEwy91kOGtbzUm6isyPkq0WT4gI-idr4WUexCyAzou3wmglOXVt8-1wx3ctnp5x6K_1Zk4hA_y4-8G59T9AQ0vlKDyb6CiS2fV7CfPYg0lVAYIBzAc7fgHJysRHVCOCg.webp",
+      "page": "",
+      "caption": "셀레나킴 전독시",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-14.webp": {
+      "image": "https://i.namu.wiki/i/OQTaebHdSnUFeFuEEYRf5MZtpx-xBovl4snr_fdiQQhHH6akrs0j5C3Ym46W7RibgPGSaNZk_eOCcI1dHmh-OTjaMSQXljuGw1LEES8XnFya3BzjIClUT7EHgB69Yc6LWnZRBeVKbNhRU6D0ZrjX7w.webp",
+      "page": "",
+      "caption": "이리스 전독시",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/cast-15.webp": {
+      "image": "https://i.namu.wiki/i/At1Mbh5hMn7szMOfhOmmFfZmC2hpVY_XD2P3KbVPtP3CVlcLuoWD4_SF_N3dGFPHwAg1o2LLZCRF55qNBvCrayuLdPSVgMKzOC3Uhb8m4gu5r6SiosMCr4sNa0m1Z00F2jv-AkUGF8WqT5WegS3YZg.webp",
+      "page": "",
+      "caption": "전독시 인물 독각",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/dokja-3.webp": {
+      "image": "https://i.namu.wiki/i/RulmT7vCf5ZyzKF4S3vj8CVZGHOieMzPiJqM9UXUfB_CXFYspEWdrmOL4_9DSPdUltLR9K5bEhkibHs-LMhs4W60VTqOR3aez4NUfi-dzKxphAo38CITa7WVB0Rx9z9x5Jz0P98vlO2_bxo31NOgOw.webp",
+      "page": "",
+      "caption": "부러지지않는신념",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/dokja-4.webp": {
+      "image": "https://i.namu.wiki/i/ulX1k6MsrSdAaSgFQBNvFnehyEmkQSJ3dYcoXYYgYxm19WKApQ4arKfbbUVpi_LjX4NOIyI_5HNhA4NwDKS4nNF8Md0kh9D5DD1uaw7K1xWzqRZ6Q2HekWux_esde3y3WX1kf-cc0z9CZJpAsjrnGA.webp",
+      "page": "",
+      "caption": "성유물 사인참사검",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/dokja-5.webp": {
+      "image": "https://i.namu.wiki/i/xaIADxoFlNUj8qHZpRYeLZYTx9zJiMKF4rt9OcqhGgtia53wDnJTxMttcSXvGTEeU0nrSwH-nZV6Yyh0Eg6-41wBEHeki4FKL6EhiVNcuQOgFlEuRde4AcwsOmgKnvCzJoag22flmcWPJwxfmltntg.webp",
+      "page": "",
+      "caption": "동의보감 미완성본",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/dokja-6.webp": {
+      "image": "https://i.namu.wiki/i/DToMQZWa3hDZASbXSpw2isDlU8L0AyyAa3M3bz9NWsPgkt9sNb354FpK7ZyjiMp_E-feuPWKRM0ACxMcF0I2Z2BwIGGGssptVb4M_Tpm1SDEzbotqSiCBABqU55MjsFaTbH0TXDFSGCQxxmbRx8gMA.webp",
+      "page": "",
+      "caption": "무한차원의아공간코트",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/heewon-4.webp": {
+      "image": "https://i.namu.wiki/i/0mysniOnuzz32T0RjZg5j8IZrxRlaoAwGb0Ll-zglxRfBUDM-3ZDq_mp7bopPTS_fx-BJPWR29mVzcndz_QetKEi1ZyjH01PSpqZxA14P-W_EVpXpi3oiKZUm7jvSKzQUDL4NK-GbwoNQ1oSWd8HPg.webp",
+      "page": "",
+      "caption": "미카즈키무네치카-레플리카",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/expanded/heewon-5.webp": {
+      "image": "https://i.namu.wiki/i/PLp9W9_6OMCIN1-ZqZcqzDYzWO1SBJxy0QO6jszOUmi-Y_FIg24EhFPzPeIHuYuMwceIyIQ9c6gYha16I8GE_z2G74pCK48awHLwn4sjT9BnJ_Jsr7j0Em-TXmSMho8ht8HQ1p7FH5bR0ezoSmwzuw.webp",
+      "page": "",
+      "caption": "심판자의검",
+      "medium": "visual-reference; some entries may be promotional or novel illustrations"
+    },
+    "/workspace/scratch/orv-visual-references/items/ep023-24.jpg": {
+      "image": "https://image-comic.pstatic.net/webtoon/747269/23/20220422180853_97074d25ea5f010bbaaf71556a059008_IMAG01_24.jpg",
+      "page": "https://comic.naver.com/webtoon/detail?titleId=747269&no=23",
+      "panelIndex": 24,
+      "medium": "official-webtoon-panel"
+    },
+    "/workspace/scratch/orv-visual-references/items/ep023-26.jpg": {
+      "image": "https://image-comic.pstatic.net/webtoon/747269/23/20220422180853_97074d25ea5f010bbaaf71556a059008_IMAG01_26.jpg",
+      "page": "https://comic.naver.com/webtoon/detail?titleId=747269&no=23",
+      "panelIndex": 26,
+      "medium": "official-webtoon-panel"
+    },
+    "/workspace/scratch/orv-visual-references/items/ep023-42.jpg": {
+      "image": "https://image-comic.pstatic.net/webtoon/747269/23/20220422180853_97074d25ea5f010bbaaf71556a059008_IMAG01_42.jpg",
+      "page": "https://comic.naver.com/webtoon/detail?titleId=747269&no=23",
+      "panelIndex": 42,
+      "medium": "official-webtoon-panel"
+    },
+    "/workspace/scratch/orv-visual-references/items/ep027-40.jpg": {
+      "image": "https://image-comic.pstatic.net/webtoon/747269/27/20220422181751_6a90acef7e877ceca5adef90c9662271_IMAG01_40.jpg",
+      "page": "https://comic.naver.com/webtoon/detail?titleId=747269&no=27",
+      "panelIndex": 40,
+      "medium": "official-webtoon-panel"
+    },
+    "/workspace/scratch/orv-visual-references/items/ep017-07.jpg": {
+      "image": "https://image-comic.pstatic.net/webtoon/747269/17/20220422162140_71052590d8f5fea848d4da8e01e82ba7_IMAG01_7.jpg",
+      "page": "https://comic.naver.com/webtoon/detail?titleId=747269&no=17",
+      "panelIndex": 7,
+      "medium": "official-webtoon-panel"
+    }
+  }
+}

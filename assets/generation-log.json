@@ -1,0 +1,347 @@
+[
+  {
+    "atlas": "cast-01",
+    "path": "sd/characters/cast-01.png",
+    "generatedOriginal": "/workspace/generated_images/exec-0c93b586-fdbf-45d3-90cd-d872fbb6b874.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/scratch/orv-visual-references/pildu.webp",
+      "/workspace/scratch/orv-visual-references/sookyung.webp",
+      "/workspace/scratch/orv-visual-references/expanded/seolhwa-1.webp",
+      "/workspace/scratch/orv-visual-references/expanded/mia-0.webp"
+    ]
+  },
+  {
+    "atlas": "cast-02",
+    "path": "sd/characters/cast-02.png",
+    "generatedOriginal": "/workspace/generated_images/exec-f7252038-74da-4cd8-a3cb-97584354f802.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/scratch/orv-visual-references/hayoung.webp",
+      "/workspace/scratch/orv-visual-references/kyrgios.webp",
+      "/workspace/scratch/orv-visual-references/expanded/sword-saint-1.webp",
+      "/workspace/scratch/orv-visual-references/expanded/anna-1.webp"
+    ]
+  },
+  {
+    "atlas": "cast-03",
+    "path": "sd/characters/cast-03.png",
+    "generatedOriginal": "/workspace/generated_images/exec-282b0670-b7ba-474b-be6b-f5ecc05e2867.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/scratch/orv-visual-references/expanded/jiwon-0.webp",
+      "/workspace/scratch/orv-visual-references/expanded/cast-12.webp",
+      "/workspace/scratch/orv-visual-references/expanded/cast-0.webp",
+      "/workspace/scratch/orv-visual-references/expanded/cast-1.webp"
+    ]
+  },
+  {
+    "atlas": "cast-04",
+    "path": "sd/characters/cast-04.png",
+    "generatedOriginal": "/workspace/generated_images/exec-b03fc97d-81ad-4406-bd15-12a2c969c64d.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/scratch/orv-visual-references/expanded/namwoon-0.webp",
+      "/workspace/scratch/orv-visual-references/expanded/inho-0.webp",
+      "/workspace/scratch/orv-visual-references/expanded/cast-4.webp",
+      "/workspace/scratch/orv-visual-references/expanded/cast-5.webp"
+    ]
+  },
+  {
+    "atlas": "cast-05",
+    "path": "sd/characters/cast-05.png",
+    "generatedOriginal": "/workspace/generated_images/exec-df4cc561-13e2-4ab2-9343-ca08c2d1d3c5.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/scratch/orv-visual-references/expanded/cast-2.webp",
+      "/workspace/scratch/orv-visual-references/expanded/cast-7.webp",
+      "/workspace/scratch/orv-visual-references/expanded/cast-8.webp",
+      "/workspace/scratch/orv-visual-references/expanded/cast-9.webp"
+    ]
+  },
+  {
+    "atlas": "cast-06",
+    "path": "sd/characters/cast-06.png",
+    "generatedOriginal": "/workspace/generated_images/exec-ba0d344e-b314-4c8b-a68a-13859abd5c9f.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/scratch/orv-visual-references/expanded/cast-11.webp",
+      "/workspace/scratch/orv-visual-references/bihyung.webp"
+    ]
+  },
+  {
+    "atlas": "cast-07",
+    "path": "sd/characters/cast-07.png",
+    "generatedOriginal": "/workspace/generated_images/exec-d2de9e2d-da5e-441b-acbd-328cd5b82b07.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/scratch/orv-visual-references/biyoo.webp",
+      "/workspace/scratch/orv-visual-references/expanded/cast-15.webp",
+      "/workspace/scratch/orv-visual-references/expanded/yeonggi-1.webp",
+      "/workspace/scratch/orv-visual-references/expanded/uriel-1.webp"
+    ]
+  },
+  {
+    "atlas": "cast-08",
+    "path": "sd/characters/cast-08.png",
+    "generatedOriginal": "/workspace/generated_images/exec-6feb3c68-40ad-470f-a449-9ed277f4e34d.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/scratch/orv-visual-references/expanded/sun-wukong-1.webp",
+      "/workspace/scratch/orv-visual-references/expanded/jun-gyeong-0.webp"
+    ]
+  },
+  {
+    "atlas": "cast-09",
+    "path": "sd/characters/cast-09.png",
+    "generatedOriginal": "/workspace/generated_images/exec-ec457f08-9ce3-45c4-9f56-7dd24abff9cd.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/scratch/orv-visual-references/expanded/persephone-0.webp",
+      "/workspace/scratch/orv-visual-references/expanded/hades-1.webp",
+      "/workspace/scratch/orv-visual-references/expanded/cast-3.webp",
+      "/workspace/scratch/orv-visual-references/expanded/maker-0.webp"
+    ]
+  },
+  {
+    "atlas": "cast-10",
+    "path": "sd/characters/cast-10.png",
+    "generatedOriginal": "/workspace/generated_images/exec-095d5c36-5fa0-4e40-9611-1d3c565df7b8.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/scratch/orv-visual-references/surya.webp"
+    ]
+  },
+  {
+    "atlas": "cast-11",
+    "path": "sd/characters/cast-11.png",
+    "generatedOriginal": "/workspace/generated_images/exec-bd8e1cc6-0482-42e6-809a-89e8919c8ae8.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/scratch/orv-visual-references/nirvana.webp"
+    ]
+  },
+  {
+    "atlas": "cast-12",
+    "path": "sd/characters/cast-12.png",
+    "generatedOriginal": "/workspace/generated_images/exec-23fb4009-f3d4-49d3-8a1f-a72baefbc8f8.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/scratch/orv-visual-references/yoosung-disaster.webp"
+    ]
+  },
+  {
+    "atlas": "cast-13",
+    "path": "sd/characters/cast-13.png",
+    "generatedOriginal": "/workspace/generated_images/exec-4777dbca-b03d-4098-b0c3-427356d980bf.png",
+    "referencedImages": [
+      "/workspace/generated_images/exec-d907ad54-a434-4c9e-8f3a-e0f62985d11b.png",
+      "/workspace/pinn/assets/sd/equipment/loadouts-01.png"
+    ],
+    "editedFrom": "/workspace/generated_images/exec-d907ad54-a434-4c9e-8f3a-e0f62985d11b.png",
+    "correction": "Black and silver Judgment Sword."
+  },
+  {
+    "atlas": "cast-14",
+    "path": "sd/characters/cast-14.png",
+    "generatedOriginal": "/workspace/generated_images/exec-4bda1a06-24df-48eb-a0a9-00346c578045.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png"
+    ]
+  },
+  {
+    "atlas": "cast-15",
+    "path": "sd/characters/cast-15.png",
+    "generatedOriginal": "/workspace/generated_images/exec-dd2f993f-c422-47b7-88a9-cf4c31e7cae5.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png"
+    ]
+  },
+  {
+    "atlas": "cast-16",
+    "path": "sd/characters/cast-16.png",
+    "generatedOriginal": "/workspace/generated_images/exec-4585a656-eb8e-4e22-9a94-c2feadb8c9e4.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png"
+    ]
+  },
+  {
+    "atlas": "cast-17",
+    "path": "sd/characters/cast-17.png",
+    "generatedOriginal": "/workspace/generated_images/exec-ab569a43-0bce-4e3e-8593-5a69077f9656.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png"
+    ]
+  },
+  {
+    "atlas": "cast-18",
+    "path": "sd/characters/cast-18.png",
+    "generatedOriginal": "/workspace/generated_images/exec-66f299c9-6414-4fed-a412-a24155780fa0.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png"
+    ]
+  },
+  {
+    "atlas": "cast-19",
+    "path": "sd/characters/cast-19.png",
+    "generatedOriginal": "/workspace/generated_images/exec-1b9c578f-183a-4007-9b07-ce0236c37029.png",
+    "referencedImages": [
+      "/workspace/generated_images/exec-a7f47a5e-3616-4899-9a2f-da89a26ebb7d.png"
+    ],
+    "editedFrom": "/workspace/generated_images/exec-a7f47a5e-3616-4899-9a2f-da89a26ebb7d.png",
+    "correction": "Eight distinct Yamata-no-Orochi heads."
+  },
+  {
+    "atlas": "cast-20",
+    "path": "sd/characters/cast-20.png",
+    "generatedOriginal": "/workspace/generated_images/exec-a3077f83-51ea-4438-9ec6-e468138bcd5d.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png"
+    ]
+  },
+  {
+    "atlas": "items-01",
+    "path": "inventory/items-01.png",
+    "generatedOriginal": "/workspace/generated_images/exec-6686610d-62e4-47f0-9122-50d302b45a49.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/inventory/early-items-atlas.png",
+      "/workspace/scratch/orv-visual-references/expanded/dokja-3.webp",
+      "/workspace/scratch/orv-visual-references/expanded/dokja-4.webp",
+      "/workspace/scratch/orv-visual-references/expanded/heewon-5.webp",
+      "/workspace/scratch/orv-visual-references/expanded/heewon-4.webp"
+    ]
+  },
+  {
+    "atlas": "items-02",
+    "path": "inventory/items-02.png",
+    "generatedOriginal": "/workspace/generated_images/exec-1f8c9667-b7b7-46d7-99b3-b846b99144f4.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/inventory/early-items-atlas.png",
+      "/workspace/scratch/orv-visual-references/items/ep023-42.jpg",
+      "/workspace/scratch/orv-visual-references/items/ep023-26.jpg",
+      "/workspace/scratch/orv-visual-references/items/ep017-07.jpg",
+      "/workspace/scratch/orv-visual-references/items/ep027-40.jpg"
+    ]
+  },
+  {
+    "atlas": "items-03",
+    "path": "inventory/items-03.png",
+    "generatedOriginal": "/workspace/generated_images/exec-86bd5f7a-a9d9-4f4e-b0bd-e139615318b1.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/inventory/early-items-atlas.png"
+    ]
+  },
+  {
+    "atlas": "items-04",
+    "path": "inventory/items-04.png",
+    "generatedOriginal": "/workspace/generated_images/exec-93393210-7708-499f-aa7b-ac4d201712df.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/inventory/early-items-atlas.png"
+    ]
+  },
+  {
+    "atlas": "items-05",
+    "path": "inventory/items-05.png",
+    "generatedOriginal": "/workspace/generated_images/exec-891c17f6-9213-4ae0-80ae-e5ab37234e3f.png",
+    "referencedImages": [
+      "/workspace/generated_images/exec-5b28cd06-c5e5-45d6-998d-461daacfde53.png"
+    ],
+    "editedFrom": "/workspace/generated_images/exec-5b28cd06-c5e5-45d6-998d-461daacfde53.png",
+    "correction": "Remove backdrop and clean alpha."
+  },
+  {
+    "atlas": "items-06",
+    "path": "inventory/items-06.png",
+    "generatedOriginal": "/workspace/generated_images/exec-38ec12ae-689b-45f0-95ae-4452c3e005cb.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/inventory/early-items-atlas.png",
+      "/workspace/scratch/orv-visual-references/expanded/dokja-6.webp"
+    ]
+  },
+  {
+    "atlas": "items-07",
+    "path": "inventory/items-07.png",
+    "generatedOriginal": "/workspace/generated_images/exec-0947770d-e348-4258-8048-99000bbc211e.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/inventory/early-items-atlas.png"
+    ]
+  },
+  {
+    "atlas": "items-08",
+    "path": "inventory/items-08.png",
+    "generatedOriginal": "/workspace/generated_images/exec-1a70e060-5812-4183-bcba-c3cb0506a9a9.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/inventory/early-items-atlas.png"
+    ]
+  },
+  {
+    "atlas": "items-09",
+    "path": "inventory/items-09.png",
+    "generatedOriginal": "/workspace/generated_images/exec-75e2c6e8-5fa8-47ef-aeca-219a0bf15e79.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/inventory/early-items-atlas.png"
+    ]
+  },
+  {
+    "atlas": "items-10",
+    "path": "inventory/items-10.png",
+    "generatedOriginal": "/workspace/generated_images/exec-9df60b16-b936-4f4e-975d-7eb4f02aeb19.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/inventory/early-items-atlas.png"
+    ]
+  },
+  {
+    "atlas": "items-11",
+    "path": "inventory/items-11.png",
+    "generatedOriginal": "/workspace/generated_images/exec-32897315-dd8e-4101-b819-b72bb1b623a7.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/inventory/early-items-atlas.png"
+    ]
+  },
+  {
+    "atlas": "items-12",
+    "path": "inventory/items-12.png",
+    "generatedOriginal": "/workspace/generated_images/exec-6416d9b5-9c39-4bc9-85f6-f1715c0c6c6a.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/inventory/early-items-atlas.png"
+    ]
+  },
+  {
+    "atlas": "items-13",
+    "path": "inventory/items-13.png",
+    "generatedOriginal": "/workspace/generated_images/exec-efd1cec3-87ee-4412-8e4b-c91ad73de4af.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/inventory/early-items-atlas.png",
+      "/workspace/scratch/orv-visual-references/items/ep023-24.jpg"
+    ]
+  },
+  {
+    "atlas": "loadouts-01",
+    "path": "sd/equipment/loadouts-01.png",
+    "generatedOriginal": "/workspace/generated_images/exec-cb54a573-b4dd-40f7-8bc5-83e1a6a29157.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/pinn/assets/inventory/items-01.png",
+      "/workspace/pinn/assets/inventory/items-08.png"
+    ]
+  },
+  {
+    "atlas": "loadouts-02",
+    "path": "sd/equipment/loadouts-02.png",
+    "generatedOriginal": "/workspace/generated_images/exec-e636d665-e5ca-436d-a084-a79036c2d809.png",
+    "referencedImages": [
+      "/workspace/pinn/assets/sd/characters/main-atlas.png",
+      "/workspace/pinn/assets/inventory/items-03.png",
+      "/workspace/pinn/assets/inventory/items-06.png",
+      "/workspace/pinn/assets/inventory/items-08.png",
+      "/workspace/pinn/assets/inventory/items-01.png"
+    ]
+  },
+  {
+    "atlas": "characters",
+    "path": "sd/characters/main-atlas.png",
+    "generatedOriginal": "/workspace/generated_images/exec-af4c27b4-1086-4f4a-89fb-cac120b38416.png",
+    "editedFrom": "/workspace/generated_images/exec-00e88d20-a47b-4a03-8578-03f90958d503.png",
+    "correction": "Keep all ten sprites within own cells."
+  }
+]

@@ -1,0 +1,6033 @@
+{
+  "version": 1,
+  "technique": "runtime-2d-cutout-sprite-walking-and-procedural-canvas-vfx",
+  "scope": "Existing SD artwork with 10 eight-frame walk sheets; no changes to story state or ability unlocks.",
+  "actions": {
+    "idle": {
+      "label": "대기",
+      "duration": 1800
+    },
+    "enter": {
+      "label": "등장",
+      "duration": 520,
+      "impact": 0.35
+    },
+    "walk": {
+      "label": "걷기",
+      "duration": 900
+    },
+    "attack": {
+      "label": "공격",
+      "duration": 820,
+      "impact": 0.43
+    },
+    "cast": {
+      "label": "능력 발동",
+      "duration": 1180,
+      "impact": 0.48
+    },
+    "guard": {
+      "label": "방어",
+      "duration": 1050,
+      "impact": 0.28
+    },
+    "hit": {
+      "label": "피격",
+      "duration": 560,
+      "impact": 0.08
+    },
+    "dodge": {
+      "label": "회피",
+      "duration": 680
+    },
+    "jump": {
+      "label": "도약",
+      "duration": 850
+    },
+    "fall": {
+      "label": "쓰러짐",
+      "duration": 940,
+      "impact": 0.65
+    },
+    "victory": {
+      "label": "승리",
+      "duration": 1300,
+      "impact": 0.4
+    },
+    "teleport": {
+      "label": "순간 이동",
+      "duration": 1100,
+      "impact": 0.46
+    },
+    "acquire": {
+      "label": "획득",
+      "duration": 1150,
+      "impact": 0.35
+    },
+    "activate": {
+      "label": "아이템 발동",
+      "duration": 1250,
+      "impact": 0.4
+    },
+    "consume": {
+      "label": "소모",
+      "duration": 1000,
+      "impact": 0.45
+    },
+    "equip": {
+      "label": "장착",
+      "duration": 1000,
+      "impact": 0.35
+    }
+  },
+  "effects": {
+    "slash": {
+      "label": "청백 검격",
+      "color": "#a9e5f4",
+      "shape": "slash"
+    },
+    "judgment": {
+      "label": "심판의 불꽃",
+      "color": "#ffa66c",
+      "shape": "judgment"
+    },
+    "flame": {
+      "label": "화염",
+      "color": "#ff9f59",
+      "shape": "flame"
+    },
+    "blackflame": {
+      "label": "흑염",
+      "color": "#b590ef",
+      "shape": "flame"
+    },
+    "frost": {
+      "label": "냉기 파편",
+      "color": "#b4e7f5",
+      "shape": "frost"
+    },
+    "lightning": {
+      "label": "백청 뇌전",
+      "color": "#9de4fa",
+      "shape": "lightning"
+    },
+    "shield": {
+      "label": "강철 방벽",
+      "color": "#b4cbd5",
+      "shape": "shield"
+    },
+    "heal": {
+      "label": "회복",
+      "color": "#bfe5b6",
+      "shape": "heal"
+    },
+    "mana": {
+      "label": "마력 회복",
+      "color": "#92c9f1",
+      "shape": "heal"
+    },
+    "poison": {
+      "label": "독과 점액",
+      "color": "#abc785",
+      "shape": "poison"
+    },
+    "thread": {
+      "label": "거미줄 구속",
+      "color": "#e5d2a4",
+      "shape": "thread"
+    },
+    "swarm": {
+      "label": "곤충 군집",
+      "color": "#bdd18c",
+      "shape": "swarm"
+    },
+    "water": {
+      "label": "해상 파도",
+      "color": "#8bbfdc",
+      "shape": "water"
+    },
+    "shot": {
+      "label": "투사체·포탑",
+      "color": "#eecf8e",
+      "shape": "shot"
+    },
+    "impact": {
+      "label": "타격·분진",
+      "color": "#d9bda0",
+      "shape": "impact"
+    },
+    "seal": {
+      "label": "봉인 고리",
+      "color": "#e3cd9e",
+      "shape": "seal"
+    },
+    "insight": {
+      "label": "독해·페이지",
+      "color": "#b9d5df",
+      "shape": "pages"
+    },
+    "portal": {
+      "label": "차원 이동",
+      "color": "#b4b4ec",
+      "shape": "portal"
+    },
+    "summon": {
+      "label": "소환",
+      "color": "#c9c5ed",
+      "shape": "summon"
+    },
+    "soul": {
+      "label": "영혼의 빛",
+      "color": "#f3d99c",
+      "shape": "soul"
+    },
+    "craft": {
+      "label": "수선·단조",
+      "color": "#f1c790",
+      "shape": "craft"
+    },
+    "pickup": {
+      "label": "획득·코인",
+      "color": "#e3cf8d",
+      "shape": "pickup"
+    },
+    "spring": {
+      "label": "마계의 봄",
+      "color": "#d6e3ae",
+      "shape": "spring"
+    }
+  },
+  "walking": {
+    "version": 1,
+    "technique": "eight-drawn-frames-per-walk-cycle",
+    "order": [
+      "left-contact",
+      "left-down",
+      "right-passing",
+      "right-up",
+      "right-contact",
+      "right-down",
+      "left-passing",
+      "left-up"
+    ],
+    "sheets": {
+      "dokja-office": {
+        "path": "sd/walk/dokja-office.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 8,
+        "cycleMs": 900,
+        "scale": 0.816427,
+        "sourceAnchor": 0.514658,
+        "sourceGround": 0.822266,
+        "sourceRatio": 0.599609,
+        "frames": [
+          {
+            "column": 0,
+            "row": 0,
+            "anchor": 0.50651,
+            "ground": 0.886719,
+            "bounds": [
+              78,
+              45,
+              311,
+              454
+            ]
+          },
+          {
+            "column": 1,
+            "row": 0,
+            "anchor": 0.502604,
+            "ground": 0.888672,
+            "bounds": [
+              78,
+              46,
+              308,
+              455
+            ]
+          },
+          {
+            "column": 2,
+            "row": 0,
+            "anchor": 0.50651,
+            "ground": 0.888672,
+            "bounds": [
+              79,
+              46,
+              310,
+              455
+            ]
+          },
+          {
+            "column": 3,
+            "row": 0,
+            "anchor": 0.507812,
+            "ground": 0.884766,
+            "bounds": [
+              81,
+              44,
+              309,
+              453
+            ]
+          },
+          {
+            "column": 0,
+            "row": 1,
+            "anchor": 0.510417,
+            "ground": 0.884766,
+            "bounds": [
+              81,
+              46,
+              311,
+              453
+            ]
+          },
+          {
+            "column": 1,
+            "row": 1,
+            "anchor": 0.507812,
+            "ground": 0.886719,
+            "bounds": [
+              79,
+              47,
+              311,
+              454
+            ]
+          },
+          {
+            "column": 2,
+            "row": 1,
+            "anchor": 0.50651,
+            "ground": 0.886719,
+            "bounds": [
+              79,
+              47,
+              310,
+              454
+            ]
+          },
+          {
+            "column": 3,
+            "row": 1,
+            "anchor": 0.507812,
+            "ground": 0.884766,
+            "bounds": [
+              80,
+              47,
+              310,
+              453
+            ]
+          }
+        ],
+        "sha256": "dc26826c678d7cac8267222aca9403d0ab03583a7280014ed86ee229b4645793"
+      },
+      "dokja-coat": {
+        "path": "sd/walk/dokja-coat.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 8,
+        "cycleMs": 900,
+        "scale": 0.900167,
+        "sourceAnchor": 0.493485,
+        "sourceGround": 0.822266,
+        "sourceRatio": 0.599609,
+        "frames": [
+          {
+            "column": 0,
+            "row": 0,
+            "anchor": 0.519531,
+            "ground": 0.861328,
+            "bounds": [
+              65,
+              68,
+              330,
+              441
+            ]
+          },
+          {
+            "column": 1,
+            "row": 0,
+            "anchor": 0.519531,
+            "ground": 0.865234,
+            "bounds": [
+              66,
+              68,
+              327,
+              443
+            ]
+          },
+          {
+            "column": 2,
+            "row": 0,
+            "anchor": 0.520833,
+            "ground": 0.865234,
+            "bounds": [
+              80,
+              70,
+              325,
+              443
+            ]
+          },
+          {
+            "column": 3,
+            "row": 0,
+            "anchor": 0.518229,
+            "ground": 0.863281,
+            "bounds": [
+              81,
+              64,
+              328,
+              442
+            ]
+          },
+          {
+            "column": 0,
+            "row": 1,
+            "anchor": 0.519531,
+            "ground": 0.859375,
+            "bounds": [
+              80,
+              61,
+              330,
+              440
+            ]
+          },
+          {
+            "column": 1,
+            "row": 1,
+            "anchor": 0.520833,
+            "ground": 0.861328,
+            "bounds": [
+              75,
+              67,
+              325,
+              441
+            ]
+          },
+          {
+            "column": 2,
+            "row": 1,
+            "anchor": 0.522135,
+            "ground": 0.863281,
+            "bounds": [
+              86,
+              72,
+              326,
+              442
+            ]
+          },
+          {
+            "column": 3,
+            "row": 1,
+            "anchor": 0.520833,
+            "ground": 0.861328,
+            "bounds": [
+              82,
+              68,
+              328,
+              441
+            ]
+          }
+        ],
+        "sha256": "8b7f4d51a1fe4472ce67c0ecff54533664655d7a95b62d1633695a5030b68e05"
+      },
+      "junghyeok": {
+        "path": "sd/walk/junghyeok.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 8,
+        "cycleMs": 900,
+        "scale": 0.892154,
+        "sourceAnchor": 0.474026,
+        "sourceGround": 0.822266,
+        "sourceRatio": 0.601562,
+        "frames": [
+          {
+            "column": 0,
+            "row": 0,
+            "anchor": 0.528646,
+            "ground": 0.847656,
+            "bounds": [
+              75,
+              66,
+              303,
+              434
+            ]
+          },
+          {
+            "column": 1,
+            "row": 0,
+            "anchor": 0.52474,
+            "ground": 0.853516,
+            "bounds": [
+              81,
+              68,
+              301,
+              437
+            ]
+          },
+          {
+            "column": 2,
+            "row": 0,
+            "anchor": 0.52474,
+            "ground": 0.851562,
+            "bounds": [
+              80,
+              59,
+              303,
+              436
+            ]
+          },
+          {
+            "column": 3,
+            "row": 0,
+            "anchor": 0.515625,
+            "ground": 0.847656,
+            "bounds": [
+              65,
+              55,
+              297,
+              434
+            ]
+          },
+          {
+            "column": 0,
+            "row": 1,
+            "anchor": 0.536458,
+            "ground": 0.84375,
+            "bounds": [
+              76,
+              50,
+              306,
+              432
+            ]
+          },
+          {
+            "column": 1,
+            "row": 1,
+            "anchor": 0.528646,
+            "ground": 0.841797,
+            "bounds": [
+              80,
+              54,
+              304,
+              431
+            ]
+          },
+          {
+            "column": 2,
+            "row": 1,
+            "anchor": 0.520833,
+            "ground": 0.84375,
+            "bounds": [
+              79,
+              59,
+              301,
+              432
+            ]
+          },
+          {
+            "column": 3,
+            "row": 1,
+            "anchor": 0.516927,
+            "ground": 0.845703,
+            "bounds": [
+              82,
+              63,
+              302,
+              433
+            ]
+          }
+        ],
+        "sha256": "c17adc075c9637bc21355a0b1b36c9f8292ae446721a0847694d25283134ef11"
+      },
+      "sooyoung": {
+        "path": "sd/walk/sooyoung.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 8,
+        "cycleMs": 900,
+        "scale": 0.859549,
+        "sourceAnchor": 0.449511,
+        "sourceGround": 0.822266,
+        "sourceRatio": 0.599609,
+        "frames": [
+          {
+            "column": 0,
+            "row": 0,
+            "anchor": 0.515625,
+            "ground": 0.888672,
+            "bounds": [
+              80,
+              81,
+              316,
+              455
+            ]
+          },
+          {
+            "column": 1,
+            "row": 0,
+            "anchor": 0.503906,
+            "ground": 0.884766,
+            "bounds": [
+              73,
+              87,
+              314,
+              453
+            ]
+          },
+          {
+            "column": 2,
+            "row": 0,
+            "anchor": 0.492188,
+            "ground": 0.882812,
+            "bounds": [
+              68,
+              80,
+              310,
+              452
+            ]
+          },
+          {
+            "column": 3,
+            "row": 0,
+            "anchor": 0.485677,
+            "ground": 0.869141,
+            "bounds": [
+              68,
+              75,
+              304,
+              445
+            ]
+          },
+          {
+            "column": 0,
+            "row": 1,
+            "anchor": 0.490885,
+            "ground": 0.884766,
+            "bounds": [
+              70,
+              77,
+              307,
+              453
+            ]
+          },
+          {
+            "column": 1,
+            "row": 1,
+            "anchor": 0.502604,
+            "ground": 0.884766,
+            "bounds": [
+              74,
+              85,
+              312,
+              453
+            ]
+          },
+          {
+            "column": 2,
+            "row": 1,
+            "anchor": 0.507812,
+            "ground": 0.884766,
+            "bounds": [
+              75,
+              81,
+              314,
+              453
+            ]
+          },
+          {
+            "column": 3,
+            "row": 1,
+            "anchor": 0.5,
+            "ground": 0.880859,
+            "bounds": [
+              72,
+              80,
+              311,
+              451
+            ]
+          }
+        ],
+        "sha256": "8794f35f99e46618e6a6c4a2e5b6e1b26e8facc899a5cf8131c0aa529e4f9db3"
+      },
+      "sangah": {
+        "path": "sd/walk/sangah.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 8,
+        "cycleMs": 900,
+        "scale": 0.762474,
+        "sourceAnchor": 0.490228,
+        "sourceGround": 0.822266,
+        "sourceRatio": 0.599609,
+        "frames": [
+          {
+            "column": 0,
+            "row": 0,
+            "anchor": 0.511719,
+            "ground": 0.914062,
+            "bounds": [
+              55,
+              54,
+              319,
+              468
+            ]
+          },
+          {
+            "column": 1,
+            "row": 0,
+            "anchor": 0.50651,
+            "ground": 0.916016,
+            "bounds": [
+              54,
+              56,
+              318,
+              469
+            ]
+          },
+          {
+            "column": 2,
+            "row": 0,
+            "anchor": 0.505208,
+            "ground": 0.916016,
+            "bounds": [
+              56,
+              49,
+              319,
+              469
+            ]
+          },
+          {
+            "column": 3,
+            "row": 0,
+            "anchor": 0.509115,
+            "ground": 0.916016,
+            "bounds": [
+              55,
+              41,
+              321,
+              469
+            ]
+          },
+          {
+            "column": 0,
+            "row": 1,
+            "anchor": 0.513021,
+            "ground": 0.912109,
+            "bounds": [
+              53,
+              54,
+              319,
+              467
+            ]
+          },
+          {
+            "column": 1,
+            "row": 1,
+            "anchor": 0.507812,
+            "ground": 0.916016,
+            "bounds": [
+              56,
+              58,
+              318,
+              469
+            ]
+          },
+          {
+            "column": 2,
+            "row": 1,
+            "anchor": 0.509115,
+            "ground": 0.916016,
+            "bounds": [
+              53,
+              49,
+              320,
+              469
+            ]
+          },
+          {
+            "column": 3,
+            "row": 1,
+            "anchor": 0.513021,
+            "ground": 0.916016,
+            "bounds": [
+              54,
+              41,
+              322,
+              469
+            ]
+          }
+        ],
+        "sha256": "9c5a3ca14918605394343e07177cd10980404378f0cb4e908582c553412930b3"
+      },
+      "heewon": {
+        "path": "sd/walk/heewon.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 8,
+        "cycleMs": 900,
+        "scale": 0.853098,
+        "sourceAnchor": 0.517915,
+        "sourceGround": 0.802734,
+        "sourceRatio": 0.599609,
+        "frames": [
+          {
+            "column": 0,
+            "row": 0,
+            "anchor": 0.513021,
+            "ground": 0.882812,
+            "bounds": [
+              63,
+              56,
+              325,
+              452
+            ]
+          },
+          {
+            "column": 1,
+            "row": 0,
+            "anchor": 0.511719,
+            "ground": 0.882812,
+            "bounds": [
+              63,
+              56,
+              324,
+              452
+            ]
+          },
+          {
+            "column": 2,
+            "row": 0,
+            "anchor": 0.507812,
+            "ground": 0.882812,
+            "bounds": [
+              56,
+              56,
+              327,
+              452
+            ]
+          },
+          {
+            "column": 3,
+            "row": 0,
+            "anchor": 0.494792,
+            "ground": 0.882812,
+            "bounds": [
+              51,
+              52,
+              331,
+              452
+            ]
+          },
+          {
+            "column": 0,
+            "row": 1,
+            "anchor": 0.494792,
+            "ground": 0.886719,
+            "bounds": [
+              45,
+              52,
+              334,
+              454
+            ]
+          },
+          {
+            "column": 1,
+            "row": 1,
+            "anchor": 0.505208,
+            "ground": 0.884766,
+            "bounds": [
+              48,
+              55,
+              323,
+              453
+            ]
+          },
+          {
+            "column": 2,
+            "row": 1,
+            "anchor": 0.503906,
+            "ground": 0.884766,
+            "bounds": [
+              53,
+              57,
+              325,
+              453
+            ]
+          },
+          {
+            "column": 3,
+            "row": 1,
+            "anchor": 0.516927,
+            "ground": 0.884766,
+            "bounds": [
+              63,
+              58,
+              331,
+              453
+            ]
+          }
+        ],
+        "sha256": "ce5c6896fa1b68224bc656867af70659e396aa13bb079983dafa763d0ff02cfc"
+      },
+      "hyunsung": {
+        "path": "sd/walk/hyunsung.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 8,
+        "cycleMs": 900,
+        "scale": 0.830779,
+        "sourceAnchor": 0.496743,
+        "sourceGround": 0.802734,
+        "sourceRatio": 0.599609,
+        "frames": [
+          {
+            "column": 0,
+            "row": 0,
+            "anchor": 0.494792,
+            "ground": 0.908203,
+            "bounds": [
+              86,
+              67,
+              308,
+              465
+            ]
+          },
+          {
+            "column": 1,
+            "row": 0,
+            "anchor": 0.496094,
+            "ground": 0.904297,
+            "bounds": [
+              83,
+              74,
+              299,
+              463
+            ]
+          },
+          {
+            "column": 2,
+            "row": 0,
+            "anchor": 0.492188,
+            "ground": 0.90625,
+            "bounds": [
+              80,
+              63,
+              299,
+              464
+            ]
+          },
+          {
+            "column": 3,
+            "row": 0,
+            "anchor": 0.494792,
+            "ground": 0.904297,
+            "bounds": [
+              78,
+              60,
+              308,
+              463
+            ]
+          },
+          {
+            "column": 0,
+            "row": 1,
+            "anchor": 0.492188,
+            "ground": 0.910156,
+            "bounds": [
+              85,
+              61,
+              299,
+              466
+            ]
+          },
+          {
+            "column": 1,
+            "row": 1,
+            "anchor": 0.494792,
+            "ground": 0.908203,
+            "bounds": [
+              80,
+              69,
+              299,
+              465
+            ]
+          },
+          {
+            "column": 2,
+            "row": 1,
+            "anchor": 0.492188,
+            "ground": 0.908203,
+            "bounds": [
+              83,
+              62,
+              299,
+              465
+            ]
+          },
+          {
+            "column": 3,
+            "row": 1,
+            "anchor": 0.496094,
+            "ground": 0.90625,
+            "bounds": [
+              78,
+              62,
+              308,
+              464
+            ]
+          }
+        ],
+        "sha256": "8743036989ddee098387689bf7171adc32bfcacefce52dcab591c02ea502ed25"
+      },
+      "jihye": {
+        "path": "sd/walk/jihye.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 8,
+        "cycleMs": 900,
+        "scale": 0.777886,
+        "sourceAnchor": 0.482143,
+        "sourceGround": 0.802734,
+        "sourceRatio": 0.601562,
+        "frames": [
+          {
+            "column": 0,
+            "row": 0,
+            "anchor": 0.49349,
+            "ground": 0.896484,
+            "bounds": [
+              62,
+              74,
+              305,
+              459
+            ]
+          },
+          {
+            "column": 1,
+            "row": 0,
+            "anchor": 0.486979,
+            "ground": 0.898438,
+            "bounds": [
+              58,
+              79,
+              305,
+              460
+            ]
+          },
+          {
+            "column": 2,
+            "row": 0,
+            "anchor": 0.483073,
+            "ground": 0.898438,
+            "bounds": [
+              57,
+              74,
+              305,
+              460
+            ]
+          },
+          {
+            "column": 3,
+            "row": 0,
+            "anchor": 0.492188,
+            "ground": 0.898438,
+            "bounds": [
+              62,
+              71,
+              312,
+              460
+            ]
+          },
+          {
+            "column": 0,
+            "row": 1,
+            "anchor": 0.501302,
+            "ground": 0.896484,
+            "bounds": [
+              66,
+              75,
+              311,
+              459
+            ]
+          },
+          {
+            "column": 1,
+            "row": 1,
+            "anchor": 0.502604,
+            "ground": 0.896484,
+            "bounds": [
+              67,
+              77,
+              309,
+              459
+            ]
+          },
+          {
+            "column": 2,
+            "row": 1,
+            "anchor": 0.5,
+            "ground": 0.896484,
+            "bounds": [
+              66,
+              76,
+              310,
+              459
+            ]
+          },
+          {
+            "column": 3,
+            "row": 1,
+            "anchor": 0.496094,
+            "ground": 0.898438,
+            "bounds": [
+              64,
+              75,
+              309,
+              460
+            ]
+          }
+        ],
+        "sha256": "6c30a77505791927fc2129d122b6e7c76513455357c2c175bf98ede47debe365"
+      },
+      "gilyoung": {
+        "path": "sd/walk/gilyoung.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 8,
+        "cycleMs": 900,
+        "scale": 0.774111,
+        "sourceAnchor": 0.465798,
+        "sourceGround": 0.800781,
+        "sourceRatio": 0.599609,
+        "frames": [
+          {
+            "column": 0,
+            "row": 0,
+            "anchor": 0.528646,
+            "ground": 0.863281,
+            "bounds": [
+              82,
+              50,
+              309,
+              442
+            ]
+          },
+          {
+            "column": 1,
+            "row": 0,
+            "anchor": 0.529948,
+            "ground": 0.863281,
+            "bounds": [
+              83,
+              54,
+              309,
+              442
+            ]
+          },
+          {
+            "column": 2,
+            "row": 0,
+            "anchor": 0.53125,
+            "ground": 0.863281,
+            "bounds": [
+              84,
+              49,
+              310,
+              442
+            ]
+          },
+          {
+            "column": 3,
+            "row": 0,
+            "anchor": 0.511719,
+            "ground": 0.863281,
+            "bounds": [
+              84,
+              47,
+              309,
+              442
+            ]
+          },
+          {
+            "column": 0,
+            "row": 1,
+            "anchor": 0.509115,
+            "ground": 0.861328,
+            "bounds": [
+              82,
+              49,
+              309,
+              441
+            ]
+          },
+          {
+            "column": 1,
+            "row": 1,
+            "anchor": 0.529948,
+            "ground": 0.861328,
+            "bounds": [
+              84,
+              57,
+              309,
+              441
+            ]
+          },
+          {
+            "column": 2,
+            "row": 1,
+            "anchor": 0.532552,
+            "ground": 0.859375,
+            "bounds": [
+              84,
+              52,
+              310,
+              440
+            ]
+          },
+          {
+            "column": 3,
+            "row": 1,
+            "anchor": 0.510417,
+            "ground": 0.859375,
+            "bounds": [
+              83,
+              51,
+              309,
+              440
+            ]
+          }
+        ],
+        "sha256": "ab61e2e97dbd97f8f5198ecb832ea6cdb04d10a134aff379ead8fe8cc40c9454"
+      },
+      "yoosung": {
+        "path": "sd/walk/yoosung.png",
+        "width": 1536,
+        "height": 1024,
+        "columns": 4,
+        "rows": 2,
+        "frameCount": 8,
+        "cycleMs": 900,
+        "scale": 0.808467,
+        "sourceAnchor": 0.413681,
+        "sourceGround": 0.796875,
+        "sourceRatio": 0.599609,
+        "frames": [
+          {
+            "column": 0,
+            "row": 0,
+            "anchor": 0.49349,
+            "ground": 0.875,
+            "bounds": [
+              71,
+              80,
+              308,
+              448
+            ]
+          },
+          {
+            "column": 1,
+            "row": 0,
+            "anchor": 0.494792,
+            "ground": 0.875,
+            "bounds": [
+              72,
+              86,
+              308,
+              448
+            ]
+          },
+          {
+            "column": 2,
+            "row": 0,
+            "anchor": 0.489583,
+            "ground": 0.875,
+            "bounds": [
+              67,
+              83,
+              309,
+              448
+            ]
+          },
+          {
+            "column": 3,
+            "row": 0,
+            "anchor": 0.49349,
+            "ground": 0.873047,
+            "bounds": [
+              71,
+              75,
+              308,
+              447
+            ]
+          },
+          {
+            "column": 0,
+            "row": 1,
+            "anchor": 0.489583,
+            "ground": 0.880859,
+            "bounds": [
+              69,
+              85,
+              307,
+              451
+            ]
+          },
+          {
+            "column": 1,
+            "row": 1,
+            "anchor": 0.490885,
+            "ground": 0.878906,
+            "bounds": [
+              69,
+              90,
+              308,
+              450
+            ]
+          },
+          {
+            "column": 2,
+            "row": 1,
+            "anchor": 0.489583,
+            "ground": 0.882812,
+            "bounds": [
+              67,
+              87,
+              309,
+              452
+            ]
+          },
+          {
+            "column": 3,
+            "row": 1,
+            "anchor": 0.496094,
+            "ground": 0.880859,
+            "bounds": [
+              72,
+              80,
+              309,
+              451
+            ]
+          }
+        ],
+        "sha256": "e43dab1ca1c5c311f0145246ce554bcb025a5b0d5ed398da9da87277ad705617"
+      }
+    }
+  },
+  "profiles": [
+    {
+      "id": "dokja-office",
+      "kind": "character",
+      "effect": "insight",
+      "idle": "breathe",
+      "color": "#b9d5df",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "dokja-coat",
+      "kind": "character",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "junghyeok",
+      "kind": "character",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "sooyoung",
+      "kind": "character",
+      "effect": "blackflame",
+      "idle": "breathe",
+      "color": "#b590ef",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "sangah",
+      "kind": "character",
+      "effect": "thread",
+      "idle": "breathe",
+      "color": "#e5d2a4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "heewon",
+      "kind": "character",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "hyunsung",
+      "kind": "character",
+      "effect": "shield",
+      "idle": "breathe",
+      "color": "#b4cbd5",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "jihye",
+      "kind": "character",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "gilyoung",
+      "kind": "character",
+      "effect": "swarm",
+      "idle": "breathe",
+      "color": "#bdd18c",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "yoosung",
+      "kind": "character",
+      "effect": "summon",
+      "idle": "breathe",
+      "color": "#c9c5ed",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "stone-hog-spike",
+      "kind": "item",
+      "effect": "slash",
+      "idle": "float",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "hammer-seahorse-mucus",
+      "kind": "item",
+      "effect": "poison",
+      "idle": "float",
+      "color": "#abc785",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "ichthyosaur-core",
+      "kind": "item",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "broken-faith",
+      "kind": "item",
+      "effect": "slash",
+      "idle": "float",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "broken-faith-active",
+      "kind": "item",
+      "effect": "slash",
+      "idle": "float",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "ancient-dragon-heart",
+      "kind": "item",
+      "effect": "flame",
+      "idle": "float",
+      "color": "#ff9f59",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "dokja-stone-hog-spike",
+      "kind": "equipment",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "dokja-broken-faith",
+      "kind": "equipment",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "dokja-broken-faith-active",
+      "kind": "equipment",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "pildu",
+      "kind": "character",
+      "effect": "shot",
+      "idle": "breathe",
+      "color": "#eecf8e",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "sookyung",
+      "kind": "character",
+      "effect": "seal",
+      "idle": "breathe",
+      "color": "#e3cd9e",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "seolhwa",
+      "kind": "character",
+      "effect": "heal",
+      "idle": "breathe",
+      "color": "#bfe5b6",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "mia",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "myungoh-human",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "myungoh-demon",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "hayoung",
+      "kind": "character",
+      "effect": "lightning",
+      "idle": "breathe",
+      "color": "#9de4fa",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "kyrgios",
+      "kind": "character",
+      "effect": "lightning",
+      "idle": "breathe",
+      "color": "#9de4fa",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "sword-saint",
+      "kind": "character",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "anna",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "selena",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "iris",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "jiwon",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "jeonildo",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "leesung",
+      "kind": "character",
+      "effect": "insight",
+      "idle": "breathe",
+      "color": "#b9d5df",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "jeongmin",
+      "kind": "character",
+      "effect": "insight",
+      "idle": "breathe",
+      "color": "#b9d5df",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "handong",
+      "kind": "character",
+      "effect": "insight",
+      "idle": "breathe",
+      "color": "#b9d5df",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "youngran",
+      "kind": "character",
+      "effect": "seal",
+      "idle": "breathe",
+      "color": "#e3cd9e",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "aileen",
+      "kind": "character",
+      "effect": "craft",
+      "idle": "breathe",
+      "color": "#f1c790",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "mark",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "namwoon",
+      "kind": "character",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "inho",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "bangcheol",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "kangil",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "yoon",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "songmin",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "chuwang",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "hwang",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "chasang",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "gutae",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "jeongyong",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "lycaon",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "myungilsang",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "michio",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "iceflower",
+      "kind": "character",
+      "effect": "frost",
+      "idle": "breathe",
+      "color": "#b4e7f5",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "bihyung",
+      "kind": "character",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "biyoo",
+      "kind": "character",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "dokgak",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "float",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "baul",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "float",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "yeonggi",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "float",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "humpback",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "float",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "uriel",
+      "kind": "character",
+      "effect": "judgment",
+      "idle": "breathe",
+      "color": "#ffa66c",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "wukong",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "abyss-dragon",
+      "kind": "character",
+      "effect": "blackflame",
+      "idle": "breathe",
+      "color": "#b590ef",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "sunshin",
+      "kind": "character",
+      "effect": "water",
+      "idle": "breathe",
+      "color": "#8bbfdc",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "steel-master",
+      "kind": "character",
+      "effect": "shield",
+      "idle": "breathe",
+      "color": "#b4cbd5",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "defense-master",
+      "kind": "character",
+      "effect": "shot",
+      "idle": "breathe",
+      "color": "#eecf8e",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "jun-gyeong",
+      "kind": "character",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "persephone",
+      "kind": "character",
+      "effect": "soul",
+      "idle": "breathe",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "hades",
+      "kind": "character",
+      "effect": "soul",
+      "idle": "breathe",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "secret-plotter",
+      "kind": "character",
+      "effect": "portal",
+      "idle": "float",
+      "color": "#b4b4ec",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "mandala",
+      "kind": "character",
+      "effect": "seal",
+      "idle": "breathe",
+      "color": "#e3cd9e",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "asmodeus",
+      "kind": "character",
+      "effect": "blackflame",
+      "idle": "breathe",
+      "color": "#b590ef",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "maker",
+      "kind": "character",
+      "effect": "craft",
+      "idle": "breathe",
+      "color": "#f1c790",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "swamp",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "surya",
+      "kind": "character",
+      "effect": "flame",
+      "idle": "breathe",
+      "color": "#ff9f59",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "oedipus",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "zodiac-rat",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "zodiac-tiger",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "zodiac-dragon",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "nirvana",
+      "kind": "character",
+      "effect": "seal",
+      "idle": "breathe",
+      "color": "#e3cd9e",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "tentacio",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "reinhardt",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "syswitz",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "marquis-a",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "marquis-b",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "enemy-duke",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "executioner",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "citizen",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "revolutionary",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "exile",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "yoosung-disaster",
+      "kind": "character",
+      "effect": "summon",
+      "idle": "breathe",
+      "color": "#c9c5ed",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "dokja-demon",
+      "kind": "character",
+      "effect": "blackflame",
+      "idle": "breathe",
+      "color": "#b590ef",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "dokja-exile",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "hyunsung-steel",
+      "kind": "character",
+      "effect": "shield",
+      "idle": "heavy",
+      "color": "#b4cbd5",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "heewon-judgment",
+      "kind": "character",
+      "effect": "judgment",
+      "idle": "breathe",
+      "color": "#ffa66c",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "sooyoung-avatar",
+      "kind": "character",
+      "effect": "blackflame",
+      "idle": "breathe",
+      "color": "#b590ef",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "simulacrum",
+      "kind": "character",
+      "effect": "insight",
+      "idle": "breathe",
+      "color": "#b9d5df",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "sea-serpent",
+      "kind": "character",
+      "effect": "water",
+      "idle": "breathe",
+      "color": "#8bbfdc",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "sea-commander",
+      "kind": "character",
+      "effect": "water",
+      "idle": "breathe",
+      "color": "#8bbfdc",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "dark-keeper",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "specter",
+      "kind": "character",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "molecricket",
+      "kind": "character",
+      "effect": "swarm",
+      "idle": "breathe",
+      "color": "#bdd18c",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "groll",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "raptor",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "trex",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "titanoptera",
+      "kind": "character",
+      "effect": "swarm",
+      "idle": "float",
+      "color": "#bdd18c",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "lesser-ignir",
+      "kind": "character",
+      "effect": "flame",
+      "idle": "breathe",
+      "color": "#ff9f59",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "bronze-doll",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "heavy",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "labyrinth-guard",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "ice-elemental",
+      "kind": "character",
+      "effect": "frost",
+      "idle": "float",
+      "color": "#b4e7f5",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "werewolf",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "insect-human",
+      "kind": "character",
+      "effect": "poison",
+      "idle": "breathe",
+      "color": "#abc785",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "antinous",
+      "kind": "character",
+      "effect": "poison",
+      "idle": "breathe",
+      "color": "#abc785",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "king-masswood",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "sulfur-mummy",
+      "kind": "character",
+      "effect": "flame",
+      "idle": "breathe",
+      "color": "#ff9f59",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "metal-kong",
+      "kind": "character",
+      "effect": "shield",
+      "idle": "heavy",
+      "color": "#b4cbd5",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "steel-wolf",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "mat-spider",
+      "kind": "character",
+      "effect": "thread",
+      "idle": "breathe",
+      "color": "#e5d2a4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "desert-elephant",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "heavy-hound",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "dark-stalker",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "devil-bear",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "rubel-tiger",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "demon-baron",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "demon-viscount",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "chimera-dragon",
+      "kind": "character",
+      "effect": "summon",
+      "idle": "breathe",
+      "color": "#c9c5ed",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "sentinel-golem",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "heavy",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "apocalypse-serpent",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "yamata",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "dream-eater",
+      "kind": "character",
+      "effect": "portal",
+      "idle": "float",
+      "color": "#b4b4ec",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "undead",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "mantis",
+      "kind": "character",
+      "effect": "swarm",
+      "idle": "breathe",
+      "color": "#bdd18c",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "dog-martial",
+      "kind": "character",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "osu",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "factory",
+      "kind": "character",
+      "effect": "craft",
+      "idle": "heavy",
+      "color": "#f1c790",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "giant-soldier",
+      "kind": "character",
+      "effect": "craft",
+      "idle": "heavy",
+      "color": "#f1c790",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "punisher",
+      "kind": "character",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "dokja-child",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "dokja-father",
+      "kind": "character",
+      "effect": "impact",
+      "idle": "breathe",
+      "color": "#d9bda0",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport"
+      ]
+    },
+    {
+      "id": "unbroken-faith",
+      "kind": "item",
+      "effect": "slash",
+      "idle": "float",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "four-tiger-sword",
+      "kind": "item",
+      "effect": "slash",
+      "idle": "float",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "dongui",
+      "kind": "item",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "white-coat",
+      "kind": "item",
+      "effect": "portal",
+      "idle": "float",
+      "color": "#b4b4ec",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "judgment-sword",
+      "kind": "item",
+      "effect": "judgment",
+      "idle": "float",
+      "color": "#ffa66c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "mikazuki",
+      "kind": "item",
+      "effect": "slash",
+      "idle": "float",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "demon-core",
+      "kind": "item",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "mana-stove",
+      "kind": "item",
+      "effect": "flame",
+      "idle": "float",
+      "color": "#ff9f59",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "monkey-lung",
+      "kind": "item",
+      "effect": "poison",
+      "idle": "float",
+      "color": "#abc785",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "prayer-beads",
+      "kind": "item",
+      "effect": "seal",
+      "idle": "float",
+      "color": "#e3cd9e",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "straw-mat",
+      "kind": "item",
+      "effect": "shield",
+      "idle": "float",
+      "color": "#b4cbd5",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "specter-stone",
+      "kind": "item",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "forest-essence",
+      "kind": "item",
+      "effect": "heal",
+      "idle": "float",
+      "color": "#bfe5b6",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "hp-potion",
+      "kind": "item",
+      "effect": "heal",
+      "idle": "float",
+      "color": "#bfe5b6",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "mp-potion",
+      "kind": "item",
+      "effect": "mana",
+      "idle": "float",
+      "color": "#92c9f1",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "trex-dna",
+      "kind": "item",
+      "effect": "pickup",
+      "idle": "float",
+      "color": "#e3cf8d",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "stats-ampoule",
+      "kind": "item",
+      "effect": "pickup",
+      "idle": "float",
+      "color": "#e3cf8d",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "reinforced-suit",
+      "kind": "item",
+      "effect": "shield",
+      "idle": "float",
+      "color": "#b4cbd5",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "face-change",
+      "kind": "item",
+      "effect": "portal",
+      "idle": "float",
+      "color": "#b4b4ec",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "ice-pill",
+      "kind": "item",
+      "effect": "frost",
+      "idle": "float",
+      "color": "#b4e7f5",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "flag-white",
+      "kind": "item",
+      "effect": "pickup",
+      "idle": "float",
+      "color": "#e3cf8d",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "flag-green",
+      "kind": "item",
+      "effect": "pickup",
+      "idle": "float",
+      "color": "#e3cf8d",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "flag-blue",
+      "kind": "item",
+      "effect": "pickup",
+      "idle": "float",
+      "color": "#e3cf8d",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "flag-purple",
+      "kind": "item",
+      "effect": "pickup",
+      "idle": "float",
+      "color": "#e3cf8d",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "flag-red",
+      "kind": "item",
+      "effect": "pickup",
+      "idle": "float",
+      "color": "#e3cf8d",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "flag-black",
+      "kind": "item",
+      "effect": "pickup",
+      "idle": "float",
+      "color": "#e3cf8d",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "sangpyeong",
+      "kind": "item",
+      "effect": "pickup",
+      "idle": "float",
+      "color": "#e3cf8d",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "star-gems",
+      "kind": "item",
+      "effect": "seal",
+      "idle": "float",
+      "color": "#e3cd9e",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "ganpyeongui",
+      "kind": "item",
+      "effect": "seal",
+      "idle": "float",
+      "color": "#e3cd9e",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "yongjon",
+      "kind": "item",
+      "effect": "seal",
+      "idle": "float",
+      "color": "#e3cd9e",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "paljuryeong",
+      "kind": "item",
+      "effect": "seal",
+      "idle": "float",
+      "color": "#e3cd9e",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "hermit-cloak",
+      "kind": "item",
+      "effect": "portal",
+      "idle": "float",
+      "color": "#b4b4ec",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "awakening-drug",
+      "kind": "item",
+      "effect": "heal",
+      "idle": "float",
+      "color": "#bfe5b6",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "midday-tryst",
+      "kind": "item",
+      "effect": "insight",
+      "idle": "float",
+      "color": "#b9d5df",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "black-coat",
+      "kind": "item",
+      "effect": "portal",
+      "idle": "float",
+      "color": "#b4b4ec",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "totsuka",
+      "kind": "item",
+      "effect": "slash",
+      "idle": "float",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "ame-no-murakumo",
+      "kind": "item",
+      "effect": "slash",
+      "idle": "float",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "kusanagi",
+      "kind": "item",
+      "effect": "slash",
+      "idle": "float",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "serpent-blood",
+      "kind": "item",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "beast-fruit",
+      "kind": "item",
+      "effect": "summon",
+      "idle": "float",
+      "color": "#c9c5ed",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "demon-proof",
+      "kind": "item",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "high-demon-proof",
+      "kind": "item",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "sixth-man",
+      "kind": "item",
+      "effect": "pickup",
+      "idle": "float",
+      "color": "#e3cf8d",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "jincheon",
+      "kind": "item",
+      "effect": "slash",
+      "idle": "float",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "black-heaven",
+      "kind": "item",
+      "effect": "slash",
+      "idle": "float",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "robin-bow",
+      "kind": "item",
+      "effect": "shot",
+      "idle": "float",
+      "color": "#eecf8e",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "story-fragment",
+      "kind": "item",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "story-metal",
+      "kind": "item",
+      "effect": "craft",
+      "idle": "float",
+      "color": "#f1c790",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "anvil-stone",
+      "kind": "item",
+      "effect": "craft",
+      "idle": "float",
+      "color": "#f1c790",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "industrial-core",
+      "kind": "item",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "great-pill",
+      "kind": "item",
+      "effect": "heal",
+      "idle": "float",
+      "color": "#bfe5b6",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "pocket-watch",
+      "kind": "item",
+      "effect": "pickup",
+      "idle": "float",
+      "color": "#e3cf8d",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "abyss-jade",
+      "kind": "item",
+      "effect": "blackflame",
+      "idle": "float",
+      "color": "#b590ef",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "phone-original",
+      "kind": "item",
+      "effect": "insight",
+      "idle": "float",
+      "color": "#b9d5df",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "phone-repaired",
+      "kind": "item",
+      "effect": "insight",
+      "idle": "float",
+      "color": "#b9d5df",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "novel-text",
+      "kind": "item",
+      "effect": "insight",
+      "idle": "float",
+      "color": "#b9d5df",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "novel-revision",
+      "kind": "item",
+      "effect": "insight",
+      "idle": "float",
+      "color": "#b9d5df",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "dokkaebi-egg",
+      "kind": "item",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "soul",
+      "kind": "item",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "random-box",
+      "kind": "item",
+      "effect": "craft",
+      "idle": "float",
+      "color": "#f1c790",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "story-fusion-box",
+      "kind": "item",
+      "effect": "craft",
+      "idle": "float",
+      "color": "#f1c790",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "wish-ticket",
+      "kind": "item",
+      "effect": "pickup",
+      "idle": "float",
+      "color": "#e3cf8d",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "absolute-bracelet",
+      "kind": "item",
+      "effect": "seal",
+      "idle": "float",
+      "color": "#e3cd9e",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "demon-orb",
+      "kind": "item",
+      "effect": "blackflame",
+      "idle": "float",
+      "color": "#b590ef",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "crest",
+      "kind": "item",
+      "effect": "seal",
+      "idle": "float",
+      "color": "#e3cd9e",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "dragon-bone",
+      "kind": "item",
+      "effect": "slash",
+      "idle": "float",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "demon-heart",
+      "kind": "item",
+      "effect": "blackflame",
+      "idle": "float",
+      "color": "#b590ef",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "monster-core",
+      "kind": "item",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "serpent-sake",
+      "kind": "item",
+      "effect": "heal",
+      "idle": "float",
+      "color": "#bfe5b6",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "insect-eggs",
+      "kind": "item",
+      "effect": "swarm",
+      "idle": "float",
+      "color": "#bdd18c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "monster-meat",
+      "kind": "item",
+      "effect": "soul",
+      "idle": "float",
+      "color": "#f3d99c",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "coin-ui",
+      "kind": "item",
+      "effect": "pickup",
+      "idle": "float",
+      "color": "#e3cf8d",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "story-spring",
+      "kind": "item",
+      "effect": "spring",
+      "idle": "float",
+      "color": "#d6e3ae",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "mana-bracelet",
+      "kind": "item",
+      "effect": "mana",
+      "idle": "float",
+      "color": "#92c9f1",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "old-iron-shield",
+      "kind": "item",
+      "effect": "shield",
+      "idle": "float",
+      "color": "#b4cbd5",
+      "actions": [
+        "idle",
+        "acquire",
+        "activate",
+        "consume",
+        "equip"
+      ]
+    },
+    {
+      "id": "dokja-unbroken",
+      "kind": "equipment",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "dokja-four-tiger",
+      "kind": "equipment",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "heewon-mikazuki",
+      "kind": "equipment",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "heewon-judgment-loadout",
+      "kind": "equipment",
+      "effect": "judgment",
+      "idle": "breathe",
+      "color": "#ffa66c",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "junghyeok-jincheon",
+      "kind": "equipment",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "junghyeok-blackheaven",
+      "kind": "equipment",
+      "effect": "slash",
+      "idle": "breathe",
+      "color": "#a9e5f4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "junghyeok-bow",
+      "kind": "equipment",
+      "effect": "shot",
+      "idle": "breathe",
+      "color": "#eecf8e",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "dokja-reinforced",
+      "kind": "equipment",
+      "effect": "shield",
+      "idle": "breathe",
+      "color": "#b4cbd5",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "dokja-hermit",
+      "kind": "equipment",
+      "effect": "portal",
+      "idle": "breathe",
+      "color": "#b4b4ec",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "dokja-whitecoat",
+      "kind": "equipment",
+      "effect": "portal",
+      "idle": "breathe",
+      "color": "#b4b4ec",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "junghyeok-blackcoat",
+      "kind": "equipment",
+      "effect": "portal",
+      "idle": "breathe",
+      "color": "#b4b4ec",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    },
+    {
+      "id": "sangah-thread",
+      "kind": "equipment",
+      "effect": "thread",
+      "idle": "breathe",
+      "color": "#e5d2a4",
+      "actions": [
+        "idle",
+        "enter",
+        "walk",
+        "attack",
+        "cast",
+        "guard",
+        "hit",
+        "dodge",
+        "jump",
+        "fall",
+        "victory",
+        "teleport",
+        "equip"
+      ]
+    }
+  ],
+  "cues": [
+    {
+      "scene": "ST001",
+      "when": "텍스트 파일",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "insight",
+      "item": "novel-text"
+    },
+    {
+      "scene": "ST002",
+      "when": "객차에 나타났다",
+      "actor": "bihyung",
+      "action": "enter",
+      "effect": "summon"
+    },
+    {
+      "scene": "ST003",
+      "when": "체력에 투자",
+      "actor": "dokja-office",
+      "action": "guard",
+      "effect": "shield"
+    },
+    {
+      "scene": "ST008",
+      "when": "가시에 점액",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "poison",
+      "item": "hammer-seahorse-mucus"
+    },
+    {
+      "scene": "ST009",
+      "when": "씨-커맨더를 무너뜨렸다",
+      "actor": "dokja-office",
+      "action": "attack",
+      "effect": "impact",
+      "target": "sea-commander"
+    },
+    {
+      "scene": "ST015",
+      "when": "파수꾼을 무력화",
+      "actor": "dokja-office",
+      "action": "attack",
+      "effect": "slash",
+      "target": "dark-keeper"
+    },
+    {
+      "scene": "ST016",
+      "when": "마력 화로",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "flame",
+      "item": "mana-stove"
+    },
+    {
+      "scene": "ST016",
+      "when": "부러지지 않는 신념이 모습",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "slash",
+      "item": "unbroken-faith"
+    },
+    {
+      "scene": "ST017",
+      "when": "정희원의 각성과 심판",
+      "actor": "heewon",
+      "action": "cast",
+      "effect": "seal"
+    },
+    {
+      "scene": "ST018",
+      "when": "파마를 사용",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "seal"
+    },
+    {
+      "scene": "ST018",
+      "when": "이지혜가 일행을 충무로로 안내",
+      "actor": "dokja-office",
+      "action": "walk",
+      "effect": "impact"
+    },
+    {
+      "scene": "ST021",
+      "when": "영석은 잠시",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "soul",
+      "item": "specter-stone"
+    },
+    {
+      "scene": "ST023",
+      "when": "앞은 제가",
+      "actor": "hyunsung",
+      "action": "guard",
+      "effect": "shield"
+    },
+    {
+      "scene": "ST027",
+      "when": "함대와 동료들의 대응",
+      "actor": "jihye",
+      "action": "cast",
+      "effect": "water"
+    },
+    {
+      "scene": "ST028",
+      "when": "유중혁의 검",
+      "actor": "junghyeok",
+      "action": "attack",
+      "effect": "slash",
+      "target": "dokja-office"
+    },
+    {
+      "scene": "ST031",
+      "when": "역을 잇는 공략과 방어",
+      "actor": "heewon",
+      "action": "walk",
+      "effect": "impact"
+    },
+    {
+      "scene": "ST036",
+      "when": "레서 이그니르의 화염",
+      "actor": "lesser-ignir",
+      "action": "cast",
+      "effect": "flame",
+      "target": "dokja-office"
+    },
+    {
+      "scene": "ST036",
+      "when": "불길로 나섰다",
+      "actor": "dokja-office",
+      "action": "fall",
+      "effect": "flame"
+    },
+    {
+      "scene": "ST037",
+      "when": "귀환을 가능하게",
+      "actor": "dokja-office",
+      "action": "enter",
+      "effect": "soul"
+    },
+    {
+      "scene": "ST040",
+      "when": "검이 끊을 수 있는 연결",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "seal",
+      "item": "four-tiger-sword"
+    },
+    {
+      "scene": "ST044",
+      "when": "왕좌가 부서졌다",
+      "actor": "dokja-office",
+      "action": "attack",
+      "effect": "impact"
+    },
+    {
+      "scene": "ST045",
+      "when": "일행의 흔적을 찾으며",
+      "actor": "dokja-office",
+      "action": "walk",
+      "effect": "impact"
+    },
+    {
+      "scene": "ST051",
+      "when": "동의보감 미완성본",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "heal",
+      "target": "seolhwa",
+      "item": "dongui"
+    },
+    {
+      "scene": "ST054",
+      "when": "제가 붙잡고",
+      "actor": "sangah",
+      "action": "cast",
+      "effect": "thread"
+    },
+    {
+      "scene": "ST054",
+      "when": "아공간 코트",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "portal",
+      "item": "white-coat"
+    },
+    {
+      "scene": "ST057",
+      "when": "현재 신유승의 교감",
+      "actor": "yoosung",
+      "action": "cast",
+      "effect": "summon"
+    },
+    {
+      "scene": "ST059",
+      "when": "심판의 시간을 빌려",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "seal"
+    },
+    {
+      "scene": "ST062",
+      "when": "기억과 이야기의 덩어리",
+      "actor": "persephone",
+      "action": "cast",
+      "effect": "soul"
+    },
+    {
+      "scene": "ST068",
+      "when": "백청과 전인화의 수련",
+      "actor": "kyrgios",
+      "action": "cast",
+      "effect": "lightning"
+    },
+    {
+      "scene": "ST070",
+      "when": "거신화와 김독자의 전인화",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "lightning"
+    },
+    {
+      "scene": "ST071",
+      "when": "고대 뱀의 성혈을 섞은",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "soul",
+      "item": "serpent-sake"
+    },
+    {
+      "scene": "ST072",
+      "when": "도깨비 알에 담겼다",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "soul",
+      "item": "dokkaebi-egg"
+    },
+    {
+      "scene": "ST073",
+      "when": "돌아온다고 이전의 자리",
+      "actor": "dokja-coat",
+      "action": "walk",
+      "effect": "impact"
+    },
+    {
+      "scene": "ST076",
+      "when": "강철의 증명에 응답",
+      "actor": "hyunsung-steel",
+      "action": "guard",
+      "effect": "shield"
+    },
+    {
+      "scene": "ST081",
+      "when": "니르바나는 벽에 흡수",
+      "actor": "nirvana",
+      "action": "fall",
+      "effect": "portal"
+    },
+    {
+      "scene": "ST083",
+      "when": "새로운 성좌의 탄생",
+      "actor": "dokja-coat",
+      "action": "enter",
+      "effect": "soul"
+    },
+    {
+      "scene": "ST087",
+      "when": "심판자의 검",
+      "actor": "heewon-judgment",
+      "action": "cast",
+      "effect": "judgment",
+      "item": "judgment-sword"
+    },
+    {
+      "scene": "ST088",
+      "when": "새로운 관계로 바꾸었다",
+      "actor": "yoosung",
+      "action": "cast",
+      "effect": "summon",
+      "target": "chimera-dragon"
+    },
+    {
+      "scene": "ST094",
+      "when": "지원이 틈을 만들었다",
+      "actor": "jun-gyeong",
+      "action": "attack",
+      "effect": "slash",
+      "target": "dream-eater"
+    },
+    {
+      "scene": "ST095",
+      "when": "제4의 벽이 거꾸로",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "portal"
+    },
+    {
+      "scene": "ST096",
+      "when": "이수경은 돌아왔다",
+      "actor": "sookyung",
+      "action": "enter",
+      "effect": "soul"
+    },
+    {
+      "scene": "ST100",
+      "when": "동료들은 마왕이 된",
+      "actor": "junghyeok",
+      "action": "attack",
+      "effect": "slash",
+      "target": "dokja-demon"
+    },
+    {
+      "scene": "ST104",
+      "when": "재구성하게 했다",
+      "actor": "dokja-exile",
+      "action": "cast",
+      "effect": "soul",
+      "item": "story-fragment"
+    },
+    {
+      "scene": "ST108",
+      "when": "생명력과 사용 조건",
+      "actor": "mark",
+      "action": "guard",
+      "effect": "shield"
+    },
+    {
+      "scene": "ST111",
+      "when": "연락의 통로",
+      "actor": "hayoung",
+      "action": "cast",
+      "effect": "insight"
+    },
+    {
+      "scene": "ST113",
+      "when": "도깨비 알이 열렸다",
+      "actor": "biyoo",
+      "action": "enter",
+      "effect": "soul",
+      "item": "dokkaebi-egg"
+    },
+    {
+      "scene": "ST115",
+      "when": "거신병이 공장에 맞섰다",
+      "actor": "giant-soldier",
+      "action": "attack",
+      "effect": "impact",
+      "target": "factory"
+    },
+    {
+      "scene": "ST117",
+      "when": "1차 수정본",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "insight",
+      "item": "novel-revision"
+    },
+    {
+      "scene": "ST120",
+      "when": "필요한 것을 배우러",
+      "actor": "junghyeok",
+      "action": "walk",
+      "effect": "impact"
+    },
+    {
+      "scene": "ST124",
+      "when": "그녀를 통해 칼을 움직이며",
+      "actor": "iris",
+      "action": "attack",
+      "effect": "slash"
+    },
+    {
+      "scene": "ST126",
+      "when": "자신의 힘으로 승부",
+      "actor": "junghyeok",
+      "action": "attack",
+      "effect": "slash"
+    },
+    {
+      "scene": "ST128",
+      "when": "키리오스가 예상보다",
+      "actor": "kyrgios",
+      "action": "enter",
+      "effect": "lightning"
+    },
+    {
+      "scene": "ST129",
+      "when": "책갈피의 숙련과 동시 운용",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "insight"
+    },
+    {
+      "scene": "ST130",
+      "when": "데리고 돌아간다",
+      "actor": "junghyeok",
+      "action": "attack",
+      "effect": "slash",
+      "target": "humpback"
+    },
+    {
+      "scene": "ST133",
+      "when": "잠재력이 전초전",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "seal"
+    },
+    {
+      "scene": "ST134",
+      "when": "모루석 두 개",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "craft",
+      "item": "anvil-stone"
+    },
+    {
+      "scene": "ST137",
+      "when": "각성과 팀의 대응",
+      "actor": "junghyeok",
+      "action": "cast",
+      "effect": "insight"
+    },
+    {
+      "scene": "ST141",
+      "when": "강철화와 교감",
+      "actor": "hyunsung-steel",
+      "action": "guard",
+      "effect": "shield"
+    },
+    {
+      "scene": "ST142",
+      "when": "베르칸 공작을 죽이고",
+      "actor": "dokja-coat",
+      "action": "attack",
+      "effect": "slash",
+      "target": "enemy-duke"
+    },
+    {
+      "scene": "ST145",
+      "when": "잘게 부수어 먹이며",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "heal",
+      "target": "junghyeok",
+      "item": "great-pill"
+    },
+    {
+      "scene": "ST146",
+      "when": "척준경과 이어 온 인연",
+      "actor": "jun-gyeong",
+      "action": "attack",
+      "effect": "slash"
+    },
+    {
+      "scene": "ST147",
+      "when": "우리엘의 불빛",
+      "actor": "heewon-judgment",
+      "action": "cast",
+      "effect": "judgment"
+    },
+    {
+      "scene": "ST148",
+      "when": "거대 설화의 근거",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "spring"
+    },
+    {
+      "scene": "ST150",
+      "when": "배운 것을 어디에",
+      "actor": "kyrgios",
+      "action": "cast",
+      "effect": "lightning"
+    },
+    {
+      "scene": "ST151",
+      "when": "흑염룡의 힘",
+      "actor": "sooyoung",
+      "action": "cast",
+      "effect": "blackflame"
+    },
+    {
+      "scene": "ST152",
+      "when": "수르야의 화신체가 패배",
+      "actor": "junghyeok",
+      "action": "attack",
+      "effect": "slash",
+      "target": "surya"
+    },
+    {
+      "scene": "ST153",
+      "when": "첫 거대 설화 마계의 봄",
+      "actor": "dokja-coat",
+      "action": "victory",
+      "effect": "spring",
+      "item": "story-spring"
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "version": 1,
+  "basis": "Authored visual cues for existing game adaptation. Rendering only; does not grant skills or modify canonical state.",
+  "cues": [
+    {
+      "scene": "ST001",
+      "when": "텍스트 파일",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "insight",
+      "item": "novel-text"
+    },
+    {
+      "scene": "ST002",
+      "when": "객차에 나타났다",
+      "actor": "bihyung",
+      "action": "enter",
+      "effect": "summon"
+    },
+    {
+      "scene": "ST003",
+      "when": "체력에 투자",
+      "actor": "dokja-office",
+      "action": "guard",
+      "effect": "shield"
+    },
+    {
+      "scene": "ST008",
+      "when": "가시에 점액",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "poison",
+      "item": "hammer-seahorse-mucus"
+    },
+    {
+      "scene": "ST009",
+      "when": "씨-커맨더를 무너뜨렸다",
+      "actor": "dokja-office",
+      "action": "attack",
+      "effect": "impact",
+      "target": "sea-commander"
+    },
+    {
+      "scene": "ST015",
+      "when": "파수꾼을 무력화",
+      "actor": "dokja-office",
+      "action": "attack",
+      "effect": "slash",
+      "target": "dark-keeper"
+    },
+    {
+      "scene": "ST016",
+      "when": "마력 화로",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "flame",
+      "item": "mana-stove"
+    },
+    {
+      "scene": "ST016",
+      "when": "부러지지 않는 신념이 모습",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "slash",
+      "item": "unbroken-faith"
+    },
+    {
+      "scene": "ST017",
+      "when": "정희원의 각성과 심판",
+      "actor": "heewon",
+      "action": "cast",
+      "effect": "seal"
+    },
+    {
+      "scene": "ST018",
+      "when": "파마를 사용",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "seal"
+    },
+    {
+      "scene": "ST018",
+      "when": "이지혜가 일행을 충무로로 안내",
+      "actor": "dokja-office",
+      "action": "walk",
+      "effect": "impact"
+    },
+    {
+      "scene": "ST021",
+      "when": "영석은 잠시",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "soul",
+      "item": "specter-stone"
+    },
+    {
+      "scene": "ST023",
+      "when": "앞은 제가",
+      "actor": "hyunsung",
+      "action": "guard",
+      "effect": "shield"
+    },
+    {
+      "scene": "ST027",
+      "when": "함대와 동료들의 대응",
+      "actor": "jihye",
+      "action": "cast",
+      "effect": "water"
+    },
+    {
+      "scene": "ST028",
+      "when": "유중혁의 검",
+      "actor": "junghyeok",
+      "action": "attack",
+      "effect": "slash",
+      "target": "dokja-office"
+    },
+    {
+      "scene": "ST031",
+      "when": "역을 잇는 공략과 방어",
+      "actor": "heewon",
+      "action": "walk",
+      "effect": "impact"
+    },
+    {
+      "scene": "ST036",
+      "when": "레서 이그니르의 화염",
+      "actor": "lesser-ignir",
+      "action": "cast",
+      "effect": "flame",
+      "target": "dokja-office"
+    },
+    {
+      "scene": "ST036",
+      "when": "불길로 나섰다",
+      "actor": "dokja-office",
+      "action": "fall",
+      "effect": "flame"
+    },
+    {
+      "scene": "ST037",
+      "when": "귀환을 가능하게",
+      "actor": "dokja-office",
+      "action": "enter",
+      "effect": "soul"
+    },
+    {
+      "scene": "ST040",
+      "when": "검이 끊을 수 있는 연결",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "seal",
+      "item": "four-tiger-sword"
+    },
+    {
+      "scene": "ST044",
+      "when": "왕좌가 부서졌다",
+      "actor": "dokja-office",
+      "action": "attack",
+      "effect": "impact"
+    },
+    {
+      "scene": "ST045",
+      "when": "일행의 흔적을 찾으며",
+      "actor": "dokja-office",
+      "action": "walk",
+      "effect": "impact"
+    },
+    {
+      "scene": "ST051",
+      "when": "동의보감 미완성본",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "heal",
+      "target": "seolhwa",
+      "item": "dongui"
+    },
+    {
+      "scene": "ST054",
+      "when": "제가 붙잡고",
+      "actor": "sangah",
+      "action": "cast",
+      "effect": "thread"
+    },
+    {
+      "scene": "ST054",
+      "when": "아공간 코트",
+      "actor": "dokja-office",
+      "action": "cast",
+      "effect": "portal",
+      "item": "white-coat"
+    },
+    {
+      "scene": "ST057",
+      "when": "현재 신유승의 교감",
+      "actor": "yoosung",
+      "action": "cast",
+      "effect": "summon"
+    },
+    {
+      "scene": "ST059",
+      "when": "심판의 시간을 빌려",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "seal"
+    },
+    {
+      "scene": "ST062",
+      "when": "기억과 이야기의 덩어리",
+      "actor": "persephone",
+      "action": "cast",
+      "effect": "soul"
+    },
+    {
+      "scene": "ST068",
+      "when": "백청과 전인화의 수련",
+      "actor": "kyrgios",
+      "action": "cast",
+      "effect": "lightning"
+    },
+    {
+      "scene": "ST070",
+      "when": "거신화와 김독자의 전인화",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "lightning"
+    },
+    {
+      "scene": "ST071",
+      "when": "고대 뱀의 성혈을 섞은",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "soul",
+      "item": "serpent-sake"
+    },
+    {
+      "scene": "ST072",
+      "when": "도깨비 알에 담겼다",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "soul",
+      "item": "dokkaebi-egg"
+    },
+    {
+      "scene": "ST073",
+      "when": "돌아온다고 이전의 자리",
+      "actor": "dokja-coat",
+      "action": "walk",
+      "effect": "impact"
+    },
+    {
+      "scene": "ST076",
+      "when": "강철의 증명에 응답",
+      "actor": "hyunsung-steel",
+      "action": "guard",
+      "effect": "shield"
+    },
+    {
+      "scene": "ST081",
+      "when": "니르바나는 벽에 흡수",
+      "actor": "nirvana",
+      "action": "fall",
+      "effect": "portal"
+    },
+    {
+      "scene": "ST083",
+      "when": "새로운 성좌의 탄생",
+      "actor": "dokja-coat",
+      "action": "enter",
+      "effect": "soul"
+    },
+    {
+      "scene": "ST087",
+      "when": "심판자의 검",
+      "actor": "heewon-judgment",
+      "action": "cast",
+      "effect": "judgment",
+      "item": "judgment-sword"
+    },
+    {
+      "scene": "ST088",
+      "when": "새로운 관계로 바꾸었다",
+      "actor": "yoosung",
+      "action": "cast",
+      "effect": "summon",
+      "target": "chimera-dragon"
+    },
+    {
+      "scene": "ST094",
+      "when": "지원이 틈을 만들었다",
+      "actor": "jun-gyeong",
+      "action": "attack",
+      "effect": "slash",
+      "target": "dream-eater"
+    },
+    {
+      "scene": "ST095",
+      "when": "제4의 벽이 거꾸로",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "portal"
+    },
+    {
+      "scene": "ST096",
+      "when": "이수경은 돌아왔다",
+      "actor": "sookyung",
+      "action": "enter",
+      "effect": "soul"
+    },
+    {
+      "scene": "ST100",
+      "when": "동료들은 마왕이 된",
+      "actor": "junghyeok",
+      "action": "attack",
+      "effect": "slash",
+      "target": "dokja-demon"
+    },
+    {
+      "scene": "ST104",
+      "when": "재구성하게 했다",
+      "actor": "dokja-exile",
+      "action": "cast",
+      "effect": "soul",
+      "item": "story-fragment"
+    },
+    {
+      "scene": "ST108",
+      "when": "생명력과 사용 조건",
+      "actor": "mark",
+      "action": "guard",
+      "effect": "shield"
+    },
+    {
+      "scene": "ST111",
+      "when": "연락의 통로",
+      "actor": "hayoung",
+      "action": "cast",
+      "effect": "insight"
+    },
+    {
+      "scene": "ST113",
+      "when": "도깨비 알이 열렸다",
+      "actor": "biyoo",
+      "action": "enter",
+      "effect": "soul",
+      "item": "dokkaebi-egg"
+    },
+    {
+      "scene": "ST115",
+      "when": "거신병이 공장에 맞섰다",
+      "actor": "giant-soldier",
+      "action": "attack",
+      "effect": "impact",
+      "target": "factory"
+    },
+    {
+      "scene": "ST117",
+      "when": "1차 수정본",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "insight",
+      "item": "novel-revision"
+    },
+    {
+      "scene": "ST120",
+      "when": "필요한 것을 배우러",
+      "actor": "junghyeok",
+      "action": "walk",
+      "effect": "impact"
+    },
+    {
+      "scene": "ST124",
+      "when": "그녀를 통해 칼을 움직이며",
+      "actor": "iris",
+      "action": "attack",
+      "effect": "slash"
+    },
+    {
+      "scene": "ST126",
+      "when": "자신의 힘으로 승부",
+      "actor": "junghyeok",
+      "action": "attack",
+      "effect": "slash"
+    },
+    {
+      "scene": "ST128",
+      "when": "키리오스가 예상보다",
+      "actor": "kyrgios",
+      "action": "enter",
+      "effect": "lightning"
+    },
+    {
+      "scene": "ST129",
+      "when": "책갈피의 숙련과 동시 운용",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "insight"
+    },
+    {
+      "scene": "ST130",
+      "when": "데리고 돌아간다",
+      "actor": "junghyeok",
+      "action": "attack",
+      "effect": "slash",
+      "target": "humpback"
+    },
+    {
+      "scene": "ST133",
+      "when": "잠재력이 전초전",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "seal"
+    },
+    {
+      "scene": "ST134",
+      "when": "모루석 두 개",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "craft",
+      "item": "anvil-stone"
+    },
+    {
+      "scene": "ST137",
+      "when": "각성과 팀의 대응",
+      "actor": "junghyeok",
+      "action": "cast",
+      "effect": "insight"
+    },
+    {
+      "scene": "ST141",
+      "when": "강철화와 교감",
+      "actor": "hyunsung-steel",
+      "action": "guard",
+      "effect": "shield"
+    },
+    {
+      "scene": "ST142",
+      "when": "베르칸 공작을 죽이고",
+      "actor": "dokja-coat",
+      "action": "attack",
+      "effect": "slash",
+      "target": "enemy-duke"
+    },
+    {
+      "scene": "ST145",
+      "when": "잘게 부수어 먹이며",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "heal",
+      "target": "junghyeok",
+      "item": "great-pill"
+    },
+    {
+      "scene": "ST146",
+      "when": "척준경과 이어 온 인연",
+      "actor": "jun-gyeong",
+      "action": "attack",
+      "effect": "slash"
+    },
+    {
+      "scene": "ST147",
+      "when": "우리엘의 불빛",
+      "actor": "heewon-judgment",
+      "action": "cast",
+      "effect": "judgment"
+    },
+    {
+      "scene": "ST148",
+      "when": "거대 설화의 근거",
+      "actor": "dokja-coat",
+      "action": "cast",
+      "effect": "spring"
+    },
+    {
+      "scene": "ST150",
+      "when": "배운 것을 어디에",
+      "actor": "kyrgios",
+      "action": "cast",
+      "effect": "lightning"
+    },
+    {
+      "scene": "ST151",
+      "when": "흑염룡의 힘",
+      "actor": "sooyoung",
+      "action": "cast",
+      "effect": "blackflame"
+    },
+    {
+      "scene": "ST152",
+      "when": "수르야의 화신체가 패배",
+      "actor": "junghyeok",
+      "action": "attack",
+      "effect": "slash",
+      "target": "surya"
+    },
+    {
+      "scene": "ST153",
+      "when": "첫 거대 설화 마계의 봄",
+      "actor": "dokja-coat",
+      "action": "victory",
+      "effect": "spring",
+      "item": "story-spring"
+    }
+  ]
+}

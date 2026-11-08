@@ -1,0 +1,19 @@
+{
+  "generator": "image_gen",
+  "reference": "assets/sd/characters/main-atlas.png",
+  "transparentBackgroundRequested": true,
+  "visualReview": "All ten generated sheets visually inspected; game design reference, not a claim of canonical webtoon identity.",
+  "sources": {
+    "dokja-office": "/workspace/generated_images/exec-3dd7d3bd-d22b-49be-a380-071359f3e0cf.png",
+    "dokja-coat": "/workspace/generated_images/exec-93b8d340-66ec-412a-9592-bca9619bd428.png",
+    "junghyeok": "/workspace/generated_images/exec-7b5e5f33-4d71-4c41-a2d3-dd9011209e8b.png",
+    "sooyoung": "/workspace/generated_images/exec-7f5cad15-2728-468d-bdde-79c5246e838a.png",
+    "sangah": "/workspace/generated_images/exec-060cfb89-6b14-4a2d-9b5b-2e0437957c3a.png",
+    "heewon": "/workspace/generated_images/exec-de7190de-ff0b-4909-9c1a-1fce9fb8157a.png",
+    "hyunsung": "/workspace/generated_images/exec-ff985bcf-bde7-48fd-b340-f0a15864dad1.png",
+    "jihye": "/workspace/generated_images/exec-5ed6c5c4-a344-4b02-bd5c-16ed2da15c7f.png",
+    "gilyoung": "/workspace/generated_images/exec-baaab99b-e092-43d0-876f-51854b595683.png",
+    "yoosung": "/workspace/generated_images/exec-87f84e59-4a9d-49d4-8061-a1eb96337e54.png"
+  },
+  "calibration": "Runtime alignment metadata measured from alpha silhouettes; generated PNG pixels unchanged."
+}

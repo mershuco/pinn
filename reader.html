@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0c121b"><title>독자의 기록 · 스토리 모드</title>
+<link rel="stylesheet" href="story/story.css">
+<link rel="stylesheet" href="animation/motion.css">
+<main class="app">
+ <header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">讀</span><span>독자의 기록<small>OMNISCIENT READER · STORY MODE</small></span></a><div class="top-actions"><button id="journal-button">기록실</button><button id="settings-button" aria-label="설정">설정</button><a href="script.html" class="text-link">전체 대본</a></div></header>
+ <aside class="chapters"><div class="chapter-heading"><span>이야기의 목차</span><strong id="progress-label">0 / 153</strong></div><progress id="progress" max="153" value="0"></progress><nav id="chapter-list" aria-label="챕터 선택"></nav><a class="art-link" href="art-preview.html">캐릭터·아이템 도감 ↗</a><a class="motion-gallery-link" href="animations.html">애니메이션 도감 ↗</a></aside>
+ <section class="reader" aria-label="스토리 진행">
+  <div class="scene-heading"><div><span id="act-name" class="eyebrow"></span><h1 id="scene-title">이야기를 불러오고 있습니다</h1></div><span id="scene-counter"></span></div>
+  <div id="replay-bar" hidden><span>지나온 장면을 회상하고 있습니다</span><button id="return-button">현재 이야기로</button></div>
+  <section id="stage" class="stage" data-world="subway" aria-label="장면"><div class="scenery" aria-hidden="true"><div class="horizon"></div><div class="structures"></div><div class="floor"></div></div><div class="location"><span class="location-dot"></span><span id="location"></span></div><div id="cast" class="cast"></div><div class="stage-caption"><span id="mode"></span><span id="objective"></span></div></section>
+  <section class="dialogue"><div class="dialogue-heading"><span id="speaker">기록</span><span id="line-counter"></span></div><p id="line-text" aria-live="polite"></p><div id="choices" class="choices"></div><div class="dialogue-controls"><button id="back-line" aria-label="이전 대사">← 이전 문장</button><span id="save-status" role="status">자동 저장</span><button id="next-line" class="primary">계속 읽기 <span aria-hidden="true">→</span></button></div></section>
+  <section class="ending" id="ending" hidden><span class="eyebrow">THE FIRST GREAT STORY</span><h2>마계의 봄</h2><p>함께 살아남은 시간이 하나의 이야기가 되었습니다.</p><div class="ending-awards"><span>73번째 마계의 정식 마왕위</span><span>거대 설화 · 마계의 봄</span><span>끝의 자격</span><span>김독자 컴퍼니 임시 공표</span></div><button id="ending-journal" class="primary">함께 남긴 기록 보기</button><p class="ending-note">이 스토리 모드는 마왕 선발전의 최종 정산에서 끝납니다.</p></section>
+ </section>
+ <footer class="app-footer"><span>소설의 사건을 바탕으로 새로 쓴 게임용 각색 대본</span><span>Enter / Space 다음 문장 · 선택은 버튼으로</span></footer>
+</main>
+<dialog id="journal"><div class="modal-heading"><h2>함께 남긴 기록</h2><button data-close="journal" aria-label="기록실 닫기">×</button></div><div id="journal-content"></div></dialog>
+<dialog id="settings"><div class="modal-heading"><h2>설정</h2><button data-close="settings" aria-label="설정 닫기">×</button></div><p>이야기는 이 브라우저에 자동 저장됩니다.</p><label class="motion-setting"><input id="motion-enabled" type="checkbox" checked>캐릭터 움직임·파티클 켜기</label><p class="motion-settings-note">움직임 줄이기 설정에서는 기본으로 꺼집니다. <a href="animations.html">애니메이션 도감에서 모두 보기 ↗</a></p><div class="settings-links"><button id="export-save">진행 파일 내려받기</button><label class="import-label">진행 파일 불러오기<input id="import-save" type="file" accept="application/json,.json"></label></div><p id="settings-message" role="status"></p><details><summary>처음부터 다시 시작</summary><p>현재 진행을 지웁니다. 회상은 목차에서 할 수 있습니다.</p><button id="reset-save" class="danger">진행을 지우고 처음부터</button></details></dialog>
+<dialog id="feedback"><span id="feedback-kind" class="eyebrow"></span><h2 id="feedback-title"></h2><p id="feedback-text"></p><button id="feedback-next" class="primary">계속</button></dialog>
+<script type="module" src="story/app.js"></script>
+</html>

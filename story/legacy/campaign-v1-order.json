@@ -1,0 +1,923 @@
+{
+  "version": 1,
+  "scenes": [
+    {
+      "id": "ST001",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST002",
+      "choices": [
+        "read"
+      ]
+    },
+    {
+      "id": "ST003",
+      "choices": [
+        "insects"
+      ]
+    },
+    {
+      "id": "ST004",
+      "choices": [
+        "refuse"
+      ]
+    },
+    {
+      "id": "ST005",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST006",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST007",
+      "choices": [
+        "contract"
+      ]
+    },
+    {
+      "id": "ST008",
+      "choices": [
+        "combine"
+      ]
+    },
+    {
+      "id": "ST009",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST010",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST011",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST012",
+      "choices": [
+        "structure"
+      ]
+    },
+    {
+      "id": "ST013",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST014",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST015",
+      "choices": [
+        "rescue"
+      ]
+    },
+    {
+      "id": "ST016",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST017",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST018",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST019",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST020",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST021",
+      "choices": [
+        "limited"
+      ]
+    },
+    {
+      "id": "ST022",
+      "choices": [
+        "break"
+      ]
+    },
+    {
+      "id": "ST023",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST024",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST025",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST026",
+      "choices": [
+        "listen"
+      ]
+    },
+    {
+      "id": "ST027",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST028",
+      "choices": [
+        "controller"
+      ]
+    },
+    {
+      "id": "ST029",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST030",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST031",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST032",
+      "choices": [
+        "range"
+      ]
+    },
+    {
+      "id": "ST033",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST034",
+      "choices": [
+        "prepare"
+      ]
+    },
+    {
+      "id": "ST035",
+      "choices": [
+        "capacity"
+      ]
+    },
+    {
+      "id": "ST036",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST037",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST038",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST039",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST040",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST041",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST042",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST043",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST044",
+      "choices": [
+        "destroy"
+      ]
+    },
+    {
+      "id": "ST045",
+      "choices": [
+        "survive"
+      ]
+    },
+    {
+      "id": "ST046",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST047",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST048",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST049",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST050",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST051",
+      "choices": [
+        "separate"
+      ]
+    },
+    {
+      "id": "ST052",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST053",
+      "choices": [
+        "silence"
+      ]
+    },
+    {
+      "id": "ST054",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST055",
+      "choices": [
+        "protect"
+      ]
+    },
+    {
+      "id": "ST056",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST057",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST058",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST059",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST060",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST061",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST062",
+      "choices": [
+        "terms"
+      ]
+    },
+    {
+      "id": "ST063",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST064",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST065",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST066",
+      "choices": [
+        "save"
+      ]
+    },
+    {
+      "id": "ST067",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST068",
+      "choices": [
+        "body"
+      ]
+    },
+    {
+      "id": "ST069",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST070",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST071",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST072",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST073",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST074",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST075",
+      "choices": [
+        "protect"
+      ]
+    },
+    {
+      "id": "ST076",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST077",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST078",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST079",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST080",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST081",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST082",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST083",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST084",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST085",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST086",
+      "choices": [
+        "investigate"
+      ]
+    },
+    {
+      "id": "ST087",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST088",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST089",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST090",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST091",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST092",
+      "choices": [
+        "talk"
+      ]
+    },
+    {
+      "id": "ST093",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST094",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST095",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST096",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST097",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST098",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST099",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST100",
+      "choices": [
+        "finish"
+      ]
+    },
+    {
+      "id": "ST101",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST102",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST103",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST104",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST105",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST106",
+      "choices": [
+        "status"
+      ]
+    },
+    {
+      "id": "ST107",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST108",
+      "choices": [
+        "guard"
+      ]
+    },
+    {
+      "id": "ST109",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST110",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST111",
+      "choices": [
+        "message"
+      ]
+    },
+    {
+      "id": "ST112",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST113",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST114",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST115",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST116",
+      "choices": [
+        "refuse"
+      ]
+    },
+    {
+      "id": "ST117",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST118",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST119",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST120",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST121",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST122",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST123",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST124",
+      "choices": [
+        "help"
+      ]
+    },
+    {
+      "id": "ST125",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST126",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST127",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST128",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST129",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST130",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST131",
+      "choices": [
+        "evacuate"
+      ]
+    },
+    {
+      "id": "ST132",
+      "choices": [
+        "move"
+      ]
+    },
+    {
+      "id": "ST133",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST134",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST135",
+      "choices": [
+        "roles"
+      ]
+    },
+    {
+      "id": "ST136",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST137",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST138",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST139",
+      "choices": [
+        "switch"
+      ]
+    },
+    {
+      "id": "ST140",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST141",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST142",
+      "choices": [
+        "wait"
+      ]
+    },
+    {
+      "id": "ST143",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST144",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST145",
+      "choices": [
+        "stay"
+      ]
+    },
+    {
+      "id": "ST146",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST147",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST148",
+      "choices": [
+        "history"
+      ]
+    },
+    {
+      "id": "ST149",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST150",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST151",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST152",
+      "choices": [
+        "continue"
+      ]
+    },
+    {
+      "id": "ST153",
+      "choices": [
+        "continue"
+      ]
+    }
+  ]
+}

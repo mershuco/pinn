@@ -1,0 +1,7 @@
+{
+ "generator":"image_gen",
+ "technique":"original hand-inked cel-shaded game scenery, four equal panels per atlas",
+ "worlds.png":{"source":"/workspace/generated_images/exec-d6e62799-0d1c-4934-ba54-ffb2df874ddd.png","cells":["subway","city","castle","demon"]},
+ "worlds-extra.png":{"source":"/workspace/generated_images/exec-d2e2f34d-05d5-4407-9110-97263f9ef24b.png","cells":["forest","murim","underworld","train"]},
+ "notes":"Generated PNG pixels copied unchanged. Visual game adaptations, not official webtoon panels."
+}

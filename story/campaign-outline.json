@@ -1,0 +1,5417 @@
+{
+  "version": 1,
+  "status": "content_outline_not_implemented",
+  "language": "ko",
+  "basis_document": "orv-game-reference.md",
+  "user_requirement": "No stage-count ceiling; preserve important scenarios through Demon World Spring.",
+  "scope_end": "Episode 51 conclusion: Demon King Selection settlement and Demon World Spring acquisition",
+  "stage_count_is_ceiling": false,
+  "total_progression_nodes": 153,
+  "acts": [
+    {
+      "id": "A1",
+      "title": "지하철에서 왕좌 파괴까지",
+      "node_count": 44,
+      "first_node": "ST001",
+      "last_node": "ST044"
+    },
+    {
+      "id": "A2",
+      "title": "재앙과 작은 세계",
+      "node_count": 27,
+      "first_node": "ST045",
+      "last_node": "ST071"
+    },
+    {
+      "id": "A3",
+      "title": "희생과 암흑성",
+      "node_count": 30,
+      "first_node": "ST072",
+      "last_node": "ST101"
+    },
+    {
+      "id": "A4",
+      "title": "마계 혁명과 선발전 준비",
+      "node_count": 33,
+      "first_node": "ST102",
+      "last_node": "ST134"
+    },
+    {
+      "id": "A5",
+      "title": "마왕 선발전과 마계의 봄",
+      "node_count": 19,
+      "first_node": "ST135",
+      "last_node": "ST153"
+    }
+  ],
+  "notes": [
+    "Working titles and segmentation are newly authored game design, not official novel scenario names.",
+    "All nodes preserve the main story route; event-only scenes may be packaged with adjacent playable stages.",
+    "Source chapters, scenario numbers, stage IDs and research group IDs are separate namespaces.",
+    "No combat values, recipes or narrative alternative victories are finalized.",
+    "Primary source and edition verification items remain in the research document."
+  ],
+  "scenario_coverage": [
+    {
+      "id": "M01",
+      "source_scenario": "#1 가치 증명",
+      "node_ids": [
+        "ST002",
+        "ST003"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M02",
+      "source_scenario": "#2 조우",
+      "node_ids": [
+        "ST011"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M03A",
+      "source_scenario": "#3 그린 존",
+      "node_ids": [
+        "ST019",
+        "ST020",
+        "ST021"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M03B",
+      "source_scenario": "#3 긴급 방어전",
+      "node_ids": [
+        "ST022",
+        "ST023"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M04A",
+      "source_scenario": "#4 깃발 쟁탈전",
+      "node_ids": [
+        "ST031",
+        "ST041"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M04B",
+      "source_scenario": "#4 왕의 자격",
+      "node_ids": [
+        "ST042",
+        "ST043",
+        "ST044"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M05",
+      "source_scenario": "#5 범람의 재앙",
+      "node_ids": [
+        "ST055",
+        "ST056",
+        "ST057",
+        "ST058",
+        "ST059"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M06A",
+      "source_scenario": "#6 버려진 세계",
+      "node_ids": [
+        "ST066",
+        "ST067",
+        "ST070"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M06B",
+      "source_scenario": "#6 작은 구원자",
+      "node_ids": [
+        "ST066",
+        "ST071"
+      ],
+      "treatment": "사건은 필수·시나리오명은 판본 조건부",
+      "note": "연재본에 없는 명칭이라는 자료의 주석을 유지한다."
+    },
+    {
+      "id": "M07",
+      "source_scenario": "#7 괴수 사냥",
+      "node_ids": [
+        "ST073"
+      ],
+      "treatment": "서울 잔류자들의 병행 사건",
+      "note": "정해지지 않은 전용 보스·보상을 만들지 않는다."
+    },
+    {
+      "id": "M08",
+      "source_scenario": "#8 최강의 희생양",
+      "node_ids": [
+        "ST077",
+        "ST080",
+        "ST081"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M09A",
+      "source_scenario": "#9 악마의 증명",
+      "node_ids": [
+        "ST084",
+        "ST085"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M09B",
+      "source_scenario": "#9 낙원에서의 갱신",
+      "node_ids": [
+        "ST086",
+        "ST087",
+        "ST090"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M10A",
+      "source_scenario": "#10 초기 랭커 편성",
+      "node_ids": [
+        "ST097"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M10B",
+      "source_scenario": "#10 73번째 마왕 갱신",
+      "node_ids": [
+        "ST098",
+        "ST099",
+        "ST100",
+        "ST101"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M11_19",
+      "source_scenario": "#11~19 중 문서에 설명된 진행",
+      "node_ids": [
+        "ST119"
+      ],
+      "treatment": "병행 사건·개인 시련 맥락",
+      "note": "자료에서 생략된 번호별 임무·루그라티아의 정확한 번호는 확정하지 않는다."
+    },
+    {
+      "id": "M20",
+      "source_scenario": "#20 마계 혁명",
+      "node_ids": [
+        "ST106",
+        "ST109",
+        "ST114",
+        "ST115",
+        "ST116"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "M25",
+      "source_scenario": "#21~25 / 마왕 선발전",
+      "node_ids": [
+        "ST135",
+        "ST136",
+        "ST137",
+        "ST139",
+        "ST142",
+        "ST152",
+        "ST153"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "S01",
+      "source_scenario": "탈출",
+      "node_ids": [
+        "ST005",
+        "ST006"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "S02",
+      "source_scenario": "식량 획득",
+      "node_ids": [
+        "ST014"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "source_scenario": "파수꾼 퇴치",
+      "node_ids": [
+        "ST015"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "source_scenario": "환영 감옥",
+      "node_ids": [
+        "ST018"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "source_scenario": "대표 선출",
+      "node_ids": [
+        "ST030"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "source_scenario": "왕좌 탈취 / 강제 계승식",
+      "node_ids": [
+        "ST044"
+      ],
+      "treatment": "적 측 목표·판본별 명칭",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "source_scenario": "생존 활동",
+      "node_ids": [
+        "ST045",
+        "ST046"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "source_scenario": "재앙 막기",
+      "node_ids": [
+        "ST052"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "S09",
+      "source_scenario": "SSS급 사냥",
+      "node_ids": [
+        "ST053",
+        "ST054"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "S10",
+      "source_scenario": "범람의 재앙(서브 제목만 존재)",
+      "node_ids": [
+        "ST059"
+      ],
+      "treatment": "자료 부족: 본편 사건만 반영",
+      "note": "독립된 규칙을 확인하지 못했으므로 새 퀘스트로 지어내지 않는다."
+    },
+    {
+      "id": "S11",
+      "source_scenario": "노예 해방",
+      "node_ids": [
+        "ST115"
+      ],
+      "treatment": "공장전의 연계 목표",
+      "note": ""
+    },
+    {
+      "id": "S12",
+      "source_scenario": "설화 수선",
+      "node_ids": [
+        "ST115"
+      ],
+      "treatment": "비유 부화 이후의 준비·중간 구간",
+      "note": ""
+    },
+    {
+      "id": "S13",
+      "source_scenario": "무도 대회",
+      "node_ids": [
+        "ST120",
+        "ST126"
+      ],
+      "treatment": "수련과 결승의 병행 시퀀스",
+      "note": ""
+    },
+    {
+      "id": "S14",
+      "source_scenario": "팔찌 원정대",
+      "node_ids": [
+        "ST124"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "S15",
+      "source_scenario": "미식협의 내기",
+      "node_ids": [
+        "ST126"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "S16",
+      "source_scenario": "전초전",
+      "node_ids": [
+        "ST131",
+        "ST132",
+        "ST133",
+        "ST134"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "B01",
+      "source_scenario": "방해꾼 제거",
+      "node_ids": [
+        "ST012"
+      ],
+      "treatment": "소규모 대결의 연계 의뢰",
+      "note": ""
+    },
+    {
+      "id": "B02",
+      "source_scenario": "암살 의뢰",
+      "node_ids": [
+        "ST022",
+        "ST023"
+      ],
+      "treatment": "적 측 목표",
+      "note": ""
+    },
+    {
+      "id": "B03",
+      "source_scenario": "생즉필사 사즉필생",
+      "node_ids": [
+        "ST026",
+        "ST027"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "B04",
+      "source_scenario": "후삼국 통일",
+      "node_ids": [
+        "ST042"
+      ],
+      "treatment": "주요 왕 대결의 연계 의뢰",
+      "note": ""
+    },
+    {
+      "id": "B05",
+      "source_scenario": "트라우마 극복",
+      "node_ids": [
+        "ST047"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "B06",
+      "source_scenario": "천벌",
+      "node_ids": [
+        "ST049"
+      ],
+      "treatment": "두 번째 배후 선택의 연결 사건",
+      "note": "발동 세부는 연구서 V01·V02에 따라 검증한다."
+    },
+    {
+      "id": "B07",
+      "source_scenario": "악마 퇴치",
+      "node_ids": [
+        "ST085"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "H01",
+      "source_scenario": "커맨더 슬레이어",
+      "node_ids": [
+        "ST007",
+        "ST008",
+        "ST009"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "H02",
+      "source_scenario": "극장 던전",
+      "node_ids": [
+        "ST024",
+        "ST025",
+        "ST027",
+        "ST028",
+        "ST029"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "H03",
+      "source_scenario": "왕의 길",
+      "node_ids": [
+        "ST031",
+        "ST042"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "H04",
+      "source_scenario": "뭉쳐도 죽고 흩어져도 죽는다",
+      "node_ids": [
+        "ST034",
+        "ST035",
+        "ST036"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "H05",
+      "source_scenario": "시련의 유물",
+      "node_ids": [
+        "ST038",
+        "ST039",
+        "ST040"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "H06",
+      "source_scenario": "혁명의 길",
+      "node_ids": [
+        "ST031",
+        "ST043"
+      ],
+      "treatment": "유중혁의 병행 경로",
+      "note": "김독자가 똑같이 수행하는 퀘스트로 옮기지 않는다."
+    },
+    {
+      "id": "H07",
+      "source_scenario": "명계 산책",
+      "node_ids": [
+        "ST061"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "H08",
+      "source_scenario": "명계의 여왕",
+      "node_ids": [
+        "ST062",
+        "ST063"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "H09",
+      "source_scenario": "뱀 사냥",
+      "node_ids": [
+        "ST062",
+        "ST070",
+        "ST072"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "H10",
+      "source_scenario": "별자리의 연회",
+      "node_ids": [
+        "ST082"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "H11",
+      "source_scenario": "자칭 혁명가",
+      "node_ids": [
+        "ST107",
+        "ST116"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "H12",
+      "source_scenario": "김독자 증명",
+      "node_ids": [
+        "ST128"
+      ],
+      "treatment": "필수 진행에 통합",
+      "note": ""
+    },
+    {
+      "id": "H13",
+      "source_scenario": "단 하나의 설화",
+      "node_ids": [
+        "ST153"
+      ],
+      "treatment": "종료 보상의 시작 알림만",
+      "note": "이 퀘스트의 본 진행·완수는 현재 범위에 포함하지 않는다."
+    }
+  ],
+  "stages": [
+    {
+      "id": "ST001",
+      "order": 1,
+      "act": "A1",
+      "research_group": "C01",
+      "working_title": "마지막 독자",
+      "mode": "사건",
+      "objective": "멸살법과 김독자의 일상을 확인한다.",
+      "result_to_preserve": "유일한 완독 지식이 이후 판단의 근거가 됨을 제시한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [],
+      "source_ids": [
+        "S01",
+        "S03",
+        "S08",
+        "S09"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST002",
+      "order": 2,
+      "act": "A1",
+      "research_group": "C01",
+      "working_title": "무료 서비스의 종료",
+      "mode": "조사",
+      "objective": "비형의 등장과 첫 시나리오의 문구를 읽는다.",
+      "result_to_preserve": "인간 살해와 생명체 살해가 다르다는 단서를 발견한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST001"
+      ],
+      "source_ids": [
+        "S01",
+        "S03",
+        "S08",
+        "S09"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M01"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST003",
+      "order": 3,
+      "act": "A1",
+      "research_group": "C01",
+      "working_title": "곤충과 알",
+      "mode": "선택",
+      "objective": "곤충과 알을 이용해 생존 경로를 실행한다.",
+      "result_to_preserve": "일행의 생존과 김남운의 죽음, 원작 경로의 첫 변화를 기록한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST002"
+      ],
+      "source_ids": [
+        "S01",
+        "S03",
+        "S08",
+        "S09"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M01"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST004",
+      "order": 4,
+      "act": "A1",
+      "research_group": "C02",
+      "working_title": "별들의 제안",
+      "mode": "선택",
+      "objective": "후원 제안의 힘과 종속 조건을 비교하고 배후 선택을 유보한다.",
+      "result_to_preserve": "배후성 없는 김독자 상태를 유지한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST003"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S10",
+        "S11"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST005",
+      "order": 5,
+      "act": "A1",
+      "research_group": "C02",
+      "working_title": "동호대교 탈출",
+      "mode": "탈출",
+      "objective": "이현성·유상아와 탈출 수단을 확보하고 일행을 건너게 한다.",
+      "result_to_preserve": "일행의 탈출과 김독자의 잔류를 별도로 판정한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST004"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S10",
+        "S11"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S01"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST006",
+      "order": 6,
+      "act": "A1",
+      "research_group": "C02",
+      "working_title": "주인공의 시험",
+      "mode": "대결",
+      "objective": "유중혁의 질문과 위협에 정보와 판단으로 대응한다.",
+      "result_to_preserve": "김독자는 한강으로 떨어지고 일행과 분리된다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST005"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S10",
+        "S11"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S01"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST007",
+      "order": 7,
+      "act": "A1",
+      "research_group": "C03",
+      "working_title": "어룡 안의 계약",
+      "mode": "협상",
+      "objective": "비형과 흥행·생존의 이해관계를 협상한다.",
+      "result_to_preserve": "배후성 없는 화신의 중계 가치를 바탕으로, 공략 성공을 조건으로 스트림 계약을 제안한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST006"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S23"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H01"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST008",
+      "order": 8,
+      "act": "A1",
+      "research_group": "C03",
+      "working_title": "소화되지 않는 재료",
+      "mode": "제작",
+      "objective": "점액과 가시의 성질을 읽고 공략용 물품을 준비한다.",
+      "result_to_preserve": "재료의 성질을 이용하는 조합을 학습한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST007"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S23"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H01"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST009",
+      "order": 9,
+      "act": "A1",
+      "research_group": "C03",
+      "working_title": "커맨더 슬레이어",
+      "mode": "보스",
+      "objective": "어룡 내부에서 소화액·기생 재료의 상호작용으로 탈출한다.",
+      "result_to_preserve": "어룡 공략과 핵 확보 뒤 스트림 계약의 조건을 확정한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST008"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S23"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H01"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST010",
+      "order": 10,
+      "act": "A1",
+      "research_group": "C03",
+      "working_title": "도깨비 경매의 교환",
+      "mode": "거래",
+      "objective": "비형의 도깨비 경매를 통해 어룡의 핵과 부러진 신념을 교환한다.",
+      "result_to_preserve": "거래는 중계망의 물물 교환으로 진행하며 안나와 현장에서 직접 만나는 장면을 만들지 않는다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST009"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S23"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST011",
+      "order": 11,
+      "act": "A1",
+      "research_group": "C04",
+      "working_title": "금호역의 생존자들",
+      "mode": "조사",
+      "objective": "흩어진 일행과 재회하고 거점의 권력 구조를 파악한다.",
+      "result_to_preserve": "조우 조건과 천인호·철두파의 지배를 제시한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST010"
+      ],
+      "source_ids": [
+        "S05",
+        "S08",
+        "S14"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M02"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST012",
+      "order": 12,
+      "act": "A1",
+      "research_group": "C04",
+      "working_title": "선동가의 규칙",
+      "mode": "대결",
+      "objective": "정보·언변으로 착취 구조에 대응한다.",
+      "result_to_preserve": "선동과 사람에 대한 이해의 중요성을 학습한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST011"
+      ],
+      "source_ids": [
+        "S05",
+        "S08",
+        "S14"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "방해꾼 제거 현상금은 관련 소규모 대결에 통합한다."
+      ],
+      "scenario_coverage_ids": [
+        "B01"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST013",
+      "order": 13,
+      "act": "A1",
+      "research_group": "C04",
+      "working_title": "버려진 사람",
+      "mode": "구조",
+      "objective": "가스 지대의 정희원을 구하고 회복 수단을 마련한다.",
+      "result_to_preserve": "정희원 구조와 이후 각성을 분리해 기록한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST012"
+      ],
+      "source_ids": [
+        "S05",
+        "S08",
+        "S14"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST014",
+      "order": 14,
+      "act": "A1",
+      "research_group": "C05",
+      "working_title": "먹기 위한 사냥",
+      "mode": "전투",
+      "objective": "식용 괴수와 조리 수단의 필요를 파악하고 식량 획득에 나선다.",
+      "result_to_preserve": "식량·조리·생존 자원의 연결을 연다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST013"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S14",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S02"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST015",
+      "order": 15,
+      "act": "A1",
+      "research_group": "C05",
+      "working_title": "보물 창고의 파수꾼",
+      "mode": "보스",
+      "objective": "납치된 일행을 추적해 어둠 파수꾼을 무력화한다.",
+      "result_to_preserve": "일행 구출·악마 핵과 한명오의 후속 사건을 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST014"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S14",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S03"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST016",
+      "order": 16,
+      "act": "A1",
+      "research_group": "C05",
+      "working_title": "무기의 가능성",
+      "mode": "제작",
+      "objective": "보물 창고의 마력 화로와 랜덤 아이템 박스를 이용해 식량과 무기의 가능성을 연다.",
+      "result_to_preserve": "해당 사건의 결과와 일반 랜덤 합성을 구분한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST015"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S14",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST017",
+      "order": 17,
+      "act": "A1",
+      "research_group": "C05",
+      "working_title": "멸악의 심판자",
+      "mode": "각성",
+      "objective": "정희원의 선택과 심판으로 철두파 지배를 끝낸다.",
+      "result_to_preserve": "멸악의 심판자를 해금하되 우리엘 성흔은 아직 지급하지 않는다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST016"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S14",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST018",
+      "order": 18,
+      "act": "A1",
+      "research_group": "C05",
+      "working_title": "환영 감옥",
+      "mode": "탈출",
+      "objective": "철길의 환영에서 유물·파마·제4의 벽을 활용한다.",
+      "result_to_preserve": "충무로로 진출하고 정신 공격의 대응법을 익힌다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST017"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S14",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S04"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST019",
+      "order": 19,
+      "act": "A1",
+      "research_group": "C06",
+      "working_title": "그린 존의 가격",
+      "mode": "협상",
+      "objective": "건물주 연합의 안전지대 독점과 통행 조건을 파악한다.",
+      "result_to_preserve": "공필두·이지혜·유중혁의 관계를 확인한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST018"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S18",
+        "S19"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M03A"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST020",
+      "order": 20,
+      "act": "A1",
+      "research_group": "C06",
+      "working_title": "첫 번째 밤",
+      "mode": "방어",
+      "objective": "한정된 안전지대와 히든 공간을 이용해 일행을 지킨다.",
+      "result_to_preserve": "줄어드는 안전지대의 문제를 드러낸다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST019"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S18",
+        "S19"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M03A"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST021",
+      "order": 21,
+      "act": "A1",
+      "research_group": "C06",
+      "working_title": "유령이 되는 대가",
+      "mode": "생존",
+      "objective": "스펙터 영석의 효과와 정신적 부담을 활용한다.",
+      "result_to_preserve": "아이템이 이득과 위험을 함께 가진다는 사실을 학습한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST020"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S18",
+        "S19"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M03A"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST022",
+      "order": 22,
+      "act": "A1",
+      "research_group": "C06",
+      "working_title": "안전지대를 부숴라",
+      "mode": "기믹",
+      "objective": "동료들과 그린 존을 파괴한다.",
+      "result_to_preserve": "안전지대 경쟁을 긴급 방어전으로 전환한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST021"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S18",
+        "S19"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M03B",
+        "B02"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST023",
+      "order": 23,
+      "act": "A1",
+      "research_group": "C06",
+      "working_title": "함께 버티는 역",
+      "mode": "방어",
+      "objective": "공필두의 포탑·마력과 동료 협력으로 웨이브를 막는다.",
+      "result_to_preserve": "디펜스 마스터와의 계약 및 공필두의 방어 역할을 남긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST022"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S18",
+        "S19"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "공필두 채널의 암살 의뢰·마력 보충·배후 계약을 하나의 방어 시퀀스 안에서 표시한다."
+      ],
+      "scenario_coverage_ids": [
+        "M03B",
+        "B02"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST024",
+      "order": 24,
+      "act": "A1",
+      "research_group": "C07",
+      "working_title": "돌아오지 않는 유중혁",
+      "mode": "조사",
+      "objective": "공필두에게 거점 방어를 맡기고 극장 던전에 진입한다.",
+      "result_to_preserve": "던전 진입 동기와 남은 동료의 역할을 보존한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST023"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S18"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H02"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST025",
+      "order": 25,
+      "act": "A1",
+      "research_group": "C07",
+      "working_title": "스크린 속 괴수",
+      "mode": "전투",
+      "objective": "공룡과 곤충의 차이를 읽어 영화 속 전투를 돌파한다.",
+      "result_to_preserve": "이길영의 지식·교감과 던전 한정 아이템을 활용한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST024"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S18"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H02"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST026",
+      "order": 26,
+      "act": "A1",
+      "research_group": "C07",
+      "working_title": "친구의 기억",
+      "mode": "대화",
+      "objective": "멈춰 선 이지혜의 트라우마와 해상전신의 요청에 대응한다.",
+      "result_to_preserve": "이지혜가 자신의 전투에 다시 참여하는 원인을 만든다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST025"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S18"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "B03"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST027",
+      "order": 27,
+      "act": "A1",
+      "research_group": "C07",
+      "working_title": "명량의 바다",
+      "mode": "방어",
+      "objective": "이지혜의 함대와 해상 조건을 이용해 전투를 이끈다.",
+      "result_to_preserve": "생즉필사 사즉필생 의뢰와 칼의 노래 보상을 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST026"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S18"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "B03",
+        "H02"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST028",
+      "order": 28,
+      "act": "A1",
+      "research_group": "C07",
+      "working_title": "조종된 주인공",
+      "mode": "대결",
+      "objective": "정신 지배된 유중혁을 상대로 조종자의 틈을 찾는다.",
+      "result_to_preserve": "구출 대상과 처치 대상을 구분한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST027"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S18"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H02"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST029",
+      "order": 29,
+      "act": "A1",
+      "research_group": "C07",
+      "working_title": "극장 주인",
+      "mode": "보스",
+      "objective": "시뮬라시옹을 처리하고 유중혁을 구한다.",
+      "result_to_preserve": "극장 던전 클리어와 동료들의 관계 변화를 반영한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST028"
+      ],
+      "source_ids": [
+        "S03",
+        "S08",
+        "S18"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H02"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST030",
+      "order": 30,
+      "act": "A1",
+      "research_group": "C08",
+      "working_title": "충무로 대표",
+      "mode": "점거",
+      "objective": "흰 깃발을 확보하고 대표 권한을 얻는다.",
+      "result_to_preserve": "깃발 소유자·거점·그룹 상태를 연다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST029"
+      ],
+      "source_ids": [
+        "S03",
+        "S05",
+        "S08",
+        "S13"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S05"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST031",
+      "order": 31,
+      "act": "A1",
+      "research_group": "C08",
+      "working_title": "깃발 쟁탈전",
+      "mode": "점거",
+      "objective": "자기 역을 지키며 표적과 인근 거점을 공략한다.",
+      "result_to_preserve": "역 점거와 대표만의 깃발 권한을 학습한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST030"
+      ],
+      "source_ids": [
+        "S03",
+        "S05",
+        "S08",
+        "S13"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "주요 점거를 묶어 표현하되 원작의 목표 역·하루 점거 조건·본진 방어를 생략하지 않는다. 보조 역의 이름과 전투 순서는 V02 확인 후 세분한다."
+      ],
+      "scenario_coverage_ids": [
+        "M04A",
+        "H03",
+        "H06"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST032",
+      "order": 32,
+      "act": "A1",
+      "research_group": "C08",
+      "working_title": "미래를 아는 사람들",
+      "mode": "조사",
+      "objective": "선지자들의 정보와 읽은 범위를 비교한다.",
+      "result_to_preserve": "예언과 하차자의 지식을 구분한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST031"
+      ],
+      "source_ids": [
+        "S03",
+        "S05",
+        "S08",
+        "S13"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST033",
+      "order": 33,
+      "act": "A1",
+      "research_group": "C08",
+      "working_title": "첫 번째 사도의 그림자",
+      "mode": "대결",
+      "objective": "아바타와 정보 기만을 간파하며 조기 재앙의 단서를 찾는다.",
+      "result_to_preserve": "한수영의 개입을 이후 관계의 출발점으로 남긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST032"
+      ],
+      "source_ids": [
+        "S03",
+        "S05",
+        "S08",
+        "S13"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "이성국·정민섭 등의 선지자와 정보·정체 탐색을 포함한다. 한동훈 구조 등 세부 정보전은 원문 확인 뒤 같은 묶음 안에 확장 가능하다."
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST034",
+      "order": 34,
+      "act": "A1",
+      "research_group": "C09",
+      "working_title": "붉은 운석",
+      "mode": "준비",
+      "objective": "예정보다 이른 부화에 맞춰 냉기·방어 자원을 정비한다.",
+      "result_to_preserve": "준비 없이 화력만으로 이길 수 없는 위협을 제시한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST033"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H04"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST035",
+      "order": 35,
+      "act": "A1",
+      "research_group": "C09",
+      "working_title": "숫자가 적힌 발판",
+      "mode": "생존",
+      "objective": "발판의 정원·보호 효과를 읽어 화염 속에서 버틴다.",
+      "result_to_preserve": "뭉침과 분산이 각각 위험해지는 조건을 학습한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST034"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H04"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST036",
+      "order": 36,
+      "act": "A1",
+      "research_group": "C09",
+      "working_title": "레서 이그니르",
+      "mode": "보스",
+      "objective": "불길 속의 죽음과 유중혁에 대한 이입을 통해 충무로의 공격에 대응한다.",
+      "result_to_preserve": "불살의 왕의 첫 귀환 대기와 전지적 독자 시점 3단계의 이입을 기록한다. 화룡은 아직 살아 있다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST035"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H04"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST037",
+      "order": 37,
+      "act": "A1",
+      "research_group": "C09",
+      "working_title": "부활 이후",
+      "mode": "사건",
+      "objective": "불살의 왕으로 귀환한 뒤 레서 이그니르를 쓰러뜨리고 동료와 소실 장비를 확인한다.",
+      "result_to_preserve": "죽음을 비용 없는 리셋으로 처리하지 않는다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST036"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST038",
+      "order": 38,
+      "act": "A1",
+      "research_group": "C10",
+      "working_title": "고궁의 시련",
+      "mode": "탐험",
+      "objective": "인원 조건에 맞는 유물 던전을 공략한다.",
+      "result_to_preserve": "나각·침구동인·동의보감·용존의 경로를 안내한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST037"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S14"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H05"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V10"
+      ]
+    },
+    {
+      "id": "ST039",
+      "order": 39,
+      "act": "A1",
+      "research_group": "C10",
+      "working_title": "일곱 개의 별보석",
+      "mode": "기믹",
+      "objective": "상평통보와 북두칠성 시련의 조건을 해결한다.",
+      "result_to_preserve": "별보석·왕들의 경쟁·한수영의 기만을 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST038"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S14"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H05"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V10"
+      ]
+    },
+    {
+      "id": "ST040",
+      "order": 40,
+      "act": "A1",
+      "research_group": "C10",
+      "working_title": "사인참사검",
+      "mode": "제작",
+      "objective": "유물과 신적 연결을 끊는 무기의 조건을 확인한다.",
+      "result_to_preserve": "일반 화력 무기와 다른 핵심 도구를 확보한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST039"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S14"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H05"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V10"
+      ]
+    },
+    {
+      "id": "ST041",
+      "order": 41,
+      "act": "A1",
+      "research_group": "C10",
+      "working_title": "창신역의 깃발꽂이",
+      "mode": "점거",
+      "objective": "정희원의 발상 전환으로 표적 역 조건을 해결한다.",
+      "result_to_preserve": "거점을 함락하는 방법과 목표 물체를 확보하는 방법을 구별한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST040"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S14"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M04A"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V10"
+      ]
+    },
+    {
+      "id": "ST042",
+      "order": 42,
+      "act": "A1",
+      "research_group": "C10",
+      "working_title": "왕들의 전쟁",
+      "mode": "대결",
+      "objective": "왕들의 자격·동맹·역사 성좌의 이해관계 속에서 승부한다.",
+      "result_to_preserve": "후삼국 통일 관련 의뢰는 이 구간의 연계 목표로 담는다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST041"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S14"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M04B",
+        "B04",
+        "H03"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V10"
+      ]
+    },
+    {
+      "id": "ST043",
+      "order": 43,
+      "act": "A1",
+      "research_group": "C10",
+      "working_title": "왕좌 앞의 주인공",
+      "mode": "보스",
+      "objective": "유중혁과의 대결을 거쳐 왕좌의 주도권을 얻는다.",
+      "result_to_preserve": "김독자가 선택할 권한과 힘을 확보한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST042"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S14"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M04B",
+        "H06"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V10"
+      ]
+    },
+    {
+      "id": "ST044",
+      "order": 44,
+      "act": "A1",
+      "research_group": "C10",
+      "working_title": "왕이 없는 세계",
+      "mode": "선택",
+      "objective": "절대 왕좌에 앉는 대신 파괴하는 본편의 선택을 실행한다.",
+      "result_to_preserve": "왕이 없는 세계의 왕을 얻고 도깨비의 반발과 일행 분산으로 이어진다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST043"
+      ],
+      "source_ids": [
+        "S03",
+        "S06",
+        "S08",
+        "S14"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "김독자를 제압해 왕좌를 차지하라는 적 측 서브 목표와 그에 대한 대응을 포함한다."
+      ],
+      "scenario_coverage_ids": [
+        "M04B",
+        "S06"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V10"
+      ]
+    },
+    {
+      "id": "ST045",
+      "order": 45,
+      "act": "A2",
+      "research_group": "C11",
+      "working_title": "하루의 생존비",
+      "mode": "생존",
+      "objective": "흩어진 도시에서 식사·수면·코인 지출을 관리한다.",
+      "result_to_preserve": "생존 활동 시나리오를 전투 외의 자원 압박으로 표현한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST044"
+      ],
+      "source_ids": [
+        "S03",
+        "S05",
+        "S08",
+        "S13"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S07"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST046",
+      "order": 46,
+      "act": "A2",
+      "research_group": "C11",
+      "working_title": "코인 농장",
+      "mode": "구조",
+      "objective": "코인 농장의 착취를 확인하고 갇힌 이들을 구한다.",
+      "result_to_preserve": "한수영과의 임시 협력을 연다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST045"
+      ],
+      "source_ids": [
+        "S03",
+        "S05",
+        "S08",
+        "S13"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S07"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST047",
+      "order": 47,
+      "act": "A2",
+      "research_group": "C11",
+      "working_title": "과거의 망령",
+      "mode": "대결",
+      "objective": "송민우 앞에서 흔들리는 벽과 트라우마에 대응한다.",
+      "result_to_preserve": "트라우마 극복과 자기합리화 성흔을 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST046"
+      ],
+      "source_ids": [
+        "S03",
+        "S05",
+        "S08",
+        "S13"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "B05"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST048",
+      "order": 48,
+      "act": "A2",
+      "research_group": "C11",
+      "working_title": "함께 가는 이유",
+      "mode": "대화",
+      "objective": "한수영과 정보·목적을 교환하고 동료의 흔적을 찾는다.",
+      "result_to_preserve": "처음부터 완전한 신뢰가 아닌 협력 관계로 진행한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST047"
+      ],
+      "source_ids": [
+        "S03",
+        "S05",
+        "S08",
+        "S13"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST049",
+      "order": 49,
+      "act": "A2",
+      "research_group": "C12",
+      "working_title": "다섯 길잡이",
+      "mode": "조사",
+      "objective": "재앙의 예고와 길잡이의 역할을 파악한다.",
+      "result_to_preserve": "리카온·앤티누스와 소멸한 세계들의 이해관계를 제시한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST048"
+      ],
+      "source_ids": [
+        "S03",
+        "S07",
+        "S08",
+        "S12"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "재앙 전 두 번째 배후 선택·김독자의 거절, 정희원과 우리엘의 배후 계약 및 흩어진 동료들의 재회를 연결 사건으로 보존한다.",
+        "천벌 현상금은 김독자를 노리는 다른 당사자의 목표로 표시한다. 애매한 발동 설명·수치는 V01·V02 확인 전 고정하지 않는다."
+      ],
+      "scenario_coverage_ids": [
+        "B06"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST050",
+      "order": 50,
+      "act": "A2",
+      "research_group": "C12",
+      "working_title": "배우지 못한 바람",
+      "mode": "수련",
+      "objective": "리카온의 수련을 이해해도 몸의 재능이 따르지 않는 실패를 겪고, 유중혁과 밀회로 연락한다.",
+      "result_to_preserve": "바람의 길을 아직 쓰지 못한다. 이후 질문의 재앙전에서 책갈피로 재현하는 동기를 남긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST049"
+      ],
+      "source_ids": [
+        "S03",
+        "S07",
+        "S08",
+        "S12"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST051",
+      "order": 51,
+      "act": "A2",
+      "research_group": "C12",
+      "working_title": "숙주와 기생체",
+      "mode": "구조",
+      "objective": "독에 쓰러진 유중혁을 돕고 이설화와 앤티누스를 분리한다.",
+      "result_to_preserve": "숙주 생존을 단순 적 처치와 별도 목표로 둔다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST050"
+      ],
+      "source_ids": [
+        "S03",
+        "S07",
+        "S08",
+        "S12"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST052",
+      "order": 52,
+      "act": "A2",
+      "research_group": "C12",
+      "working_title": "재앙 막기",
+      "mode": "방어",
+      "objective": "운석의 조기 부화를 막으려 싸운다.",
+      "result_to_preserve": "본편의 실패·시나리오 갱신을 일반 게임오버와 구분한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST051"
+      ],
+      "source_ids": [
+        "S03",
+        "S07",
+        "S08",
+        "S12"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S08"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST053",
+      "order": 53,
+      "act": "A2",
+      "research_group": "C12",
+      "working_title": "대답할수록 강해진다",
+      "mode": "보스",
+      "objective": "질문의 재앙 명일상의 질문·봉인 해제에 대응한다.",
+      "result_to_preserve": "잘못된 응답과 보상에 눈먼 개입의 위험을 보여준다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST052"
+      ],
+      "source_ids": [
+        "S03",
+        "S07",
+        "S08",
+        "S12"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S09"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST054",
+      "order": 54,
+      "act": "A2",
+      "research_group": "C12",
+      "working_title": "바람의 감옥",
+      "mode": "기믹",
+      "objective": "독해와 이해를 통해 책갈피로 바람의 길을 재현하고, 동료의 구속과 결합해 명일상을 공략한다.",
+      "result_to_preserve": "이적에 맞서는 자와 아공간 코트 보상으로 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST053"
+      ],
+      "source_ids": [
+        "S03",
+        "S07",
+        "S08",
+        "S12"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S09"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST055",
+      "order": 55,
+      "act": "A2",
+      "research_group": "C13",
+      "working_title": "아직 재앙이 아닌 아이",
+      "mode": "선택",
+      "objective": "어린 신유승을 죽이는 해결을 거부하고 배후자가 된다.",
+      "result_to_preserve": "현재 신유승을 독립된 동료·후원 대상으로 둔다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST054"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S14",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M05"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V06",
+        "V07",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST056",
+      "order": 56,
+      "act": "A2",
+      "research_group": "C13",
+      "working_title": "마흔한 번째 삶",
+      "mode": "사건",
+      "objective": "미래 신유승의 도착과 유중혁에 대한 감정을 읽는다.",
+      "result_to_preserve": "현재와 미래의 신유승을 별도 개체로 처리한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST055"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S14",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M05"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V06",
+        "V07",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST057",
+      "order": 57,
+      "act": "A2",
+      "research_group": "C13",
+      "working_title": "범람하는 군세",
+      "mode": "전투",
+      "objective": "괴수 통제와 동료의 힘으로 대군을 버틴다.",
+      "result_to_preserve": "어린 신유승의 교감과 미래 신유승의 압도적 힘을 대비한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST056"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S14",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M05"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V06",
+        "V07",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST058",
+      "order": 58,
+      "act": "A2",
+      "research_group": "C13",
+      "working_title": "다른 사람의 이야기",
+      "mode": "이입",
+      "objective": "김독자의 희생과 이입으로 미래 신유승을 이해한다.",
+      "result_to_preserve": "대상을 이해하는 것이 전투의 해법으로 이어진다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST057"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S14",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M05"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V06",
+        "V07",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST059",
+      "order": 59,
+      "act": "A2",
+      "research_group": "C13",
+      "working_title": "강제 집행",
+      "mode": "보스",
+      "objective": "바울의 강제 폭주 속에서 동료와 시민을 보호한다.",
+      "result_to_preserve": "설득 이후에도 발생하는 비극과 정희원의 성흔을 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST058"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S14",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "정희원의 우리엘 성흔이 사용되는 근거를 선행 배후 계약에서 확인한다. 미래 신유승의 비극을 피하는 창작 승리로 대체하지 않는다."
+      ],
+      "scenario_coverage_ids": [
+        "M05",
+        "S10"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V06",
+        "V07",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST060",
+      "order": 60,
+      "act": "A2",
+      "research_group": "C13",
+      "working_title": "이야기꾼을 능멸한 자",
+      "mode": "사건",
+      "objective": "바울의 개입을 추궁하고 남은 영혼을 구할 길을 찾는다.",
+      "result_to_preserve": "거짓 간파 선택·설화·명계 방문 동기를 남긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST059"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S14",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V06",
+        "V07",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST061",
+      "order": 61,
+      "act": "A2",
+      "research_group": "C14",
+      "working_title": "명계 산책",
+      "mode": "잠입",
+      "objective": "명계에서 복귀 경로를 찾다가 심판관에게 발각된다.",
+      "result_to_preserve": "시나리오 갱신과 의도적인 접촉 기회로 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST060"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H07"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST062",
+      "order": 62,
+      "act": "A2",
+      "research_group": "C14",
+      "working_title": "가장 어두운 봄의 여왕",
+      "mode": "협상",
+      "objective": "페르세포네와 영혼 구출의 대가를 협상한다.",
+      "result_to_preserve": "뱀 사냥 과업과 피스랜드의 목표 충돌을 설정한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST061"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H08",
+        "H09"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST063",
+      "order": 63,
+      "act": "A2",
+      "research_group": "C14",
+      "working_title": "되찾아야 할 영혼",
+      "mode": "사건",
+      "objective": "정해진 대가와 귀환 조건을 확인한다.",
+      "result_to_preserve": "미래 신유승의 영혼은 아직 즉시 부활시킬 수 없음을 명확히 한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST062"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H08"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST064",
+      "order": 64,
+      "act": "A2",
+      "research_group": "C15",
+      "working_title": "함께 갈 사람들",
+      "mode": "대화",
+      "objective": "어머니와의 만남·유상아의 위로·참가 인원 제한을 다룬다.",
+      "result_to_preserve": "서울 잔류자와 피스랜드 참가자를 구분한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST063"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S17",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V08"
+      ]
+    },
+    {
+      "id": "ST065",
+      "order": 65,
+      "act": "A2",
+      "research_group": "C15",
+      "working_title": "작은 세계의 늑대",
+      "mode": "전투",
+      "objective": "피스랜드에 도착해 상대적인 크기와 교감을 활용한다.",
+      "result_to_preserve": "지구와 다른 스케일을 전투 규칙에 반영한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST064"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S17",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V08"
+      ]
+    },
+    {
+      "id": "ST066",
+      "order": 66,
+      "act": "A2",
+      "research_group": "C15",
+      "working_title": "우리가 재앙이다",
+      "mode": "선택",
+      "objective": "소인을 학살하라는 목표를 거부하고 보호한다.",
+      "result_to_preserve": "명령 수행 대신 다른 해결을 택하는 핵심 선택을 유지한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST065"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S17",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M06A",
+        "M06B"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V08"
+      ]
+    },
+    {
+      "id": "ST067",
+      "order": 67,
+      "act": "A2",
+      "research_group": "C15",
+      "working_title": "작아지는 몸",
+      "mode": "생존",
+      "objective": "소인화 페널티 속에서 재앙이 된 화신들에게 맞선다.",
+      "result_to_preserve": "낮아진 힘·장비 적응·동료 보호를 학습한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST066"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S17",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M06A"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V08"
+      ]
+    },
+    {
+      "id": "ST068",
+      "order": 68,
+      "act": "A2",
+      "research_group": "C15",
+      "working_title": "역설의 백청",
+      "mode": "수련",
+      "objective": "키리오스와 접촉하고 백청·전인화의 조건을 배운다.",
+      "result_to_preserve": "단순 레벨업이 아닌 이해·신체 조건을 통한 성장으로 표현한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST067"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S17",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V08"
+      ]
+    },
+    {
+      "id": "ST069",
+      "order": 69,
+      "act": "A2",
+      "research_group": "C15",
+      "working_title": "용을 베는 이야기",
+      "mode": "제작",
+      "objective": "유중혁이 구해 온 토츠카노츠루기와 용살 전승으로 야마타노오로치에 대항할 준비를 한다.",
+      "result_to_preserve": "특정 상대에게 유효한 장비와 설화 재현을 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST068"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S17",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V08"
+      ]
+    },
+    {
+      "id": "ST070",
+      "order": 70,
+      "act": "A2",
+      "research_group": "C15",
+      "working_title": "재앙의 왕과 뱀",
+      "mode": "보스",
+      "objective": "유중혁과 협력해 재앙의 왕·배후성의 개입에 맞선다.",
+      "result_to_preserve": "키리오스가 개입할 수 있는 원인과 제한을 남긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST069"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S17",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M06A",
+        "H09"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V08"
+      ]
+    },
+    {
+      "id": "ST071",
+      "order": 71,
+      "act": "A2",
+      "research_group": "C15",
+      "working_title": "작은 세계의 구원자",
+      "mode": "사건",
+      "objective": "피스랜드를 지킨 뒤 뱀의 부속물과 술의 전승을 재현해 초체검과 여덟 목숨으로 이어지는 성장을 정산한다.",
+      "result_to_preserve": "소형화·설화·뱀 사냥 성공을 기록하고 판본별 시나리오명을 구분한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST070"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S17",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M06B"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V08"
+      ]
+    },
+    {
+      "id": "ST072",
+      "order": 72,
+      "act": "A3",
+      "research_group": "C16",
+      "working_title": "노란 영혼과 황금빛 알",
+      "mode": "협상",
+      "objective": "명계 거래를 완수하고 비형을 통해 영혼을 알에 담는다.",
+      "result_to_preserve": "즉시 완전한 환생이 아닌 도깨비 알 상태를 저장한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST071"
+      ],
+      "source_ids": [
+        "S02",
+        "S08",
+        "S14",
+        "S15",
+        "S21",
+        "S28"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H09"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST073",
+      "order": 73,
+      "act": "A3",
+      "research_group": "C16",
+      "working_title": "돌아갈 수 없는 서울",
+      "mode": "조사",
+      "objective": "서울의 변화·신규 화신·구원교의 확장을 파악한다.",
+      "result_to_preserve": "괴수 사냥 시나리오와 서울 잔류자들의 변화를 담는다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST072"
+      ],
+      "source_ids": [
+        "S02",
+        "S08",
+        "S14",
+        "S15",
+        "S21",
+        "S28"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M07"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST074",
+      "order": 74,
+      "act": "A3",
+      "research_group": "C16",
+      "working_title": "영겁의 악몽",
+      "mode": "대결",
+      "objective": "니르바나가 유중혁에게 가하는 정신 공격에 대응한다.",
+      "result_to_preserve": "회귀자에게 특히 위험한 정신계 보스를 제시한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST073"
+      ],
+      "source_ids": [
+        "S02",
+        "S08",
+        "S14",
+        "S15",
+        "S21",
+        "S28"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST075",
+      "order": 75,
+      "act": "A3",
+      "research_group": "C16",
+      "working_title": "불길 속의 동료",
+      "mode": "구조",
+      "objective": "이현성의 시점으로 세뇌된 정희원에게 접근한다.",
+      "result_to_preserve": "도와야 할 동료를 처치 대상으로 오인하지 않게 한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST074"
+      ],
+      "source_ids": [
+        "S02",
+        "S08",
+        "S14",
+        "S15",
+        "S21",
+        "S28"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST076",
+      "order": 76,
+      "act": "A3",
+      "research_group": "C16",
+      "working_title": "강철의 첫 번째 증명",
+      "mode": "각성",
+      "objective": "담금질의 시련을 견디며 정희원을 구한다.",
+      "result_to_preserve": "강철화 각성과 정희원의 회복을 기록한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST075"
+      ],
+      "source_ids": [
+        "S02",
+        "S08",
+        "S14",
+        "S15",
+        "S21",
+        "S28"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST077",
+      "order": 77,
+      "act": "A3",
+      "research_group": "C17",
+      "working_title": "절반 또는 한 명",
+      "mode": "조사",
+      "objective": "최강의 희생양의 종료 조건과 순위 공개를 해석한다.",
+      "result_to_preserve": "성장을 숨기거나 죽음을 선택하게 만드는 압박을 표현한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST076"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S28"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "니르바나 대결 전 동료에게 랜덤박스를 주는 사건을 연결한다. 신유승의 고대 야수의 열매는 이후 길들이기까지 보존한다."
+      ],
+      "scenario_coverage_ids": [
+        "M08"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST078",
+      "order": 78,
+      "act": "A3",
+      "research_group": "C17",
+      "working_title": "돌아가려는 주인공",
+      "mode": "대화",
+      "objective": "유중혁의 회귀 충동과 현재 회차의 의미를 다룬다.",
+      "result_to_preserve": "최종전의 회귀 거부를 위한 감정적 원인을 남긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST077"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S28"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST079",
+      "order": 79,
+      "act": "A3",
+      "research_group": "C17",
+      "working_title": "환생자와 회귀자",
+      "mode": "대결",
+      "objective": "니르바나와 유중혁의 정신·육체 대결을 진행한다.",
+      "result_to_preserve": "김독자의 전략과 다른 인물의 행동을 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST078"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S28"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "김독자가 유중혁에게 이입하는 경로와, 유상아를 구해 달라는 부탁·유중혁의 구출 결과를 연결한다."
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST080",
+      "order": 80,
+      "act": "A3",
+      "research_group": "C17",
+      "working_title": "최강자의 죽음",
+      "mode": "선택",
+      "objective": "김독자와 한수영이 계획한 죽음·이입 경로를 실행한다.",
+      "result_to_preserve": "시민 생존·부활 대기·유상아 구조 부탁을 각각 기록한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST079"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S28"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M08"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST081",
+      "order": 81,
+      "act": "A3",
+      "research_group": "C17",
+      "working_title": "벽이 삼킨 자",
+      "mode": "보스",
+      "objective": "제4의 벽과 이입으로 니르바나의 정신 공격을 역이용한다.",
+      "result_to_preserve": "니르바나가 벽 내부에 흡수된다. 희생양 시나리오 종료와 육신 부활 대기를 구분한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST080"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S28"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M08"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST082",
+      "order": 82,
+      "act": "A3",
+      "research_group": "C17",
+      "working_title": "별자리의 연회",
+      "mode": "협상",
+      "objective": "육신 부활 대기 중 별자리의 연회에서 부활 설화의 영입을 거부하고 독자적인 성운의 뜻을 밝힌다.",
+      "result_to_preserve": "새 지지와 적대를 얻되 정식 마왕위와 혼동하지 않는다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST081"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S28"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H10"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST083",
+      "order": 83,
+      "act": "A3",
+      "research_group": "C18",
+      "working_title": "비어 있는 자리",
+      "mode": "구조",
+      "objective": "늦은 귀환과 이름 없는 성좌의 탄생 뒤 암흑성의 동료들을 찾아 다음 시나리오에 진입한다.",
+      "result_to_preserve": "구심점 상실의 결과와 어린 동료들의 위험을 보여준다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST082"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S04",
+        "S08",
+        "S14",
+        "S16",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "이름 없는 성좌로 돌아온 상태와 동료들의 부재·상실을 함께 보여준다."
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST084",
+      "order": 84,
+      "act": "A3",
+      "research_group": "C18",
+      "working_title": "아홉 개의 증명",
+      "mode": "전투",
+      "objective": "악마종을 사냥해 제단의 진출 조건을 충족한다.",
+      "result_to_preserve": "악마의 증명을 판매하면 안 되는 진행 물품으로 둔다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST083"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S04",
+        "S08",
+        "S14",
+        "S16",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M09A"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST085",
+      "order": 85,
+      "act": "A3",
+      "research_group": "C18",
+      "working_title": "악마 백작 텐타치오",
+      "mode": "보스",
+      "objective": "민지원을 구하고 악마 백작을 처치한다.",
+      "result_to_preserve": "현상금·설화 획득과 성좌 외교를 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST084"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S04",
+        "S08",
+        "S14",
+        "S16",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M09A",
+        "B07"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST086",
+      "order": 86,
+      "act": "A3",
+      "research_group": "C18",
+      "working_title": "시나리오가 없는 낙원",
+      "mode": "조사",
+      "objective": "평온한 거점에서 계속 나아갈 이유를 찾는다.",
+      "result_to_preserve": "주민·동료가 낙원에 머물고 싶은 이유를 보여준다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST085"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S04",
+        "S08",
+        "S14",
+        "S16",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "미리 제작 의뢰한 심판자의 검을 정희원에게 주는 장면을 포함한다. 조사는 선물 뒤에 발생한다."
+      ],
+      "scenario_coverage_ids": [
+        "M09B"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST087",
+      "order": 87,
+      "act": "A3",
+      "research_group": "C18",
+      "working_title": "울리는 심판자의 검",
+      "mode": "잠입",
+      "objective": "정희원의 조사로 감옥과 낙원의 진실을 확인한다.",
+      "result_to_preserve": "심판자의 검 제작·선물과 악 감지 기능을 사건에 사용한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST086"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S04",
+        "S08",
+        "S14",
+        "S16",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M09B"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST088",
+      "order": 88,
+      "act": "A3",
+      "research_group": "C18",
+      "working_title": "아이들과 키메라 드래곤",
+      "mode": "길들이기",
+      "objective": "이길영·신유승이 고대 야수의 열매로 강한 괴수를 길들인다.",
+      "result_to_preserve": "두 아이의 역할과 열매 입수의 선행 조건을 유지한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST087"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S04",
+        "S08",
+        "S14",
+        "S16",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST089",
+      "order": 89,
+      "act": "A3",
+      "research_group": "C18",
+      "working_title": "낙원의 뿌리",
+      "mode": "기믹",
+      "objective": "키메라 드래곤과 아이들이 생명력 수탈의 기반을 무너뜨린다.",
+      "result_to_preserve": "후속 라인하이트전의 승리 조건을 만든다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST088"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S04",
+        "S08",
+        "S14",
+        "S16",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST090",
+      "order": 90,
+      "act": "A3",
+      "research_group": "C18",
+      "working_title": "절망의 낙원",
+      "mode": "보스",
+      "objective": "주민을 삼키려는 라인하이트에 유중혁과 동료가 맞선다.",
+      "result_to_preserve": "안전 허브의 붕괴와 주민 생존을 별도 정산한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST089"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S04",
+        "S08",
+        "S14",
+        "S16",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M09B"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST091",
+      "order": 91,
+      "act": "A3",
+      "research_group": "C19",
+      "working_title": "사랑하는 존재",
+      "mode": "조사",
+      "objective": "유상아가 알아낸 운명과 동료들의 해석을 모은다.",
+      "result_to_preserve": "운명 메시지를 단순 연애 호감도 퀘스트로 축소하지 않는다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST090"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S25"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11",
+        "V10"
+      ]
+    },
+    {
+      "id": "ST092",
+      "order": 92,
+      "act": "A3",
+      "research_group": "C19",
+      "working_title": "백일봉인",
+      "mode": "탈출",
+      "objective": "김독자를 가둔 이수경의 봉인과 예지의 대가를 파악한다.",
+      "result_to_preserve": "간평의·성좌 지원과 봉인 탈출을 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST091"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S25"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11",
+        "V10"
+      ]
+    },
+    {
+      "id": "ST093",
+      "order": 93,
+      "act": "A3",
+      "research_group": "C19",
+      "working_title": "지키려는 사람들",
+      "mode": "대결",
+      "objective": "동료와 방랑자들의 충돌 속에서 모자의 대화를 시도한다.",
+      "result_to_preserve": "어머니를 죽이는 것이 정답인 보스전으로 만들지 않는다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST092"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S25"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11",
+        "V10"
+      ]
+    },
+    {
+      "id": "ST094",
+      "order": 94,
+      "act": "A3",
+      "research_group": "C19",
+      "working_title": "꿈을 먹는 자",
+      "mode": "보스",
+      "objective": "척준경의 지원으로 신격의 틈을 만들고 내부로 들어간다.",
+      "result_to_preserve": "외부 화력과 이야기·정신의 공략을 구별한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST093"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S25"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11",
+        "V10"
+      ]
+    },
+    {
+      "id": "ST095",
+      "order": 95,
+      "act": "A3",
+      "research_group": "C19",
+      "working_title": "벽에 남은 진실",
+      "mode": "조사",
+      "objective": "제4의 벽이 삼킨 어머니와 과거의 진실을 마주한다.",
+      "result_to_preserve": "벽 해제의 위험과 정보 보호의 기능을 드러낸다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST094"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S25"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11",
+        "V10"
+      ]
+    },
+    {
+      "id": "ST096",
+      "order": 96,
+      "act": "A3",
+      "research_group": "C19",
+      "working_title": "어머니를 돌려줘",
+      "mode": "협상",
+      "objective": "제4의 벽과 소통해 이수경을 되찾는다.",
+      "result_to_preserve": "어머니 생환·죽음과 부활·신격 공략의 설화를 기록한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST095"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S25"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11",
+        "V10"
+      ]
+    },
+    {
+      "id": "ST097",
+      "order": 97,
+      "act": "A3",
+      "research_group": "C20",
+      "working_title": "암흑성의 랭커들",
+      "mode": "편성",
+      "objective": "최종전 참가자와 식스맨 카드의 조건을 정한다.",
+      "result_to_preserve": "팀별 참가자와 정원 우회를 기록한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST096"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M10A"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST098",
+      "order": 98,
+      "act": "A3",
+      "research_group": "C20",
+      "working_title": "이미 죽은 마왕",
+      "mode": "조사",
+      "objective": "도착한 전장에서 변질된 시나리오를 확인한다.",
+      "result_to_preserve": "마왕 보옥과 강요된 두 선택을 제시한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST097"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M10B"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST099",
+      "order": 99,
+      "act": "A3",
+      "research_group": "C20",
+      "working_title": "대신 죽으려는 사람",
+      "mode": "대결",
+      "objective": "희생하려는 유중혁을 김독자가 막는다.",
+      "result_to_preserve": "김독자 자신의 선택으로 마왕이 되는 원인을 보존한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST098"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M10B"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST100",
+      "order": 100,
+      "act": "A3",
+      "research_group": "C20",
+      "working_title": "73번째 마왕",
+      "mode": "보스",
+      "objective": "동료들의 시점에서 마왕이 된 김독자를 쓰러뜨린다.",
+      "result_to_preserve": "희생의지와 각 동료의 반응을 담고 무의미한 배신으로 처리하지 않는다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST099"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M10B"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST101",
+      "order": 101,
+      "act": "A3",
+      "research_group": "C20",
+      "working_title": "구원의 마왕",
+      "mode": "사건",
+      "objective": "일행의 클리어와 김독자의 실패·추방을 함께 정산한다.",
+      "result_to_preserve": "수식언·설화급 성좌 상태와 동료들의 상실을 남긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST100"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M10B"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V11"
+      ]
+    },
+    {
+      "id": "ST102",
+      "order": 102,
+      "act": "A4",
+      "research_group": "C21",
+      "working_title": "이야기 밖의 서울",
+      "mode": "생존",
+      "objective": "몸과 이야기가 무너지는 권외 지역에서 버틴다.",
+      "result_to_preserve": "김독자의 사망과 존재 소멸을 구별한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST101"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST103",
+      "order": 103,
+      "act": "A4",
+      "research_group": "C21",
+      "working_title": "혹부리의 거래",
+      "mode": "협상",
+      "objective": "설화를 대가로 마계 진입의 가능성을 얻는다.",
+      "result_to_preserve": "이야기꾼을 능멸한 자의 소비와 위험한 거래를 기록한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST102"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST104",
+      "order": 104,
+      "act": "A4",
+      "research_group": "C21",
+      "working_title": "버려진 이야기 조각",
+      "mode": "수선",
+      "objective": "설화 조각으로 화신체를 임시 복구한다.",
+      "result_to_preserve": "체력 회복과 설화 수선을 다른 자원으로 다룬다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST103"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST105",
+      "order": 105,
+      "act": "A4",
+      "research_group": "C21",
+      "working_title": "시계점 에티카",
+      "mode": "조사",
+      "objective": "아일렌·장하영과 만나 수선을 받고 신분을 숨긴다.",
+      "result_to_preserve": "유중혁 사칭과 아직 정식 시나리오에 들어가지 못한 상태를 둔다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST104"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "아일렌의 설화 수선과 스마트폰·회중시계 제작 의뢰는 관련 시점에 나눠 보존한다."
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST106",
+      "order": 106,
+      "act": "A4",
+      "research_group": "C22",
+      "working_title": "처형관의 밤",
+      "mode": "생존",
+      "objective": "밤의 무적과 낙인 규칙 속에서 사람들을 대피시킨다.",
+      "result_to_preserve": "공민과 추방자의 차이라는 공략 단서를 찾는다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST105"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S20",
+        "S21",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M20"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST107",
+      "order": 107,
+      "act": "A4",
+      "research_group": "C22",
+      "working_title": "자칭 혁명가",
+      "mode": "선언",
+      "objective": "혁명가를 자칭해 임시 시나리오를 얻는다.",
+      "result_to_preserve": "존재 붕괴 유예와 진짜 혁명가 조건을 동시에 연다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST106"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S20",
+        "S21",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H11"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST108",
+      "order": 108,
+      "act": "A4",
+      "research_group": "C22",
+      "working_title": "경호관의 대가",
+      "mode": "방어",
+      "objective": "마르크의 보호와 책갈피 경호로 밤을 넘긴다.",
+      "result_to_preserve": "자기 보호 불가·생명력·횟수의 대가를 사용한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST107"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S20",
+        "S21",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST109",
+      "order": 109,
+      "act": "A4",
+      "research_group": "C22",
+      "working_title": "공민 사이의 적",
+      "mode": "추리",
+      "objective": "숨은 처형관과 스파이의 정체를 조사한다.",
+      "result_to_preserve": "변장한 한명오와 포지션의 정보전을 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST108"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S20",
+        "S21",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M20"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST110",
+      "order": 110,
+      "act": "A4",
+      "research_group": "C22",
+      "working_title": "딸을 되찾으려는 아버지",
+      "mode": "협상",
+      "objective": "한명오에게서 맹세와 협력을 얻는다.",
+      "result_to_preserve": "아스모데우스·딸·마왕 선출 조건을 남긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST109"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S20",
+        "S21",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST111",
+      "order": 111,
+      "act": "A4",
+      "research_group": "C22",
+      "working_title": "정체불명의 벽",
+      "mode": "소통",
+      "objective": "장하영의 벽을 깨워 투사를 찾을 메시지를 보낸다.",
+      "result_to_preserve": "심연의 흑염룡과의 접촉·투사 전수를 가능하게 한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST110"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S20",
+        "S21",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST112",
+      "order": 112,
+      "act": "A4",
+      "research_group": "C22",
+      "working_title": "투사가 된 장하영",
+      "mode": "각성",
+      "objective": "처형관에게 유효한 권능을 사용해 싸운다.",
+      "result_to_preserve": "일반 강자·권능을 끈 상대에게는 보정이 없다는 약점을 제시한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST111"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S20",
+        "S21",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST113",
+      "order": 113,
+      "act": "A4",
+      "research_group": "C22",
+      "working_title": "알에서 태어난 이야기꾼",
+      "mode": "사건",
+      "objective": "도깨비 알의 부화를 맞이하고 비유에게 이름을 준다.",
+      "result_to_preserve": "비유·개인 채널·도깨비의 아버지를 기록한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST112"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S20",
+        "S21",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST114",
+      "order": 114,
+      "act": "A4",
+      "research_group": "C22",
+      "working_title": "혁명의 밤",
+      "mode": "전투",
+      "objective": "남은 처형관과 후작의 방해를 극복한다.",
+      "result_to_preserve": "모든 공민에게 지배자에 대항할 권한이 열리게 한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST113"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S20",
+        "S21",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M20"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST115",
+      "order": 115,
+      "act": "A4",
+      "research_group": "C22",
+      "working_title": "공장과 거신병",
+      "mode": "보스",
+      "objective": "공장 연료를 방해하고 필요한 개연성을 얻어 병기에 맞선다.",
+      "result_to_preserve": "거신병 지원·공민의 선언·공작 격파를 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST114"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S20",
+        "S21",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "전투 준비·중간 단계에 노예 해방과 비유가 내리는 설화 수선의 조건을 포함한다. 초기 권외 지역의 임시 수복과 구분한다."
+      ],
+      "scenario_coverage_ids": [
+        "M20",
+        "S11",
+        "S12"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST116",
+      "order": 116,
+      "act": "A4",
+      "research_group": "C22",
+      "working_title": "서로의 이름으로",
+      "mode": "사건",
+      "objective": "다른 공단에서 김독자를 사칭한 유중혁의 혁명과 결과를 합친다.",
+      "result_to_preserve": "진짜 혁명가를 죽이지 않고 메인에 복귀하는 특수 해결을 보존한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST115"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S20",
+        "S21",
+        "S26"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "마르크·장하영·한명오와 공민의 기여, 공작 격파, 다른 공단의 혁명을 서로 다른 원인으로 기록한다."
+      ],
+      "scenario_coverage_ids": [
+        "M20",
+        "H11"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13"
+      ]
+    },
+    {
+      "id": "ST117",
+      "order": 117,
+      "act": "A4",
+      "research_group": "C23",
+      "working_title": "고쳐진 멸살법",
+      "mode": "조사",
+      "objective": "수정본의 내용과 현재의 차이를 읽는다.",
+      "result_to_preserve": "완독 지식도 변화한 미래를 보증하지 않음을 보여준다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST116"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S20",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V09",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST118",
+      "order": 118,
+      "act": "A4",
+      "research_group": "C23",
+      "working_title": "아스모데우스와의 약속",
+      "mode": "협상",
+      "objective": "위험에 빠진 유중혁을 돕고 거대 설화 지분으로 협상한다.",
+      "result_to_preserve": "거래의 대가·무기 파손·후속 지원을 기록한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST117"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S20",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V09",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST119",
+      "order": 119,
+      "act": "A4",
+      "research_group": "C23",
+      "working_title": "지구에 남은 동료들",
+      "mode": "사건",
+      "objective": "유중혁의 소식과 한반도의 짧은 병행 시점으로 동료들의 삶을 확인한다.",
+      "result_to_preserve": "동료들이 마계에 즉시 모인 것으로 처리하지 않는다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST118"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S20",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M11_19"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V09",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST120",
+      "order": 120,
+      "act": "A4",
+      "research_group": "C23",
+      "working_title": "제1 무림",
+      "mode": "탐험",
+      "objective": "무림의 실제 모습과 파천검성·파천신군을 만난다.",
+      "result_to_preserve": "유중혁의 스승과 장하영의 수련을 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST119"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S20",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S13"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V09",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST121",
+      "order": 121,
+      "act": "A4",
+      "research_group": "C23",
+      "working_title": "스승의 조건",
+      "mode": "협상",
+      "objective": "파천검성의 요구와 명계의 거래를 조율한다.",
+      "result_to_preserve": "무도 대회와 미식협에 갈 이유를 만든다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST120"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S20",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V09",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST122",
+      "order": 122,
+      "act": "A4",
+      "research_group": "C23",
+      "working_title": "미식협의 손님",
+      "mode": "대화",
+      "objective": "화신들의 시련을 소비하는 성좌 사회와 마주한다.",
+      "result_to_preserve": "김독자의 목적과 관전자의 태도 사이 갈등을 드러낸다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST121"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S20",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V09",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST123",
+      "order": 123,
+      "act": "A4",
+      "research_group": "C23",
+      "working_title": "낮은 별점의 이야기",
+      "mode": "교류",
+      "objective": "외면받는 설화를 대하는 태도로 양산형 제작자와 인연을 맺는다.",
+      "result_to_preserve": "권력·장비·후원 외에 공감이 관계의 원인이 됨을 남긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST122"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S20",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V09",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST124",
+      "order": 124,
+      "act": "A4",
+      "research_group": "C23",
+      "working_title": "팔찌 원정대",
+      "mode": "지원",
+      "objective": "성좌의 악령 역할 대신 이리스의 임시 배후자로 공략을 돕는다.",
+      "result_to_preserve": "화신 구조·적합한 몸의 파천검도·소원권을 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST123"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S20",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "이리스의 부탁 경로와 셀레나의 요청, 임시 배후 계약·소원권 양도를 준비 장면에 포함한다."
+      ],
+      "scenario_coverage_ids": [
+        "S14"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V09",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST125",
+      "order": 125,
+      "act": "A4",
+      "research_group": "C23",
+      "working_title": "존재하지 않았던 설화",
+      "mode": "협상",
+      "objective": "소원권을 사용하고 자신의 이야기를 선언한다.",
+      "result_to_preserve": "미식협의 이단아와 성좌들의 호오를 기록한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST124"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S20",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V09",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST126",
+      "order": 126,
+      "act": "A4",
+      "research_group": "C23",
+      "working_title": "믿는 쪽에 건다",
+      "mode": "대결",
+      "objective": "빙화신녀와 성좌 개입에 맞서는 유중혁의 결승을 함께 다룬다.",
+      "result_to_preserve": "김독자의 내기·유중혁의 자기 의지·장비 교체·코인 수익을 남긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST125"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S20",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S13",
+        "S15"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V09",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST127",
+      "order": 127,
+      "act": "A4",
+      "research_group": "C23",
+      "working_title": "무림을 남겨두고",
+      "mode": "탈출",
+      "objective": "대멸망 위기에서 스승의 잔류와 일행의 탈출을 다룬다.",
+      "result_to_preserve": "차량·개연성의 반작용과 스승을 구할 후속 계획을 남긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST126"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S20",
+        "S27"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V09",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST128",
+      "order": 128,
+      "act": "A4",
+      "research_group": "C24",
+      "working_title": "누가 김독자인가",
+      "mode": "증명",
+      "objective": "같은 얼굴의 사칭자 사이에서 공단의 주인임을 증명한다.",
+      "result_to_preserve": "키리오스와의 재회·무림으로의 유도와 공작위 유지를 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST127"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S07",
+        "S08",
+        "S23",
+        "S24"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "H12"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V05",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST129",
+      "order": 129,
+      "act": "A4",
+      "research_group": "C24",
+      "working_title": "열리지 않던 특성창",
+      "mode": "조사",
+      "objective": "제4의 벽과 협상해 자기 정보를 확인한다.",
+      "result_to_preserve": "심연을 들여다본 자와 두 책갈피 강화의 근거를 남긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST128"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S07",
+        "S08",
+        "S23",
+        "S24"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V05",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST130",
+      "order": 130,
+      "act": "A4",
+      "research_group": "C24",
+      "working_title": "비유를 데려와",
+      "mode": "구조",
+      "objective": "유중혁의 구출 시점으로 비형·혹부리와 비유의 위기를 해결한다.",
+      "result_to_preserve": "과거 신유승·도깨비와 혹부리의 관계를 회수한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST129"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S07",
+        "S08",
+        "S23",
+        "S24"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V05",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST131",
+      "order": 131,
+      "act": "A4",
+      "research_group": "C24",
+      "working_title": "사람부터 내보낸다",
+      "mode": "선택",
+      "objective": "전초전의 불리한 조건을 읽고 공민을 해방한다.",
+      "result_to_preserve": "주민 이동과 공단의 해방자 획득을 기록한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST130"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S07",
+        "S08",
+        "S23",
+        "S24"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S16"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V05",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST132",
+      "order": 132,
+      "act": "A4",
+      "research_group": "C24",
+      "working_title": "움직이는 설화핵",
+      "mode": "탈출",
+      "objective": "핵을 들고 성좌들을 유인하며 공단 밖으로 달아난다.",
+      "result_to_preserve": "핵 보호와 주민 보호를 분리하는 해법을 사용한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST131"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S07",
+        "S08",
+        "S23",
+        "S24"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S16"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V05",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST133",
+      "order": 133,
+      "act": "A4",
+      "research_group": "C24",
+      "working_title": "왕의 설화를 읽다",
+      "mode": "대결",
+      "objective": "설화 융합 박스와 곡해자의 효과로 추격자를 상대한다.",
+      "result_to_preserve": "왕이 없는 세계의 왕의 잠재력 해방과 십이지 대결을 연결한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST132"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S07",
+        "S08",
+        "S23",
+        "S24"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S16"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V05",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST134",
+      "order": 134,
+      "act": "A4",
+      "research_group": "C24",
+      "working_title": "불길에 몸을 던진 개",
+      "mode": "생존",
+      "objective": "오수의 도움으로 전초전 종료까지 살아남는다.",
+      "result_to_preserve": "오수의 관계 전환·모루석 보상·유중혁 공단 도착을 남긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST133"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S07",
+        "S08",
+        "S23",
+        "S24"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "S16"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V05",
+        "V12"
+      ]
+    },
+    {
+      "id": "ST135",
+      "order": 135,
+      "act": "A5",
+      "research_group": "C25",
+      "working_title": "신화의 전장",
+      "mode": "편성",
+      "objective": "조력자·포지션·문장·라운드 제약을 읽고 팀을 구성한다.",
+      "result_to_preserve": "원작의 최초 편성과 이후 교체 가능성을 구분한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST134"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S15",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M25"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST136",
+      "order": 136,
+      "act": "A5",
+      "research_group": "C25",
+      "working_title": "불리한 첫 경기",
+      "mode": "팀전",
+      "objective": "힘이 제한된 전장에서 본진과 문장을 지키며 후퇴한다.",
+      "result_to_preserve": "조력자의 부상·은신·버프와 팀플레이를 학습한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST135"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S15",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M25"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST137",
+      "order": 137,
+      "act": "A5",
+      "research_group": "C25",
+      "working_title": "유희의 지배자",
+      "mode": "각성",
+      "objective": "유중혁의 합류와 게임 지식으로 전세를 뒤집는다.",
+      "result_to_preserve": "프로게이머 특성 진화의 사건과 첫 승리를 기록한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST136"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S15",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M25"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST138",
+      "order": 138,
+      "act": "A5",
+      "research_group": "C25",
+      "working_title": "다음 경기의 준비",
+      "mode": "편성",
+      "objective": "손상된 조력자 상태·보상·적의 적응을 보고 전략을 바꾼다.",
+      "result_to_preserve": "1차전과 2차전 사이의 변화가 실제 플레이에 반영되게 한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST137"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S15",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST139",
+      "order": 139,
+      "act": "A5",
+      "research_group": "C25",
+      "working_title": "바뀐 올라운더",
+      "mode": "팀전",
+      "objective": "유중혁을 향한 적의 집중을 이용하고 김독자의 실제 역할을 숨긴다.",
+      "result_to_preserve": "기만·역할 전환·궁극기 해금을 전투 해법으로 둔다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST138"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S15",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M25"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST140",
+      "order": 140,
+      "act": "A5",
+      "research_group": "C25",
+      "working_title": "태양과 이무기",
+      "mode": "생존",
+      "objective": "수르야의 압박과 전장 괴수의 위협을 이용하며 버틴다.",
+      "result_to_preserve": "제4의 벽과 전장 환경이 작동하고 동료 구원의 필요가 생긴다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST139"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S15",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST141",
+      "order": 141,
+      "act": "A5",
+      "research_group": "C25",
+      "working_title": "지구에서 온 원군",
+      "mode": "지원",
+      "objective": "이현성·유상아·신유승과 키메라 드래곤이 김독자를 구한다.",
+      "result_to_preserve": "미리 쌓은 인연·장비·길들이기가 후반 전력이 된다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST140"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S15",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST142",
+      "order": 142,
+      "act": "A5",
+      "research_group": "C25",
+      "working_title": "마지막 문장",
+      "mode": "팀전",
+      "objective": "베르칸 공작을 죽여 문장을 확보하지만 수르야에게 죽고 아군 문장까지 탈취되는 위기를 겪는다.",
+      "result_to_preserve": "양쪽 문장이 탈취된 뒤 승패 판정과 최종 정산이 지연된다. 확정된 최종 승리로 처리하지 않는다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST141"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S15",
+        "S17"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M25"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST143",
+      "order": 143,
+      "act": "A5",
+      "research_group": "C26",
+      "working_title": "벽 안의 도서관",
+      "mode": "조사",
+      "objective": "제4의 벽 안 도서관에서 흡수된 존재와 기록을 마주하고 밖으로 나갈 길을 찾는다.",
+      "result_to_preserve": "도서관의 니르바나·꿈을 먹는 자와의 만남은 뒤의 귀환을 위한 단계다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST142"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S13",
+        "S20",
+        "S22",
+        "S23",
+        "S27",
+        "S29"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST144",
+      "order": 144,
+      "act": "A5",
+      "research_group": "C26",
+      "working_title": "홀로 남은 패왕",
+      "mode": "방어",
+      "objective": "유중혁 시점으로 성좌들의 공격 속에서 동료를 지킨다.",
+      "result_to_preserve": "전장 종료 후에도 위기가 계속되는 이유를 보여준다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST143"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S13",
+        "S20",
+        "S22",
+        "S23",
+        "S27",
+        "S29"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST145",
+      "order": 145,
+      "act": "A5",
+      "research_group": "C26",
+      "working_title": "회귀를 거부한다",
+      "mode": "구조",
+      "objective": "김독자가 유중혁을 구하고 대환단으로 살릴 길을 찾는다.",
+      "result_to_preserve": "유중혁 자신의 회귀 거부가 관계 성장의 결과가 되게 한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST144"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S13",
+        "S20",
+        "S22",
+        "S23",
+        "S27",
+        "S29"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "아스모데우스의 개입으로 확보된 틈에서 유중혁을 구한다. 아스모데우스 호출은 구출 이후로 밀지 않는다."
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST146",
+      "order": 146,
+      "act": "A5",
+      "research_group": "C26",
+      "working_title": "응답한 별들",
+      "mode": "지원",
+      "objective": "장하영의 메시지에 응답한 우호 성좌들이 전투에 개입한다.",
+      "result_to_preserve": "거래와 인연이 지원의 근거가 되고 개입의 제약도 유지된다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST145"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S13",
+        "S20",
+        "S22",
+        "S23",
+        "S27",
+        "S29"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST147",
+      "order": 147,
+      "act": "A5",
+      "research_group": "C26",
+      "working_title": "악마 같은 불의 심판자",
+      "mode": "방어",
+      "objective": "이지혜·정희원의 합류와 우리엘의 현현으로 마왕들의 공세를 막는다.",
+      "result_to_preserve": "최초 7인 팀·지구 원군·후속 현현을 다른 단계로 처리한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST146"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S13",
+        "S20",
+        "S22",
+        "S23",
+        "S27",
+        "S29"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST148",
+      "order": 148,
+      "act": "A5",
+      "research_group": "C26",
+      "working_title": "마계가 고른 이야기",
+      "mode": "각성",
+      "objective": "73번째 마계와 일행의 역사가 거대 설화로 엮이게 한다.",
+      "result_to_preserve": "성장한 관계와 이전 사건이 최종 힘의 근거가 된다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST147"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S13",
+        "S20",
+        "S22",
+        "S23",
+        "S27",
+        "S29"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "수르야의 열차가 73번째 마계를 위협하는 것이 마계의 선택과 공동 설화 발아의 원인이다."
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST149",
+      "order": 149,
+      "act": "A5",
+      "research_group": "C26",
+      "working_title": "다시 지하철에서",
+      "mode": "돌파",
+      "objective": "이현성·유중혁·유상아의 방식으로 수르야의 열차를 돌파한다.",
+      "result_to_preserve": "초반의 문·힘·지식과 현재의 성장이 같은 장면에서 회수된다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST148"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S13",
+        "S20",
+        "S22",
+        "S23",
+        "S27",
+        "S29"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST150",
+      "order": 150,
+      "act": "A5",
+      "research_group": "C26",
+      "working_title": "스승들이 돌아온 자리",
+      "mode": "전투",
+      "objective": "키리오스·파천검성의 지원과 다른 동료들의 기여로 전진한다.",
+      "result_to_preserve": "무림 구원 준비·소인 스승·공유한 역사를 회수한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST149"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S13",
+        "S20",
+        "S22",
+        "S23",
+        "S27",
+        "S29"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST151",
+      "order": 151,
+      "act": "A5",
+      "research_group": "C26",
+      "working_title": "한반도에 남긴 대비",
+      "mode": "방어",
+      "objective": "한수영 시점에서 심연옥과 흑염룡의 힘으로 지구의 위협을 막는다.",
+      "result_to_preserve": "현장에 없는 이길영·공필두 등의 역할과 별개로 병행 전선을 표현한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST150"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S13",
+        "S20",
+        "S22",
+        "S23",
+        "S27",
+        "S29"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST152",
+      "order": 152,
+      "act": "A5",
+      "research_group": "C26",
+      "working_title": "독자의 설화",
+      "mode": "보스",
+      "objective": "공동 이야기와 독해로 수르야의 화신체를 공략한다.",
+      "result_to_preserve": "단독 화력 승리가 아닌 일행이 쌓은 역사의 승리로 표현한다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST151"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S13",
+        "S20",
+        "S22",
+        "S23",
+        "S27",
+        "S29"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "scenario_coverage_ids": [
+        "M25"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    },
+    {
+      "id": "ST153",
+      "order": 153,
+      "act": "A5",
+      "research_group": "C26",
+      "working_title": "마계의 봄",
+      "mode": "정산",
+      "objective": "수르야의 패배 인정과 마왕 선발전의 최종 보상을 확인한다.",
+      "result_to_preserve": "마왕위·마계의 봄·끝의 자격·임시 성운 공표로 종료하고 이후 사건은 열지 않는다.",
+      "required_for_story_route": true,
+      "prerequisite_node_ids": [
+        "ST152"
+      ],
+      "source_ids": [
+        "S02",
+        "S03",
+        "S08",
+        "S11",
+        "S13",
+        "S20",
+        "S22",
+        "S23",
+        "S27",
+        "S29"
+      ],
+      "basis": "wiki_based_story_beat; stage segmentation and player actions are game adaptation",
+      "primary_text_verified": false,
+      "integrated_events": [
+        "원군·거대 설화에 기여한 인물과 아직 정식 성운 가입을 마치지 않은 상태를 구분한다. 후속 연회·신격 습격은 시작하지 않는다."
+      ],
+      "scenario_coverage_ids": [
+        "M25",
+        "H13"
+      ],
+      "verification_items": [
+        "V01",
+        "V02",
+        "V13",
+        "V03",
+        "V04",
+        "V05"
+      ]
+    }
+  ],
+  "checks": {
+    "research_groups_covered": 26,
+    "scenario_records_mapped": 54,
+    "dependency_pairs_checked": 15,
+    "source_verification": "secondary_wiki_only"
+  }
+}

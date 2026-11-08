@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "status": "static-art-prototypes",
+  "style": {
+    "characters": "SD",
+    "equipped": "SD",
+    "inventory": "webtoon-reference-proportions"
+  },
+  "atlases": {
+    "characters": {
+      "path": "sd/characters/main-atlas.png",
+      "columns": 5,
+      "rows": 2,
+      "width": 1536,
+      "height": 1024
+    },
+    "equipment": {
+      "path": "sd/equipment/dokja-early-atlas.png",
+      "columns": 3,
+      "rows": 1,
+      "width": 2172,
+      "height": 724
+    },
+    "inventory": {
+      "path": "inventory/early-items-atlas.png",
+      "columns": 3,
+      "rows": 2,
+      "width": 1536,
+      "height": 1024
+    }
+  },
+  "characters": [
+    {
+      "id": "dokja-office",
+      "name": "김독자 · 초기",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "id": "dokja-coat",
+      "name": "김독자 · 흰 코트",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "id": "junghyeok",
+      "name": "유중혁",
+      "column": 2,
+      "row": 0
+    },
+    {
+      "id": "sooyoung",
+      "name": "한수영",
+      "column": 3,
+      "row": 0
+    },
+    {
+      "id": "sangah",
+      "name": "유상아",
+      "column": 4,
+      "row": 0
+    },
+    {
+      "id": "heewon",
+      "name": "정희원",
+      "column": 0,
+      "row": 1
+    },
+    {
+      "id": "hyunsung",
+      "name": "이현성",
+      "column": 1,
+      "row": 1
+    },
+    {
+      "id": "jihye",
+      "name": "이지혜",
+      "column": 2,
+      "row": 1
+    },
+    {
+      "id": "gilyoung",
+      "name": "이길영",
+      "column": 3,
+      "row": 1
+    },
+    {
+      "id": "yoosung",
+      "name": "신유승",
+      "column": 4,
+      "row": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "stone-hog-spike",
+      "name": "스톤 호그의 뾰족한 가시",
+      "source": "naver-15-45",
+      "kind": "weapon",
+      "column": 0,
+      "row": 0,
+      "verification": "source-panel-inspected-generated-redraw",
+      "playerOwned": null
+    },
+    {
+      "id": "hammer-seahorse-mucus",
+      "name": "망치 해마의 점액",
+      "source": "naver-15-45",
+      "kind": "consumable",
+      "column": 1,
+      "row": 0,
+      "verification": "source-panel-inspected-generated-redraw",
+      "playerOwned": null
+    },
+    {
+      "id": "ichthyosaur-core",
+      "name": "어룡의 핵",
+      "source": "naver-16-40",
+      "kind": "material",
+      "column": 2,
+      "row": 0,
+      "verification": "source-panel-inspected-generated-redraw",
+      "playerOwned": null
+    },
+    {
+      "id": "broken-faith",
+      "name": "부러진 신념",
+      "source": "naver-22-41",
+      "kind": "weapon",
+      "column": 0,
+      "row": 1,
+      "verification": "source-panel-inspected-generated-redraw",
+      "playerOwned": null
+    },
+    {
+      "id": "broken-faith-active",
+      "name": "부러진 신념 · 발현",
+      "source": "naver-22-41",
+      "kind": "weapon-state",
+      "column": 1,
+      "row": 1,
+      "verification": "source-panel-inspected-generated-redraw",
+      "playerOwned": null
+    },
+    {
+      "id": "ancient-dragon-heart",
+      "name": "고대룡의 심장 · 상점",
+      "source": "naver-15-41",
+      "kind": "shop-display",
+      "column": 2,
+      "row": 1,
+      "verification": "source-panel-inspected-generated-redraw",
+      "playerOwned": false
+    }
+  ],
+  "equipment": [
+    {
+      "character": "dokja-office",
+      "item": "stone-hog-spike",
+      "column": 0,
+      "row": 0
+    },
+    {
+      "character": "dokja-office",
+      "item": "broken-faith",
+      "column": 1,
+      "row": 0
+    },
+    {
+      "character": "dokja-office",
+      "item": "broken-faith-active",
+      "column": 2,
+      "row": 0
+    }
+  ],
+  "sources": {
+    "naver-15-45": {
+      "page": "https://comic.naver.com/webtoon/detail?titleId=747269&no=15",
+      "panelIndex": 45,
+      "image": "https://image-comic.pstatic.net/webtoon/747269/15/20220422161727_4278c6f0fc5f88684ef11d9ae2c14dfb_IMAG01_45.jpg"
+    },
+    "naver-15-41": {
+      "page": "https://comic.naver.com/webtoon/detail?titleId=747269&no=15",
+      "panelIndex": 41,
+      "image": "https://image-comic.pstatic.net/webtoon/747269/15/20220422161727_4278c6f0fc5f88684ef11d9ae2c14dfb_IMAG01_41.jpg"
+    },
+    "naver-16-40": {
+      "page": "https://comic.naver.com/webtoon/detail?titleId=747269&no=16",
+      "panelIndex": 40,
+      "image": "https://image-comic.pstatic.net/webtoon/747269/16/20220422161946_dcd7b038fb6046d29bec07f013c38ee9_IMAG01_40.jpg"
+    },
+    "naver-22-41": {
+      "page": "https://comic.naver.com/webtoon/detail?titleId=747269&no=22",
+      "panelIndex": 41,
+      "image": "https://image-comic.pstatic.net/webtoon/747269/22/20220422175744_a0c90c74d890360362b1c2c8e431752a_IMAG01_41.jpg"
+    }
+  },
+  "archivedDirectories": [
+    "concepts",
+    "webtoon-v2",
+    "webtoon-reference"
+  ]
+}

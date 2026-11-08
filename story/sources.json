@@ -1,0 +1,345 @@
+{
+  "research_date": "2026-11-08",
+  "timezone": "Asia/Seoul",
+  "scope": {
+    "start": "Prologue",
+    "end_event": "Demon King Selection settlement and acquisition of Demon World Spring",
+    "end_episode": 51,
+    "episode_serial_range": [
+      272,
+      275
+    ],
+    "exclude": [
+      "Episode 52 onward",
+      "side stories",
+      "film",
+      "webtoon-only adaptations"
+    ]
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "requested_title": "전지적 독자 시점",
+      "observed_title": "전지적 독자 시점 - 나무위키",
+      "url": "https://namu.wiki/w/%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90",
+      "observed_modified_time": "2026-11-07 02:49:17",
+      "retrieved_bytes": 499833,
+      "content_sha256": "d4d8e0333401054eaaacbeb1a06f6f18ad58a0a03bd5e9c473c0df23a4dff3ab",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S02",
+      "requested_title": "전지적 독자 시점/줄거리",
+      "observed_title": "전지적 독자 시점/줄거리 - 나무위키",
+      "url": "https://namu.wiki/w/%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%2F%EC%A4%84%EA%B1%B0%EB%A6%AC",
+      "observed_modified_time": "2026-11-01 13:01:45",
+      "retrieved_bytes": 663403,
+      "content_sha256": "e9df8ecfb20e2fb70a08021c3149f31f39500a392cf8d035e148c57ee6ecf910",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S03",
+      "requested_title": "전지적 독자 시점/설정/시나리오",
+      "observed_title": "전지적 독자 시점/설정/시나리오 - 나무위키",
+      "url": "https://namu.wiki/w/%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%2F%EC%84%A4%EC%A0%95%2F%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4",
+      "observed_modified_time": "2026-10-30 08:20:39",
+      "retrieved_bytes": 468922,
+      "content_sha256": "910f50ea3d9a754fbbbec43ffb8d74b5945be6ac10a5585fa0af01d100891201",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S04",
+      "requested_title": "전지적 독자 시점/설정",
+      "observed_title": "전지적 독자 시점/설정 - 나무위키",
+      "url": "https://namu.wiki/w/%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%2F%EC%84%A4%EC%A0%95",
+      "observed_modified_time": "2026-10-30 08:22:40",
+      "retrieved_bytes": 540488,
+      "content_sha256": "f6eddbd8a397a283eaf9bc26e4928aef52a4124cee7e05cf57538a9daca5ae78",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S05",
+      "requested_title": "전지적 독자 시점/등장인물",
+      "observed_title": "전지적 독자 시점/등장인물 - 나무위키",
+      "url": "https://namu.wiki/w/%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%2F%EB%93%B1%EC%9E%A5%EC%9D%B8%EB%AC%BC",
+      "observed_modified_time": "2026-10-30 08:20:11",
+      "retrieved_bytes": 446123,
+      "content_sha256": "9b2a1cee320d7b4f01eedafce4450a9909a0bbfa62226b12920619bafdaf0dcd",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S06",
+      "requested_title": "김독자",
+      "observed_title": "김독자 - 나무위키",
+      "url": "https://namu.wiki/w/%EA%B9%80%EB%8F%85%EC%9E%90",
+      "observed_modified_time": "2026-11-03 14:36:24",
+      "retrieved_bytes": 391881,
+      "content_sha256": "58400dabf790e52133ecfeeb689bc318601acbccc4e985585c1575b3dd2fc260",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S07",
+      "requested_title": "김독자/능력",
+      "observed_title": "김독자/능력 - 나무위키",
+      "url": "https://namu.wiki/w/%EA%B9%80%EB%8F%85%EC%9E%90%2F%EB%8A%A5%EB%A0%A5",
+      "observed_modified_time": "2026-10-16 03:48:34",
+      "retrieved_bytes": 220059,
+      "content_sha256": "1345e974fed49b1c58d31b0a15d1333249d8e723d6cdc66679d7920b2c1557ad",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S08",
+      "requested_title": "김독자/작중 행적",
+      "observed_title": "김독자/작중 행적 - 나무위키",
+      "url": "https://namu.wiki/w/%EA%B9%80%EB%8F%85%EC%9E%90%2F%EC%9E%91%EC%A4%91%20%ED%96%89%EC%A0%81",
+      "observed_modified_time": "2026-10-16 03:48:45",
+      "retrieved_bytes": 341945,
+      "content_sha256": "b980720c00469315d59e1035947712a8941c9b95fd5f78b5b904af548774a96f",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S09",
+      "requested_title": "가치 증명",
+      "observed_title": "가치 증명 - 나무위키",
+      "url": "https://namu.wiki/w/%EA%B0%80%EC%B9%98%20%EC%A6%9D%EB%AA%85",
+      "observed_modified_time": "2026-10-23 04:58:33",
+      "retrieved_bytes": 181445,
+      "content_sha256": "8d99a03a2395771e0131cb768975c6df6516af95e6c53d89f7e74ce59200d632",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S10",
+      "requested_title": "탈출(전지적 독자 시점)",
+      "observed_title": "탈출(전지적 독자 시점) - 나무위키",
+      "url": "https://namu.wiki/w/%ED%83%88%EC%B6%9C%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "observed_modified_time": "2026-10-13 04:31:54",
+      "retrieved_bytes": 114356,
+      "content_sha256": "b892b500b53b1cd08a7f095919a2fa0bb443124d3252db384d0d457658866c16",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S11",
+      "requested_title": "유중혁",
+      "observed_title": "유중혁 - 나무위키",
+      "url": "https://namu.wiki/w/%EC%9C%A0%EC%A4%91%ED%98%81",
+      "observed_modified_time": "2026-11-04 14:47:55",
+      "retrieved_bytes": 621818,
+      "content_sha256": "c20537671f663f608730d0f45c4644f9305b7912ecb16b411ebc4c1df4189131",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S12",
+      "requested_title": "유상아",
+      "observed_title": "유상아 - 나무위키",
+      "url": "https://namu.wiki/w/%EC%9C%A0%EC%83%81%EC%95%84",
+      "observed_modified_time": "2026-10-25 06:58:57",
+      "retrieved_bytes": 382781,
+      "content_sha256": "84a9c2cd92c6d4f6ba75cb89ceca33f4daf57db410eda219e8ec090e5866017b",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S13",
+      "requested_title": "한수영",
+      "observed_title": "한수영 - 나무위키",
+      "url": "https://namu.wiki/w/%ED%95%9C%EC%88%98%EC%98%81",
+      "observed_modified_time": "2026-11-01 13:32:04",
+      "retrieved_bytes": 243813,
+      "content_sha256": "e2dfb26f1f13c2f923caa3b3658af09663ec27cd33e0bcd1691ec222f5765011",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S14",
+      "requested_title": "정희원(전지적 독자 시점)",
+      "observed_title": "정희원(전지적 독자 시점) - 나무위키",
+      "url": "https://namu.wiki/w/%EC%A0%95%ED%9D%AC%EC%9B%90%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "observed_modified_time": "2026-10-13 04:30:29",
+      "retrieved_bytes": 202142,
+      "content_sha256": "d5ea8a4370a33752a4a2437fec4ea4dc582c9e8c1b2412bb0514c2011406e3c5",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S15",
+      "requested_title": "이현성(전지적 독자 시점)",
+      "observed_title": "이현성(전지적 독자 시점) - 나무위키",
+      "url": "https://namu.wiki/w/%EC%9D%B4%ED%98%84%EC%84%B1%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "observed_modified_time": "2026-10-26 01:45:52",
+      "retrieved_bytes": 163599,
+      "content_sha256": "2d1ac126814b92c6dc6c06016cbaab1935db059093b70d4a211f848b250e53c7",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S16",
+      "requested_title": "이길영(전지적 독자 시점)",
+      "observed_title": "이길영(전지적 독자 시점) - 나무위키",
+      "url": "https://namu.wiki/w/%EC%9D%B4%EA%B8%B8%EC%98%81%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "observed_modified_time": "2026-10-16 10:34:43",
+      "retrieved_bytes": 230861,
+      "content_sha256": "eda659d317904417dcaf491d00643ac0c174f2c62087ce3e8832d46be3870a64",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S17",
+      "requested_title": "신유승",
+      "observed_title": "신유승 - 나무위키",
+      "url": "https://namu.wiki/w/%EC%8B%A0%EC%9C%A0%EC%8A%B9",
+      "observed_modified_time": "2026-10-22 01:18:58",
+      "retrieved_bytes": 203468,
+      "content_sha256": "a27cdefa497312b52ac2b1760e85e2a29ebc1e18ac28ea94b94f3c0bb101afac",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S18",
+      "requested_title": "이지혜(전지적 독자 시점)",
+      "observed_title": "이지혜(전지적 독자 시점) - 나무위키",
+      "url": "https://namu.wiki/w/%EC%9D%B4%EC%A7%80%ED%98%9C%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "observed_modified_time": "2026-11-07 03:00:09",
+      "retrieved_bytes": 196293,
+      "content_sha256": "b15c04624f56c6614b14344ae0178a8d4a99fe2b2e6137b63f73a4751f824975",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S19",
+      "requested_title": "공필두",
+      "observed_title": "공필두 - 나무위키",
+      "url": "https://namu.wiki/w/%EA%B3%B5%ED%95%84%EB%91%90",
+      "observed_modified_time": "2026-10-25 06:46:56",
+      "retrieved_bytes": 116730,
+      "content_sha256": "d5150ec4cd87d43077cc3a4d13bcab476a9e982d39635542d0c131133ef4a99f",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S20",
+      "requested_title": "장하영(전지적 독자 시점)",
+      "observed_title": "장하영(전지적 독자 시점) - 나무위키",
+      "url": "https://namu.wiki/w/%EC%9E%A5%ED%95%98%EC%98%81%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "observed_modified_time": "2026-10-30 01:05:39",
+      "retrieved_bytes": 140713,
+      "content_sha256": "fa25e0349f1239af223a0993d77c69862b1cf4190a7abfee73e032ca99bab10b",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S21",
+      "requested_title": "비유(전지적 독자 시점)",
+      "observed_title": "비유(전지적 독자 시점) - 나무위키",
+      "url": "https://namu.wiki/w/%EB%B9%84%EC%9C%A0%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "observed_modified_time": "2026-10-05 01:07:28",
+      "retrieved_bytes": 103565,
+      "content_sha256": "743107a034a8fd5f179dd8de477b5a22297f70c597d585366ac60e53b1420902",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S22",
+      "requested_title": "제4의 벽(전지적 독자 시점)",
+      "observed_title": "제4의 벽(전지적 독자 시점) - 나무위키",
+      "url": "https://namu.wiki/w/%EC%A0%9C4%EC%9D%98%20%EB%B2%BD%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "observed_modified_time": "2026-11-03 14:44:46",
+      "retrieved_bytes": 116313,
+      "content_sha256": "78ca0a89abf219cd3b6334e9dc222186407c1830704e0cadb477bfac22fc6c0e",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S23",
+      "requested_title": "비형(전지적 독자 시점)",
+      "observed_title": "비형(전지적 독자 시점) - 나무위키",
+      "url": "https://namu.wiki/w/%EB%B9%84%ED%98%95%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "observed_modified_time": "2026-11-03 21:47:08",
+      "retrieved_bytes": 151548,
+      "content_sha256": "a5a6c67059352046e1f89a59807471ebfd4f17d0799d3cbcffeeab68e8def715",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S24",
+      "requested_title": "전지적 독자 시점/등장인물/성좌",
+      "observed_title": "전지적 독자 시점/등장인물/성좌 - 나무위키",
+      "url": "https://namu.wiki/w/%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%2F%EB%93%B1%EC%9E%A5%EC%9D%B8%EB%AC%BC%2F%EC%84%B1%EC%A2%8C",
+      "observed_modified_time": "2026-10-30 08:20:35",
+      "retrieved_bytes": 445271,
+      "content_sha256": "5e75343d531a4aa421aa30ebe7a8c61ef19c0a4af2ec3c83a5a247e94714afa1",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S25",
+      "requested_title": "이수경(전지적 독자 시점)",
+      "observed_title": "이수경(전지적 독자 시점) - 나무위키",
+      "url": "https://namu.wiki/w/%EC%9D%B4%EC%88%98%EA%B2%BD%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "observed_modified_time": "2026-09-19 12:07:11",
+      "retrieved_bytes": 148764,
+      "content_sha256": "f77bb4802dda70197541aaa1d0362cff9c67908a906db68cabe41a65d884ca99",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S26",
+      "requested_title": "한명오",
+      "observed_title": "한명오 - 나무위키",
+      "url": "https://namu.wiki/w/%ED%95%9C%EB%AA%85%EC%98%A4",
+      "observed_modified_time": "2026-09-18 09:06:44",
+      "retrieved_bytes": 144442,
+      "content_sha256": "3278cee79f37c80a925f959f33e39e1031cd43ce6e20dceab4a6041bef9d14b9",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S27",
+      "requested_title": "키리오스 로드그라임",
+      "observed_title": "키리오스 로드그라임 - 나무위키",
+      "url": "https://namu.wiki/w/%ED%82%A4%EB%A6%AC%EC%98%A4%EC%8A%A4%20%EB%A1%9C%EB%93%9C%EA%B7%B8%EB%9D%BC%EC%9E%84",
+      "observed_modified_time": "2026-09-27 02:22:59",
+      "retrieved_bytes": 151457,
+      "content_sha256": "9c6e1c7c0676420befdc4508a7e87031c9fba1e8705c4825a55d87a4ee0023d6",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S28",
+      "requested_title": "니르바나 뫼비우스",
+      "observed_title": "니르바나 뫼비우스 - 나무위키",
+      "url": "https://namu.wiki/w/%EB%8B%88%EB%A5%B4%EB%B0%94%EB%82%98%20%EB%AB%BC%EB%B9%84%EC%9A%B0%EC%8A%A4",
+      "observed_modified_time": "2026-10-09 10:45:54",
+      "retrieved_bytes": 117088,
+      "content_sha256": "63b41fa2b53b9b9d3b1266fd58a96d5065928e2705d6b14b6ab60963a61aa4cc",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    },
+    {
+      "id": "S29",
+      "requested_title": "수르야(전지적 독자 시점)",
+      "observed_title": "지고한 빛의 신 - 나무위키",
+      "url": "https://namu.wiki/w/%EC%88%98%EB%A5%B4%EC%95%BC%28%EC%A0%84%EC%A7%80%EC%A0%81%20%EB%8F%85%EC%9E%90%20%EC%8B%9C%EC%A0%90%29",
+      "observed_modified_time": "2026-10-02 12:32:03",
+      "retrieved_bytes": 117427,
+      "content_sha256": "5a2460a97f8f70f6cebe7879687e6cea0abf32b201195793b3d2d05fd128c327",
+      "evidence_type": "secondary_wiki",
+      "scope_rule": "Only facts applicable on or before Episode 51 conclusion; later material excluded. Not a complete primary-text verification."
+    }
+  ],
+  "limitations": [
+    "Source pages cover later events too; relevant sections were selectively reviewed.",
+    "Wiki statements, internal inconsistencies and edition differences require primary-text checks before precise implementation.",
+    "Source content hashes identify observations; they do not establish correctness."
+  ]
+}
