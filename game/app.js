@@ -1,11 +1,11 @@
-import {GameSession,GAME_SAVE_KEY} from './runtime/session.js';
+import {GameSession,GAME_SAVE_KEY} from './runtime/session.js?v=story-restored-1';
 import {HEROES,GEAR,CONSUMABLES,SHOP,ENCOUNTERS,worldFor,levelFor} from './data.js';
 import {MotionPlayer,readMotionPreference,MOTION_SAVE_KEY} from '../animation/player.js';
 import {makeSprite,atlasMap} from '../animation/sprites.js';
 import {profileFor} from '../animation/library.js';
 import {StoryDirector} from '../animation/director.js';
 import {readJson} from '../animation/resources.js';
-import {ArcadeUI} from './ui.js';
+import {ArcadeUI} from './ui.js?v=story-restored-1';
 const $=id=>document.getElementById(id),node=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!=null)n.textContent=text;return n;};
 const wait=ms=>new Promise(r=>setTimeout(r,ms));
 async function start(){
