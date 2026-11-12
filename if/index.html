@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141b25">
+  <meta name="description" content="전지적 독자 시점의 한 장면을 바꾸면? 인과를 따라 또 다른 결말을 읽는 비공식 IF 서재.">
+  <title>독자의 가설 — 전독시 IF</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="./" aria-label="독자의 가설 처음으로"><span class="brand-icon">if.</span> 독자의 가설</a><span class="edition">전지적 독자 시점 · 비공식 IF 서재</span><button class="text-button" id="history-toggle" aria-expanded="false" aria-controls="history">내가 읽은 세계선 <span id="history-count">0</span></button></header>
+  <main>
+    <section class="hero" aria-labelledby="heading">
+      <div class="hero-copy"><p class="eyebrow"><span></span> ANOTHER CHOICE, ANOTHER STORY</p><h1 id="heading">단 하나의 선택이<br>달랐더라면<span class="red">.</span></h1><p class="intro">당신이 바꾼 한 장면에서,<br>아직 쓰이지 않은 결말을 읽습니다.</p></div>
+      <div class="book-art" aria-hidden="true"><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="book"><div class="book-spine">A READER'S HYPOTHESIS</div><div class="book-face"><span>전지적 독자 시점</span><strong>읽히지 않은<br>세계선</strong><div class="book-symbol">if<span>↗</span></div><small>THE STORY BEYOND A CHOICE</small></div></div><span class="art-caption">[ 새로운 이야기가 당신을 기다립니다. ]</span></div>
+    </section>
+    <section class="workspace" aria-label="가설 작성">
+      <div class="section-top"><span class="number">01 / 분기점</span><span class="connection" id="connection">서버 연결 확인 중</span></div>
+      <form id="question-form">
+        <label for="question">어느 순간을 바꾸고 싶나요?</label>
+        <textarea id="question" name="question" rows="3" minlength="8" maxlength="600" required placeholder="김독자가 아닌 유중혁이 73번째 마왕이 되었다면?" aria-describedby="question-hint char-count"></textarea>
+        <div class="input-foot"><span id="question-hint">누가, 어느 사건에서, 어떤 선택을 했는지 적어 주세요.</span><span id="char-count">0 / 600</span></div>
+        <div class="form-actions"><p>한 번의 변화 → 달라지는 사건 → 하나의 IF 결말</p><button class="primary" id="submit" type="submit">다른 결말 읽기 <span aria-hidden="true">↗</span></button><button type="button" class="secondary" id="cancel" hidden>예측 취소</button></div>
+      </form>
+      <div class="examples"><span>이런 가설은 어때요?</span><div id="example-list"><button type="button" data-question="김독자가 아닌 유중혁이 73번째 마왕이 되었다면?">유중혁이 73번째 마왕이 되었다면 <span>↗</span></button><button type="button" data-question="김독자가 절대 왕좌를 부수지 않고 차지했다면?">절대 왕좌를 차지했다면 <span>↗</span></button><button type="button" data-question="범람의 재앙에서 41회차 신유승을 구할 수 있었다면?">41회차 신유승을 구했다면 <span>↗</span></button></div></div>
+    </section>
+    <p class="error" id="error" role="alert" hidden></p>
+    <section class="loading" id="loading" role="status" hidden><span class="spinner"></span><div><strong>이 선택의 다음 장을 쓰고 있습니다.</strong><p>기존 사건과 달라진 전제를 연결하고 있어요. 최대 1분 정도 걸릴 수 있습니다.</p></div></section>
+    <section class="result" id="result" aria-label="다른 세계선의 이야기" hidden></section>
+    <section class="history-panel" id="history" aria-label="내가 읽은 세계선" hidden><div class="section-top"><h2>내가 읽은 세계선</h2><button type="button" class="text-button" id="clear-history">기록 모두 지우기</button></div><p class="muted">이 브라우저에 최근 10개의 결과만 저장됩니다.</p><div id="history-list"></div></section>
+    <section class="reading-note"><span class="note-mark">*</span><div><h2>원작의 빈칸에, 당신의 가설을.</h2><p>프롤로그부터 ‘마계의 봄’까지 정리한 사건을 바탕으로 추론합니다.<br>이후의 결말은 새로 쓴 가상 이야기이며, 원작의 정답이나 공식 결말이 아닙니다.</p><button type="button" class="text-button" id="sample">먼저 예시 결과 읽어 보기 <span>→</span></button></div><div class="note-index">26개 사건 묶음<br><span>한 가지 선택에서 시작하는 가능성</span></div></section>
+  </main>
+  <footer><a class="brand" href="./">독자의 가설<span class="red">.</span></a><p>『전지적 독자 시점』 · 싱숑<br>이 사이트는 원작자·출판사와 관계없는 비공식 팬 프로젝트입니다.</p><span>EVERY READER HAS ANOTHER ENDING.</span></footer>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>
