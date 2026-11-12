@@ -1,0 +1,10 @@
+import { mkdir, readFile, writeFile, copyFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
+const root=new URL('../',import.meta.url);
+await mkdir(new URL('build/',root),{recursive:true});
+const types={'index.html':'text/html; charset=utf-8','style.css':'text/css; charset=utf-8','app.js':'text/javascript; charset=utf-8','client.js':'text/javascript; charset=utf-8','config.js':'text/javascript; charset=utf-8','sample.js':'text/javascript; charset=utf-8','icon.svg':'image/svg+xml'};
+const assets={};
+for(const [file,type] of Object.entries(types))assets['/'+file]={type,body:await readFile(new URL('public/'+file,root),'utf8')};
+await writeFile(new URL('build/assets.mjs',root),'export const assets = '+JSON.stringify(assets)+';\n');
+for(const file of ['worker.mjs','service.mjs','knowledge.mjs'])await copyFile(new URL('server/'+file,root),new URL('build/'+file,root));
+console.log('Built Worker + '+Object.keys(types).length+' embedded static assets: '+fileURLToPath(new URL('build/',root)));

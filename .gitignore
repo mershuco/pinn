@@ -1,0 +1,6 @@
+/build/
+/build-pages/
+/.env*
+/test-results/
+__pycache__/
+/.vercel/

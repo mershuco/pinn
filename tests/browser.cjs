@@ -1,0 +1,48 @@
+const {chromium}=require('playwright');
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const {pathToFileURL}=require('node:url');
+(async()=>{
+ const {sample}=await import(pathToFileURL(require('node:path').resolve(__dirname,'../public/sample.js')));
+ const browser=await chromium.launch({headless:true,executablePath:'/usr/bin/chromium',args:['--no-sandbox']});
+ try {
+  const page=await browser.newPage({viewport:{width:1440,height:1100}});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(process.env.IF_TEST_URL || 'http://127.0.0.1:4180/');
+  await page.getByText('AI 연결 대기 · 예시 열람 가능',{exact:true}).waitFor();
+  await page.screenshot({path:'/tmp/orv-if-desktop.png',fullPage:true});
+  await page.locator('#sample').click();
+  await page.getByText('직접 작성한 예시 · 실시간 AI 예측이 아닙니다',{exact:true}).waitFor();
+  assert.equal(await page.locator('.timeline li').count(),3);
+  await page.locator('#submit').click();
+  await page.locator('#error').filter({hasText:'아직 AI 서버가 연결되지 않았습니다'}).waitFor();
+  assert.equal(await page.locator('#history-count').textContent(),'0');
+  await page.route('**/api/predict',route=>route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({...sample,kind:'generated',title:'<img src=x onerror=alert(1)>',generatedAt:new Date().toISOString()})}));
+  await page.locator('#submit').click();
+  await page.getByText('02 / AI가 쓴 하나의 가능성',{exact:true}).waitFor();
+  assert.equal(await page.locator('#result h2').textContent(),'<img src=x onerror=alert(1)>');
+  assert.equal(await page.locator('#result img').count(),0);
+  assert.equal(await page.locator('#history-count').textContent(),'1');
+  await page.reload();
+  assert.equal(await page.locator('#history-count').textContent(),'1');
+  await page.locator('#history-toggle').click();await page.locator('.history-entry').click();
+  await page.locator('#clear-history').click();
+  assert.equal(await page.locator('#history-count').textContent(),'0');
+  await page.unroute('**/api/predict');
+  await page.route('**/api/predict',route=>route.fulfill({status:429,contentType:'application/json',body:JSON.stringify({error:'요청이 많습니다. 1분 후 다시 시도해 주세요.'})}));
+  await page.locator('#submit').click();await page.locator('#error').filter({hasText:'요청이 많습니다'}).waitFor();
+  await page.unroute('**/api/predict');
+  await page.route('**/api/predict',async route=>{await new Promise(r=>setTimeout(r,1000));await route.abort().catch(()=>{});});
+  await page.locator('#submit').click();await page.locator('#cancel').click();
+  await page.locator('#error').filter({hasText:'예측을 취소했습니다'}).waitFor();
+  await page.unroute('**/api/predict');
+  await page.setViewportSize({width:390,height:844});await page.reload();
+  await page.screenshot({path:'/tmp/orv-if-mobile.png',fullPage:true});
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'mobile should have no horizontal overflow');
+  await page.locator('#sample').click();
+  await page.locator('#result').waitFor();
+  assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'mobile results should have no horizontal overflow');
+  await page.screenshot({path:'/tmp/orv-if-mobile-result.png',fullPage:true});
+  assert.deepEqual(errors,[]);
+  console.log('PASS: desktop/mobile, honest offline state, authored sample label, generated-result rendering, XSS, local history, quota errors, cancellation. AI responses in this suite are mocked.');
+ }finally{await browser.close();}
+})().catch(e=>{console.error(e);process.exitCode=1;});

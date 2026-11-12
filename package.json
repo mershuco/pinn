@@ -1,0 +1,16 @@
+{
+  "name": "orv-what-if",
+  "private": true,
+  "type": "module",
+  "engines": { "node": "24.x" },
+  "scripts": {
+    "dev": "node server/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "build:vercel": "node scripts/build-vercel.mjs",
+    "build:pages": "node scripts/build-pages.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:browser": "node tests/browser.cjs",
+    "deploy": "npm run build:vercel && python scripts/deploy-vercel.py",
+    "deploy:cloudflare": "npm run build && python scripts/deploy.py"
+  }
+}
